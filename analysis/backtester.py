@@ -199,16 +199,12 @@ def _compute_stat_space_shift(
 def backtest_book_b(
     params: dict,
     gamelogs_dir: Path | None = None,
-    stat_types: list[str] | None = None,
-    min_games: int = 5,
 ) -> dict[str, Any]:
     """Run Book B backtest with hold-one-out cross-validation.
 
     Args:
         params: Parameter dict (from experiment.py module attributes).
         gamelogs_dir: Path to player gamelog JSON files.
-        stat_types: Which stats to backtest.
-        min_games: Minimum games per player to include.
 
     Returns:
         Dict with brier_score, calibration_error, expected_profit_pct,
@@ -216,15 +212,13 @@ def backtest_book_b(
     """
     if gamelogs_dir is None:
         gamelogs_dir = GAMELOGS_DIR
-    if stat_types is None:
-        # Agent can toggle extended stats via experiment.py
-        if params.get("USE_EXTENDED_STATS", False):
-            stat_types = STAT_TYPES_CORE + STAT_TYPES_EXTENDED
-        else:
-            stat_types = STAT_TYPES
+
+    # LOCKED eval-scope params — fixed to prevent metric gaming.
+    stat_types = STAT_TYPES_CORE + STAT_TYPES_EXTENDED
+    line_offsets = [-2, 0, 2]
+    min_games = 5
 
     use_stat_space = params.get("USE_STAT_SPACE", False)
-    line_offsets = params.get("TEST_LINE_OFFSETS", [0])
 
     all_predictions: list[float] = []
     all_outcomes: list[float] = []

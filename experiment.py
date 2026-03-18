@@ -4,51 +4,30 @@ Contains parameter configurations that the backtest harness evaluates.
 The agent tries different values; the harness reports metrics.
 All values below are the current Oracle production defaults.
 
-NOTE: TEST_LINE_OFFSETS and USE_EXTENDED_STATS are locked in
-run_experiment.py and cannot be changed here. This prevents eval-scope
-manipulation (changing what's measured instead of improving the model).
+NOTE: Eval-scope params (line offsets, stat types, min games) are locked
+in backtester.py and cannot be changed by the agent.
 """
 
 # ── Book B: Probability Adjustments ──────────────────────────────
 
-# Matchup: opponent-specific performance shift
-# Formula: clamp((opp_avg / season_avg - 1.0) * MULTIPLIER, -CAP, CAP)
-MATCHUP_MULTIPLIER = 0.0
+MATCHUP_MULTIPLIER = 0.15
 MATCHUP_CAP = 0.10
-
-# Venue: home/away performance shift
-# Formula: clamp((venue_avg / season_avg - 1.0) * MULTIPLIER, -CAP, CAP)
-VENUE_MULTIPLIER = 0.20
+VENUE_MULTIPLIER = 0.10
 VENUE_CAP = 0.05
-
-# Back-to-back: second night penalty (fixed)
-B2B_PENALTY = 0.0
-
-# Recency weights for empirical hit rate
-# Games sorted most-recent-first; index determines weight bucket
-RECENCY_WEIGHT_LAST5 = 1.0     # Games 1-5 (most recent)
-RECENCY_WEIGHT_LAST10 = 1.0    # Games 6-10
-RECENCY_WEIGHT_SEASON = 1.0    # Games 11+
-
-# Fallback sigma when no game data available (logistic approximation)
+B2B_PENALTY = -0.05
+RECENCY_WEIGHT_LAST5 = 2.0
+RECENCY_WEIGHT_LAST10 = 1.5
+RECENCY_WEIGHT_SEASON = 1.0
 FALLBACK_SIGMA = 0.15
-
-# Approach: True = shift raw stat values before counting hits (preserves
-# distribution shape); False = count hits then shift probability (simpler)
 USE_STAT_SPACE = False
 
 # ── Book C: Live Event Parameters ────────────────────────────────
 
-# Foul trouble signal
 FOUL_TROUBLE_PROB = 0.25
 FOUL_TROUBLE_MINUTES_REDUCTION = 0.70
-
-# Blowout signal
 BLOWOUT_PROB = 0.15
 BLOWOUT_MINUTES_THRESHOLD = 10.0
 BLOWOUT_MINUTES_REDUCTION = 0.50
-
-# Overtime-likely signal
 OT_MINUTES = 5.0
 OT_MARGIN_FACTOR_TIED = 1.0
 OT_MARGIN_FACTOR_CLOSE = 0.55

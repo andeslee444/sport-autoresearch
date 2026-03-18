@@ -1,0 +1,13 @@
+---
+brier_score:         0.2529
+brier_95ci:          0.2471-0.2594
+calibration_error:   0.0861
+expected_profit_pct: 0.0
+hit_rate:            0.527
+sample_size:         1772
+trades_taken:        0
+elapsed_seconds:     0.1
+commit:              bb9de15
+use_stat_space:      False
+params_changed:      MATCHUP_MULTIPLIER, VENUE_MULTIPLIER, B2B_PENALTY, RECENCY_WEIGHT_LAST5, RECENCY_WEIGHT_LAST10
+---

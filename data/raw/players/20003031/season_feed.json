@@ -1,0 +1,1709 @@
+{
+  "playerBoxScores": [
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22158,
+      "opponentTeamId": 10,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis ",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-13T19:43:05.926Z",
+      "id": 1367995404,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 76,
+      "day": "2025-04-13",
+      "dateTime": "2025-04-13T19:30:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 10,
+      "homeTeamScore": 125,
+      "awayTeamScore": 118,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1367995404,
+          "count": 204,
+          "createdAt": "2025-04-14T15:53:32.086723+00:00"
+        },
+        {
+          "emojiId": "48c3f684fd83b3b18da19b36ddc1c03d",
+          "playerBoxScoreId": 1367995404,
+          "count": 104,
+          "createdAt": "2025-04-13T21:52:55.489135+00:00"
+        },
+        {
+          "emojiId": "330ec69406283c0247f6c69724ee7259",
+          "playerBoxScoreId": 1367995404,
+          "count": 92,
+          "createdAt": "2025-04-13T19:52:14.244414+00:00"
+        },
+        {
+          "emojiId": "f1d970662ea8b873a9ddf4e2a963fc31",
+          "playerBoxScoreId": 1367995404,
+          "count": 12,
+          "createdAt": "2025-04-13T20:11:55.969798+00:00"
+        },
+        {
+          "emojiId": "86f5acb5d0bf4e3571e1a64bcee9d891",
+          "playerBoxScoreId": 1367995404,
+          "count": 1,
+          "createdAt": "2025-04-13T19:44:02.047065+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis ",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22143,
+      "opponentTeamId": 29,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-12T02:10:33.356Z",
+      "id": 1364654821,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 75,
+      "day": "2025-04-11",
+      "dateTime": "2025-04-12T02:00:00.000Z",
+      "homeTeamId": 29,
+      "awayTeamId": 24,
+      "homeTeamScore": 117,
+      "awayTeamScore": 98,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1364654821,
+          "count": 72,
+          "createdAt": "2025-04-12T02:11:04.939527+00:00"
+        },
+        {
+          "emojiId": "48c3f684fd83b3b18da19b36ddc1c03d",
+          "playerBoxScoreId": 1364654821,
+          "count": 30,
+          "createdAt": "2025-04-12T07:06:34.005495+00:00"
+        },
+        {
+          "emojiId": "a0efb39488b7dc752f98f5253762c980",
+          "playerBoxScoreId": 1364654821,
+          "count": 18,
+          "createdAt": "2025-04-12T02:11:53.200929+00:00"
+        },
+        {
+          "emojiId": "8a2a5e351b3f3ebf800a1ee1905ec0e2",
+          "playerBoxScoreId": 1364654821,
+          "count": 1,
+          "createdAt": "2025-05-13T14:33:56.855263+00:00"
+        },
+        {
+          "emojiId": "1fc64041751a328c4c27bf89a3c5a496",
+          "playerBoxScoreId": 1364654821,
+          "count": 1,
+          "createdAt": "2025-09-15T12:55:19.684986+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 29,
+        "sport": "nba",
+        "key": "PHX",
+        "name": "Suns",
+        "displayName": "Suns",
+        "avatar": "62a63f7013",
+        "overallRank": null,
+        "primaryColorReal": "#1D116044",
+        "secondaryColorReal": "#E5602044"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22124,
+      "opponentTeamId": 26,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-10T02:10:35.261Z",
+      "id": 1361368467,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 9,
+      "day": "2025-04-09",
+      "dateTime": "2025-04-10T02:00:00.000Z",
+      "homeTeamId": 26,
+      "awayTeamId": 24,
+      "homeTeamScore": 111,
+      "awayTeamScore": 114,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1361368467,
+          "count": 67,
+          "createdAt": "2025-04-10T02:21:19.230706+00:00"
+        },
+        {
+          "emojiId": "ae96282386b7a8b731aaf8b33df4ebe7",
+          "playerBoxScoreId": 1361368467,
+          "count": 9,
+          "createdAt": "2025-04-10T02:18:39.048644+00:00"
+        },
+        {
+          "emojiId": "6b792d80fa967cad35791d29fe621d8f",
+          "playerBoxScoreId": 1361368467,
+          "count": 5,
+          "createdAt": "2025-04-10T03:29:12.067735+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1361368467,
+          "count": 2,
+          "createdAt": "2025-05-11T08:12:49.554297+00:00"
+        },
+        {
+          "emojiId": "79fceedad42fdbe08a003023d2426313",
+          "playerBoxScoreId": 1361368467,
+          "count": 1,
+          "createdAt": "2025-09-15T12:55:25.685225+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 26,
+        "sport": "nba",
+        "key": "GSW",
+        "name": "Warriors",
+        "displayName": "Warriors",
+        "avatar": "2ecbb86d6b",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#FDB92744"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22116,
+      "opponentTeamId": 28,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-09T02:40:31.458Z",
+      "id": 1359859639,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 18,
+      "day": "2025-04-08",
+      "dateTime": "2025-04-09T02:30:00.000Z",
+      "homeTeamId": 28,
+      "awayTeamId": 24,
+      "homeTeamScore": 122,
+      "awayTeamScore": 117,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1359859639,
+          "count": 41,
+          "createdAt": "2025-04-09T02:41:04.046969+00:00"
+        },
+        {
+          "emojiId": "a0efb39488b7dc752f98f5253762c980",
+          "playerBoxScoreId": 1359859639,
+          "count": 9,
+          "createdAt": "2025-04-09T04:25:46.845195+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1359859639,
+          "count": 6,
+          "createdAt": "2025-04-09T03:50:25.829606+00:00"
+        },
+        {
+          "emojiId": "0a0f0f63cc00854feec8898f2dd51f0f",
+          "playerBoxScoreId": 1359859639,
+          "count": 1,
+          "createdAt": "2025-04-24T04:50:49.347579+00:00"
+        },
+        {
+          "emojiId": "5b07ccf5c75983800a24bb307b6ff7f3",
+          "playerBoxScoreId": 1359859639,
+          "count": 1,
+          "createdAt": "2025-04-09T02:43:08.01481+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 28,
+        "sport": "nba",
+        "key": "LAC",
+        "name": "Clippers",
+        "displayName": "Clippers",
+        "avatar": "6e4b48bbd5",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22100,
+      "opponentTeamId": 19,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-06T22:11:38.404Z",
+      "id": 1356798385,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 13,
+      "day": "2025-04-06",
+      "dateTime": "2025-04-06T22:00:00.000Z",
+      "homeTeamId": 19,
+      "awayTeamId": 24,
+      "homeTeamScore": 120,
+      "awayTeamScore": 109,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1356798385,
+          "count": 71,
+          "createdAt": "2025-04-06T23:48:06.866474+00:00"
+        },
+        {
+          "emojiId": "c4200c5e333b90050e2cfdf287152875",
+          "playerBoxScoreId": 1356798385,
+          "count": 26,
+          "createdAt": "2025-04-06T23:34:05.323679+00:00"
+        },
+        {
+          "emojiId": "5b07ccf5c75983800a24bb307b6ff7f3",
+          "playerBoxScoreId": 1356798385,
+          "count": 17,
+          "createdAt": "2025-04-06T22:12:05.74529+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1356798385,
+          "count": 1,
+          "createdAt": "2025-04-26T02:43:40.336894+00:00"
+        },
+        {
+          "emojiId": "3d3b35b3213bd953ceab0e4088532b7f",
+          "playerBoxScoreId": 1356798385,
+          "count": 1,
+          "createdAt": "2025-04-17T11:25:43.931206+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 19,
+        "sport": "nba",
+        "key": "POR",
+        "name": "Blazers",
+        "displayName": "Blazers",
+        "avatar": "49592ec717",
+        "overallRank": null,
+        "primaryColorReal": "#E03A3E44",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22085,
+      "opponentTeamId": 12,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-05T00:10:38.145Z",
+      "id": 1352501169,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 9,
+      "day": "2025-04-04",
+      "dateTime": "2025-04-05T00:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 12,
+      "homeTeamScore": 113,
+      "awayTeamScore": 114,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1352501169,
+          "count": 45,
+          "createdAt": "2025-04-05T00:32:35.678742+00:00"
+        },
+        {
+          "emojiId": "6db2994547bd203997f092764c8eda93",
+          "playerBoxScoreId": 1352501169,
+          "count": 11,
+          "createdAt": "2025-04-05T02:01:57.736634+00:00"
+        },
+        {
+          "emojiId": "81ccfe69cd66aa204fe7905aeb49bd4f",
+          "playerBoxScoreId": 1352501169,
+          "count": 7,
+          "createdAt": "2025-04-05T02:11:35.581815+00:00"
+        },
+        {
+          "emojiId": "c3a28b7421c2c6ec5e7ceddbc779969d",
+          "playerBoxScoreId": 1352501169,
+          "count": 1,
+          "createdAt": "2025-04-05T01:54:49.309695+00:00"
+        },
+        {
+          "emojiId": "625aec03042b5f2889ba66b75afee808",
+          "playerBoxScoreId": 1352501169,
+          "count": 1,
+          "createdAt": "2025-04-05T03:23:35.981999+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 12,
+        "sport": "nba",
+        "key": "CLE",
+        "name": "Cavaliers",
+        "displayName": "Cavaliers",
+        "avatar": "066503f1e2",
+        "overallRank": null,
+        "primaryColorReal": "#6F263D44",
+        "secondaryColorReal": "#FDB81C44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22071,
+      "opponentTeamId": 20,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-03T01:10:56.342Z",
+      "id": 1348798083,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 18,
+      "day": "2025-04-02",
+      "dateTime": "2025-04-03T01:00:00.000Z",
+      "homeTeamId": 20,
+      "awayTeamId": 24,
+      "homeTeamScore": 106,
+      "awayTeamScore": 113,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1348798083,
+          "count": 68,
+          "createdAt": "2025-04-03T01:20:07.091275+00:00"
+        },
+        {
+          "emojiId": "5ab4fd8a0b5ff20f96265943380b3e86",
+          "playerBoxScoreId": 1348798083,
+          "count": 8,
+          "createdAt": "2025-04-03T02:02:53.6208+00:00"
+        },
+        {
+          "emojiId": "6b792d80fa967cad35791d29fe621d8f",
+          "playerBoxScoreId": 1348798083,
+          "count": 6,
+          "createdAt": "2025-04-03T01:41:11.254299+00:00"
+        },
+        {
+          "emojiId": "54352d672ae0d1460b4a1fa72f899a5d",
+          "playerBoxScoreId": 1348798083,
+          "count": 2,
+          "createdAt": "2025-04-03T02:59:57.866603+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1348798083,
+          "count": 1,
+          "createdAt": "2025-05-11T08:12:28.613065+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 20,
+        "sport": "nba",
+        "key": "DEN",
+        "name": "Nuggets",
+        "displayName": "Nuggets",
+        "avatar": "01ddb9455e",
+        "overallRank": null,
+        "primaryColorReal": "#00285E44",
+        "secondaryColorReal": "#5091CD44"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22279,
+      "opponentTeamId": 5,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-02T00:10:26.318Z",
+      "id": 1346359072,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 11,
+      "day": "2025-04-01",
+      "dateTime": "2025-04-02T00:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 5,
+      "homeTeamScore": 105,
+      "awayTeamScore": 116,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1346359072,
+          "count": 45,
+          "createdAt": "2025-04-02T00:11:14.90803+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1346359072,
+          "count": 32,
+          "createdAt": "2025-04-02T00:17:23.893231+00:00"
+        },
+        {
+          "emojiId": "996f23bc55d2b546c31e17dccff4a12f",
+          "playerBoxScoreId": 1346359072,
+          "count": 12,
+          "createdAt": "2025-04-02T00:35:52.398948+00:00"
+        },
+        {
+          "emojiId": "6e15d54d659a74f6b60b3d295bd445c9",
+          "playerBoxScoreId": 1346359072,
+          "count": 1,
+          "createdAt": "2025-04-02T19:58:58.44124+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 5,
+        "sport": "nba",
+        "key": "ORL",
+        "name": "Magic",
+        "displayName": "Magic",
+        "avatar": "eb58840817",
+        "overallRank": null,
+        "primaryColorReal": "#0077C044",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22047,
+      "opponentTeamId": 26,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-30T23:10:40.528Z",
+      "id": 1343806537,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 19,
+      "day": "2025-03-30",
+      "dateTime": "2025-03-30T23:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 26,
+      "homeTeamScore": 106,
+      "awayTeamScore": 148,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1343806537,
+          "count": 38,
+          "createdAt": "2025-03-30T23:11:27.5727+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1343806537,
+          "count": 33,
+          "createdAt": "2025-03-31T00:28:36.395817+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1343806537,
+          "count": 9,
+          "createdAt": "2025-03-31T07:41:49.467987+00:00"
+        },
+        {
+          "emojiId": "56678257f896d87d58852e1404b3dc46",
+          "playerBoxScoreId": 1343806537,
+          "count": 1,
+          "createdAt": "2025-04-02T19:59:52.959413+00:00"
+        },
+        {
+          "emojiId": "294bc057d99e6f7b15749f8b2afdb373",
+          "playerBoxScoreId": 1343806537,
+          "count": 0,
+          "createdAt": "2025-04-02T19:58:40.36083+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 26,
+        "sport": "nba",
+        "key": "GSW",
+        "name": "Warriors",
+        "displayName": "Warriors",
+        "avatar": "2ecbb86d6b",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#FDB92744"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20003031,
+      "gameId": 22041,
+      "opponentTeamId": 9,
+      "season": 2025,
+      "position": "F-C",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Deep Vein Thrombosis",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-30T00:10:44.817Z",
+      "id": 1341706311,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "1",
+      "rankOrder": null,
+      "commentCount": 12,
+      "day": "2025-03-29",
+      "dateTime": "2025-03-30T00:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 9,
+      "homeTeamScore": 111,
+      "awayTeamScore": 121,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1341706311,
+          "count": 41,
+          "createdAt": "2025-03-30T00:28:54.083606+00:00"
+        },
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1341706311,
+          "count": 25,
+          "createdAt": "2025-03-30T00:34:24.430679+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1341706311,
+          "count": 4,
+          "createdAt": "2025-03-30T03:26:05.175725+00:00"
+        },
+        {
+          "emojiId": "f1c648435fd90bee738fd3c19599e166",
+          "playerBoxScoreId": 1341706311,
+          "count": 1,
+          "createdAt": "2025-03-30T00:56:25.699059+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1341706311,
+          "count": 0,
+          "createdAt": "2025-03-30T00:37:32.302046+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Deep Vein Thrombosis",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20003031,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "8364c9fcc29ebde69bab7f53a4f0569f",
+        "firstName": "Victor",
+        "lastName": "Wembanyama",
+        "injuryStatus": null,
+        "displayName": "V. Wembanyama",
+        "backgroundColor": "#95A7B244",
+        "jersey": 1
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      }
+    }
+  ],
+  "statsInfo": {
+    "playerId": "20003031",
+    "sport": "nba",
+    "games": 46,
+    "total": 150,
+    "season": 2025,
+    "seasonLabel": "2024-25",
+    "showSplits": true,
+    "stats": [
+      {
+        "statType": 1,
+        "display": null,
+        "rank": 21,
+        "label": "pts",
+        "displayLabel": "Points per game",
+        "value": "24.3"
+      },
+      {
+        "statType": 3,
+        "display": null,
+        "rank": 8,
+        "label": "reb",
+        "displayLabel": "Rebounds per game",
+        "value": "11.0"
+      },
+      {
+        "statType": 2,
+        "display": null,
+        "rank": 99,
+        "label": "ast",
+        "displayLabel": "Assists per game",
+        "value": "3.7"
+      },
+      {
+        "statType": 4,
+        "display": null,
+        "rank": 70,
+        "label": "stl",
+        "displayLabel": "Steals per game",
+        "value": "1.1"
+      },
+      {
+        "statType": 5,
+        "display": null,
+        "rank": 1,
+        "label": "blk",
+        "displayLabel": "Blocks per game",
+        "value": "3.8"
+      },
+      {
+        "statType": 6,
+        "display": null,
+        "rank": 12,
+        "label": "to",
+        "displayLabel": "Turnovers per game",
+        "value": "3.2"
+      },
+      {
+        "statType": 8,
+        "display": null,
+        "rank": 44,
+        "label": "min",
+        "displayLabel": "Minutes per game",
+        "value": "33.2"
+      },
+      {
+        "statType": 9,
+        "display": null,
+        "rank": 181,
+        "label": "fg%",
+        "displayLabel": "Field goal %",
+        "value": "47.6"
+      },
+      {
+        "statType": 10,
+        "display": null,
+        "rank": 225,
+        "label": "3fg%",
+        "displayLabel": "3-pointer %",
+        "value": "35.2"
+      },
+      {
+        "statType": 22,
+        "display": null,
+        "rank": 13,
+        "label": "3pa",
+        "displayLabel": "3-pointers attempted per game",
+        "value": "8.8"
+      },
+      {
+        "statType": 11,
+        "display": null,
+        "rank": 107,
+        "label": "ft%",
+        "displayLabel": "Free-throw %",
+        "value": "83.6"
+      },
+      {
+        "statType": 30,
+        "display": null,
+        "rank": 54,
+        "label": "fta",
+        "displayLabel": "Free throws attempted per game",
+        "value": "4.1"
+      },
+      {
+        "statType": 14,
+        "display": null,
+        "rank": 115,
+        "label": "+/-",
+        "displayLabel": "+/- per game",
+        "value": "2.2"
+      },
+      {
+        "statType": 38,
+        "display": null,
+        "rank": 157,
+        "label": "ts%",
+        "displayLabel": "True-shooting %",
+        "value": "59.4"
+      }
+    ]
+  },
+  "perfData": {
+    "data": [
+      {
+        "title": "",
+        "data": [
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "CLE",
+            "path": "/NPF2FgF9KMAVD"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "BOS",
+            "path": "/G0FkFOFY0V105"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "GSW",
+            "path": "/5GFjF5FBWV0Q5"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "ORL",
+            "path": "/PkFYFDF4yl0WB"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "DEN",
+            "path": "/r6FdF1FJRrG4g"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "CLE",
+            "path": "/o6FjFAFGGp1Yd"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "POR",
+            "path": "/eLF9FdF3w0eD6"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "LAC",
+            "path": "/dLFrFgFlBoMma"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "GSW",
+            "path": "/OoFrF8FNExANb"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "PHX",
+            "path": "/Y5FQFOF8AD1Og"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "TOR",
+            "path": "/NPF2FgF9dQV9Y"
+          }
+        ]
+      }
+    ],
+    "title": "Recent performances"
+  },
+  "emojiUsages": []
+}

@@ -1,0 +1,1539 @@
+{
+  "playerBoxScores": [
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22157,
+      "opponentTeamId": 18,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-13T19:41:11.289Z",
+      "id": 1367983633,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 11,
+      "day": "2025-04-13",
+      "dateTime": "2025-04-13T19:30:00.000Z",
+      "homeTeamId": 23,
+      "awayTeamId": 18,
+      "homeTeamScore": 100,
+      "awayTeamScore": 115,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1367983633,
+          "count": 5,
+          "createdAt": "2025-04-24T02:15:32.153046+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1367983633,
+          "count": 3,
+          "createdAt": "2025-04-16T06:46:00.607934+00:00"
+        },
+        {
+          "emojiId": "9dd4b339939b94708474b73d89c794c4",
+          "playerBoxScoreId": 1367983633,
+          "count": 2,
+          "createdAt": "2025-04-17T18:17:34.765877+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1367983633,
+          "count": 0,
+          "createdAt": "2025-04-13T22:26:34.827323+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "awayTeam": {
+        "id": 18,
+        "sport": "nba",
+        "key": "OKC",
+        "name": "Thunder",
+        "displayName": "Thunder",
+        "avatar": "4b9aeb9c24",
+        "overallRank": null,
+        "primaryColorReal": "#007AC144",
+        "secondaryColorReal": "#EF3B2444"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22138,
+      "opponentTeamId": 4,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-12T00:10:38.189Z",
+      "id": 1363938020,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 1,
+      "day": "2025-04-11",
+      "dateTime": "2025-04-12T00:00:00.000Z",
+      "homeTeamId": 23,
+      "awayTeamId": 4,
+      "homeTeamScore": 104,
+      "awayTeamScore": 153,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1363938020,
+          "count": 3,
+          "createdAt": "2025-08-18T18:08:40.212749+00:00"
+        },
+        {
+          "emojiId": "9dd4b339939b94708474b73d89c794c4",
+          "playerBoxScoreId": 1363938020,
+          "count": 1,
+          "createdAt": "2025-04-17T18:17:34.765877+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "awayTeam": {
+        "id": 4,
+        "sport": "nba",
+        "key": "MIA",
+        "name": "Heat",
+        "displayName": "Heat",
+        "avatar": "94eab54aaf",
+        "overallRank": null,
+        "primaryColorReal": "#98002E44",
+        "secondaryColorReal": "#F9A01B44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22281,
+      "opponentTeamId": 15,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-11T00:10:18.099Z",
+      "id": 1362601242,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 3,
+      "day": "2025-04-10",
+      "dateTime": "2025-04-11T00:00:00.000Z",
+      "homeTeamId": 15,
+      "awayTeamId": 23,
+      "homeTeamScore": 136,
+      "awayTeamScore": 111,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "9dd4b339939b94708474b73d89c794c4",
+          "playerBoxScoreId": 1362601242,
+          "count": 3,
+          "createdAt": "2025-04-17T18:17:34.765877+00:00"
+        },
+        {
+          "emojiId": "a1218c928686b1d2f562ec36917f7dab",
+          "playerBoxScoreId": 1362601242,
+          "count": 1,
+          "createdAt": "2025-11-30T00:01:35.671294+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 15,
+        "sport": "nba",
+        "key": "MIL",
+        "name": "Bucks",
+        "displayName": "Bucks",
+        "avatar": "cc8c85a244",
+        "overallRank": null,
+        "primaryColorReal": "#00471B44",
+        "secondaryColorReal": "#EEE1C644"
+      },
+      "awayTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22111,
+      "opponentTeamId": 8,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-08T23:40:18.638Z",
+      "id": 1358798602,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 1,
+      "day": "2025-04-08",
+      "dateTime": "2025-04-08T23:30:00.000Z",
+      "homeTeamId": 8,
+      "awayTeamId": 23,
+      "homeTeamScore": 119,
+      "awayTeamScore": 114,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "16aa70ab2aeb378cadf11beac2b3d702",
+          "playerBoxScoreId": 1358798602,
+          "count": 2,
+          "createdAt": "2025-04-09T02:05:48.919881+00:00"
+        },
+        {
+          "emojiId": "9dd4b339939b94708474b73d89c794c4",
+          "playerBoxScoreId": 1358798602,
+          "count": 1,
+          "createdAt": "2025-04-17T18:17:37.791868+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 8,
+        "sport": "nba",
+        "key": "BKN",
+        "name": "Nets",
+        "displayName": "Nets",
+        "avatar": "5a39a46cab",
+        "overallRank": null,
+        "primaryColorReal": "#11111144",
+        "secondaryColorReal": "#FFFFFF44"
+      },
+      "awayTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22280,
+      "opponentTeamId": 15,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-07T00:40:32.059Z",
+      "id": 1357310152,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 2,
+      "day": "2025-04-06",
+      "dateTime": "2025-04-07T00:30:00.000Z",
+      "homeTeamId": 23,
+      "awayTeamId": 15,
+      "homeTeamScore": 107,
+      "awayTeamScore": 111,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1357310152,
+          "count": 2,
+          "createdAt": "2025-04-07T07:03:16.834527+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1357310152,
+          "count": 1,
+          "createdAt": "2025-07-10T23:48:59.8094+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "awayTeam": {
+        "id": 15,
+        "sport": "nba",
+        "key": "MIL",
+        "name": "Bucks",
+        "displayName": "Bucks",
+        "avatar": "cc8c85a244",
+        "overallRank": null,
+        "primaryColorReal": "#00471B44",
+        "secondaryColorReal": "#EEE1C644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22087,
+      "opponentTeamId": 27,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-05T02:40:52.587Z",
+      "id": 1353205929,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 4,
+      "day": "2025-04-04",
+      "dateTime": "2025-04-05T02:30:00.000Z",
+      "homeTeamId": 27,
+      "awayTeamId": 23,
+      "homeTeamScore": 124,
+      "awayTeamScore": 108,
+      "gameStatus": "final",
+      "emojis": [],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 27,
+        "sport": "nba",
+        "key": "LAL",
+        "name": "Lakers",
+        "displayName": "Lakers",
+        "avatar": "494c23b085",
+        "overallRank": null,
+        "primaryColorReal": "#55258344",
+        "secondaryColorReal": "#FDB92744"
+      },
+      "awayTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22072,
+      "opponentTeamId": 28,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-03T02:42:17.136Z",
+      "id": 1349114158,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": null,
+      "day": "2025-04-02",
+      "dateTime": "2025-04-03T02:30:00.000Z",
+      "homeTeamId": 28,
+      "awayTeamId": 23,
+      "homeTeamScore": 114,
+      "awayTeamScore": 98,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "48c3f684fd83b3b18da19b36ddc1c03d",
+          "playerBoxScoreId": 1349114158,
+          "count": 1,
+          "createdAt": "2025-04-03T03:25:57.185078+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1349114158,
+          "count": 0,
+          "createdAt": "2025-04-03T03:25:44.939342+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 28,
+        "sport": "nba",
+        "key": "LAC",
+        "name": "Clippers",
+        "displayName": "Clippers",
+        "avatar": "6e4b48bbd5",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22046,
+      "opponentTeamId": 2,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-30T23:10:16.186Z",
+      "id": 1343805373,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 1,
+      "day": "2025-03-30",
+      "dateTime": "2025-03-30T23:00:00.000Z",
+      "homeTeamId": 23,
+      "awayTeamId": 2,
+      "homeTeamScore": 98,
+      "awayTeamScore": 94,
+      "gameStatus": "final",
+      "emojis": [],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "awayTeam": {
+        "id": 2,
+        "sport": "nba",
+        "key": "CHA",
+        "name": "Hornets",
+        "displayName": "Hornets",
+        "avatar": "b389a808b0",
+        "overallRank": null,
+        "primaryColorReal": "#00788c44",
+        "secondaryColorReal": "#1d116044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22033,
+      "opponentTeamId": 26,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Shoulder; Torn Labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-29T00:10:32.457Z",
+      "id": 1339785744,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 1,
+      "day": "2025-03-28",
+      "dateTime": "2025-03-29T00:00:00.000Z",
+      "homeTeamId": 23,
+      "awayTeamId": 26,
+      "homeTeamScore": 95,
+      "awayTeamScore": 111,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1339785744,
+          "count": 2,
+          "createdAt": "2025-03-30T03:43:25.860744+00:00"
+        },
+        {
+          "emojiId": "069586725d309fe702ecca06432f011d",
+          "playerBoxScoreId": 1339785744,
+          "count": 1,
+          "createdAt": "2026-02-02T20:35:54.039556+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Shoulder; Torn Labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "awayTeam": {
+        "id": 26,
+        "sport": "nba",
+        "key": "GSW",
+        "name": "Warriors",
+        "displayName": "Warriors",
+        "avatar": "2ecbb86d6b",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#FDB92744"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 23,
+      "playerId": 20002700,
+      "gameId": 22002,
+      "opponentTeamId": 7,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Torn right labrum",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-25T00:10:23.334Z",
+      "id": 1334320095,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "25",
+      "rankOrder": null,
+      "commentCount": 6,
+      "day": "2025-03-24",
+      "dateTime": "2025-03-25T00:00:00.000Z",
+      "homeTeamId": 23,
+      "awayTeamId": 7,
+      "homeTeamScore": 112,
+      "awayTeamScore": 99,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1334320095,
+          "count": 3,
+          "createdAt": "2025-03-25T00:21:40.046021+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1334320095,
+          "count": 3,
+          "createdAt": "2025-03-25T01:39:42.106852+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1334320095,
+          "count": 2,
+          "createdAt": "2025-03-25T01:23:02.470749+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1334320095,
+          "count": 1,
+          "createdAt": "2025-03-25T04:11:40.979526+00:00"
+        },
+        {
+          "emojiId": "3d2fcdb643604ef96cd0b3ed1dc37e89",
+          "playerBoxScoreId": 1334320095,
+          "count": 1,
+          "createdAt": "2025-03-29T03:57:34.719226+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Torn right labrum",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002700,
+        "sport": "nba",
+        "teamId": 23,
+        "avatar": "714ccb85e3239091fa84ae7c6588bca2",
+        "firstName": "Trey",
+        "lastName": "Murphy III",
+        "injuryStatus": null,
+        "displayName": "T. Murphy III",
+        "backgroundColor": "#002B5C44",
+        "jersey": 25
+      },
+      "team": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "homeTeam": {
+        "id": 23,
+        "sport": "nba",
+        "key": "NOP",
+        "name": "Pelicans",
+        "displayName": "Pelicans",
+        "avatar": "2ad4cca180",
+        "overallRank": null,
+        "primaryColorReal": "#002B5C44",
+        "secondaryColorReal": "#B4975A44"
+      },
+      "awayTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      }
+    }
+  ],
+  "statsInfo": {
+    "playerId": "20002700",
+    "sport": "nba",
+    "games": 53,
+    "total": 150,
+    "season": 2025,
+    "seasonLabel": "2024-25",
+    "showSplits": true,
+    "stats": [
+      {
+        "statType": 1,
+        "display": null,
+        "rank": 40,
+        "label": "pts",
+        "displayLabel": "Points per game",
+        "value": "21.2"
+      },
+      {
+        "statType": 3,
+        "display": null,
+        "rank": 121,
+        "label": "reb",
+        "displayLabel": "Rebounds per game",
+        "value": "5.1"
+      },
+      {
+        "statType": 2,
+        "display": null,
+        "rank": 103,
+        "label": "ast",
+        "displayLabel": "Assists per game",
+        "value": "3.5"
+      },
+      {
+        "statType": 4,
+        "display": null,
+        "rank": 86,
+        "label": "stl",
+        "displayLabel": "Steals per game",
+        "value": "1.1"
+      },
+      {
+        "statType": 5,
+        "display": null,
+        "rank": 80,
+        "label": "blk",
+        "displayLabel": "Blocks per game",
+        "value": "0.7"
+      },
+      {
+        "statType": 6,
+        "display": null,
+        "rank": 83,
+        "label": "to",
+        "displayLabel": "Turnovers per game",
+        "value": "1.9"
+      },
+      {
+        "statType": 8,
+        "display": null,
+        "rank": 24,
+        "label": "min",
+        "displayLabel": "Minutes per game",
+        "value": "35.0"
+      },
+      {
+        "statType": 9,
+        "display": null,
+        "rank": 254,
+        "label": "fg%",
+        "displayLabel": "Field goal %",
+        "value": "45.4"
+      },
+      {
+        "statType": 10,
+        "display": null,
+        "rank": 189,
+        "label": "3fg%",
+        "displayLabel": "3-pointer %",
+        "value": "36.1"
+      },
+      {
+        "statType": 22,
+        "display": null,
+        "rank": 19,
+        "label": "3pa",
+        "displayLabel": "3-pointers attempted per game",
+        "value": "8.3"
+      },
+      {
+        "statType": 11,
+        "display": null,
+        "rank": 37,
+        "label": "ft%",
+        "displayLabel": "Free-throw %",
+        "value": "88.7"
+      },
+      {
+        "statType": 30,
+        "display": null,
+        "rank": 41,
+        "label": "fta",
+        "displayLabel": "Free throws attempted per game",
+        "value": "4.3"
+      },
+      {
+        "statType": 14,
+        "display": null,
+        "rank": 553,
+        "label": "+/-",
+        "displayLabel": "+/- per game",
+        "value": "-7.2"
+      },
+      {
+        "statType": 38,
+        "display": null,
+        "rank": 145,
+        "label": "ts%",
+        "displayLabel": "True-shooting %",
+        "value": "59.8"
+      }
+    ]
+  },
+  "perfData": {
+    "data": [
+      {
+        "title": "",
+        "data": [
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "DET",
+            "path": "/vJFmFbFBAOBAV"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "PHI",
+            "path": "/ENFoFMFJOoK1v"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "GSW",
+            "path": "/OoFrF8FNM8BPG"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "CHA",
+            "path": "/B3FkFoFEeky3D"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "LAC",
+            "path": "/3BF1FWF4YQVPk"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "LAL",
+            "path": "/gxFxFRF8byvab"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "MIL",
+            "path": "/LqFAFmFKj62Gx"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "BKN",
+            "path": "/G0FkFOFYxj3k8"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "MIL",
+            "path": "/wRFGFNFKRPvv0"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "MIA",
+            "path": "/wRFGFNFKRMA3x"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "OKC",
+            "path": "/9GFrFlFP273rr"
+          }
+        ]
+      }
+    ],
+    "title": "Recent performances"
+  },
+  "emojiUsages": []
+}

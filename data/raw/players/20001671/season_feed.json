@@ -1,0 +1,1625 @@
+{
+  "playerBoxScores": [
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22158,
+      "opponentTeamId": 24,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-13T19:43:05.926Z",
+      "id": 1367995427,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 17,
+      "day": "2025-04-13",
+      "dateTime": "2025-04-13T19:30:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 10,
+      "homeTeamScore": 125,
+      "awayTeamScore": 118,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1367995427,
+          "count": 14,
+          "createdAt": "2025-04-14T00:51:29.955596+00:00"
+        },
+        {
+          "emojiId": "ae96282386b7a8b731aaf8b33df4ebe7",
+          "playerBoxScoreId": 1367995427,
+          "count": 7,
+          "createdAt": "2025-04-16T02:11:29.894831+00:00"
+        },
+        {
+          "emojiId": "f7e7ae19d5eb8e98c5e212269513b312",
+          "playerBoxScoreId": 1367995427,
+          "count": 5,
+          "createdAt": "2025-04-14T16:20:04.836899+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1367995427,
+          "count": 1,
+          "createdAt": "2025-04-24T02:16:29.454241+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22139,
+      "opponentTeamId": 25,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-12T00:42:34.856Z",
+      "id": 1364128552,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 18,
+      "day": "2025-04-11",
+      "dateTime": "2025-04-12T00:30:00.000Z",
+      "homeTeamId": 25,
+      "awayTeamId": 10,
+      "homeTeamScore": 124,
+      "awayTeamScore": 102,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1364128552,
+          "count": 2,
+          "createdAt": "2025-04-13T04:02:36.772026+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1364128552,
+          "count": 1,
+          "createdAt": "2025-04-16T13:25:46.724222+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 25,
+        "sport": "nba",
+        "key": "DAL",
+        "name": "Mavs",
+        "displayName": "Mavs",
+        "avatar": "cd01edd222",
+        "overallRank": null,
+        "primaryColorReal": "#0053BC44",
+        "secondaryColorReal": "#BBC4CA44"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22119,
+      "opponentTeamId": 2,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-09T23:43:19.860Z",
+      "id": 1360791148,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 12,
+      "day": "2025-04-09",
+      "dateTime": "2025-04-09T23:30:00.000Z",
+      "homeTeamId": 10,
+      "awayTeamId": 2,
+      "homeTeamScore": 126,
+      "awayTeamScore": 96,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "a74fde21da34765011caf0c32cb653e5",
+          "playerBoxScoreId": 1360791148,
+          "count": 6,
+          "createdAt": "2025-04-10T00:10:40.09075+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1360791148,
+          "count": 1,
+          "createdAt": "2025-04-10T17:23:06.883624+00:00"
+        },
+        {
+          "emojiId": "ae96282386b7a8b731aaf8b33df4ebe7",
+          "playerBoxScoreId": 1360791148,
+          "count": 0,
+          "createdAt": "2025-04-11T02:03:03.840929+00:00"
+        },
+        {
+          "emojiId": "e39d0f92284dd0d00bb4cc297e1bcfba",
+          "playerBoxScoreId": 1360791148,
+          "count": 0,
+          "createdAt": "2025-04-10T03:22:35.765177+00:00"
+        },
+        {
+          "emojiId": "19ac0e068eaff05c0d4cafb3111dcccb",
+          "playerBoxScoreId": 1360791148,
+          "count": 0,
+          "createdAt": "2025-04-10T03:22:33.075211+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 2,
+        "sport": "nba",
+        "key": "CHA",
+        "name": "Hornets",
+        "displayName": "Hornets",
+        "avatar": "b389a808b0",
+        "overallRank": null,
+        "primaryColorReal": "#00788c44",
+        "secondaryColorReal": "#1d116044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22095,
+      "opponentTeamId": 8,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain ",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-06T19:42:32.769Z",
+      "id": 1356156067,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 36,
+      "day": "2025-04-06",
+      "dateTime": "2025-04-06T19:30:00.000Z",
+      "homeTeamId": 8,
+      "awayTeamId": 10,
+      "homeTeamScore": 109,
+      "awayTeamScore": 120,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1356156067,
+          "count": 4,
+          "createdAt": "2025-04-06T20:22:21.292391+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1356156067,
+          "count": 3,
+          "createdAt": "2025-04-06T20:52:30.171242+00:00"
+        },
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1356156067,
+          "count": 1,
+          "createdAt": "2025-04-08T17:37:30.823332+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain ",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 8,
+        "sport": "nba",
+        "key": "BKN",
+        "name": "Nets",
+        "displayName": "Nets",
+        "avatar": "5a39a46cab",
+        "overallRank": null,
+        "primaryColorReal": "#11111144",
+        "secondaryColorReal": "#FFFFFF44"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22082,
+      "opponentTeamId": 14,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-04T23:42:58.521Z",
+      "id": 1352372272,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 25,
+      "day": "2025-04-04",
+      "dateTime": "2025-04-04T23:30:00.000Z",
+      "homeTeamId": 10,
+      "awayTeamId": 14,
+      "homeTeamScore": 105,
+      "awayTeamScore": 117,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "1f020721a9b785d59065362959cc4252",
+          "playerBoxScoreId": 1352372272,
+          "count": 5,
+          "createdAt": "2025-04-05T00:23:18.823828+00:00"
+        },
+        {
+          "emojiId": "48c3f684fd83b3b18da19b36ddc1c03d",
+          "playerBoxScoreId": 1352372272,
+          "count": 2,
+          "createdAt": "2025-04-05T02:17:57.285105+00:00"
+        },
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1352372272,
+          "count": 1,
+          "createdAt": "2025-05-13T14:10:09.816253+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 14,
+        "sport": "nba",
+        "key": "DET",
+        "name": "Pistons",
+        "displayName": "Pistons",
+        "avatar": "f5b0c00a71",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#ED174C44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22077,
+      "opponentTeamId": 19,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-03T23:43:22.933Z",
+      "id": 1349979282,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 29,
+      "day": "2025-04-03",
+      "dateTime": "2025-04-03T23:30:00.000Z",
+      "homeTeamId": 10,
+      "awayTeamId": 19,
+      "homeTeamScore": 103,
+      "awayTeamScore": 112,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "c5e9c1e593a35431eec3d9ccb77bea89",
+          "playerBoxScoreId": 1349979282,
+          "count": 6,
+          "createdAt": "2025-04-03T23:50:10.622761+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1349979282,
+          "count": 1,
+          "createdAt": "2025-04-04T09:23:35.928484+00:00"
+        },
+        {
+          "emojiId": "9e42fac26d272b6e7bd138763a00b888",
+          "playerBoxScoreId": 1349979282,
+          "count": 1,
+          "createdAt": "2025-04-05T15:43:56.518195+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1349979282,
+          "count": 0,
+          "createdAt": "2025-04-04T15:39:52.812815+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 19,
+        "sport": "nba",
+        "key": "POR",
+        "name": "Blazers",
+        "displayName": "Blazers",
+        "avatar": "49592ec717",
+        "overallRank": null,
+        "primaryColorReal": "#E03A3E44",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22060,
+      "opponentTeamId": 11,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-02T00:11:50.545Z",
+      "id": 1346367368,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 10,
+      "day": "2025-04-01",
+      "dateTime": "2025-04-02T00:00:00.000Z",
+      "homeTeamId": 11,
+      "awayTeamId": 10,
+      "homeTeamScore": 137,
+      "awayTeamScore": 118,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "d565d49efe233d077ab1b51de4cb7bba",
+          "playerBoxScoreId": 1346367368,
+          "count": 5,
+          "createdAt": "2025-04-02T00:18:48.243412+00:00"
+        },
+        {
+          "emojiId": "996f23bc55d2b546c31e17dccff4a12f",
+          "playerBoxScoreId": 1346367368,
+          "count": 3,
+          "createdAt": "2025-04-02T00:34:23.671692+00:00"
+        },
+        {
+          "emojiId": "6e15d54d659a74f6b60b3d295bd445c9",
+          "playerBoxScoreId": 1346367368,
+          "count": 2,
+          "createdAt": "2025-04-02T00:42:42.960032+00:00"
+        },
+        {
+          "emojiId": "625aec03042b5f2889ba66b75afee808",
+          "playerBoxScoreId": 1346367368,
+          "count": 1,
+          "createdAt": "2025-04-02T06:20:25.122347+00:00"
+        },
+        {
+          "emojiId": "98dfea86ab5e159959d89bac14866919",
+          "playerBoxScoreId": 1346367368,
+          "count": 0,
+          "createdAt": "2025-04-02T06:20:22.118334+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 11,
+        "sport": "nba",
+        "key": "CHI",
+        "name": "Bulls",
+        "displayName": "Bulls",
+        "avatar": "71792a2f05",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22048,
+      "opponentTeamId": 7,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-30T23:42:12.948Z",
+      "id": 1343925586,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 19,
+      "day": "2025-03-30",
+      "dateTime": "2025-03-30T23:30:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 10,
+      "homeTeamScore": 109,
+      "awayTeamScore": 127,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1343925586,
+          "count": 1,
+          "createdAt": "2025-03-31T04:34:18.060591+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1343925586,
+          "count": 0,
+          "createdAt": "2025-04-01T23:00:52.940908+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22030,
+      "opponentTeamId": 2,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-28T23:42:57.677Z",
+      "id": 1339709436,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 9,
+      "day": "2025-03-28",
+      "dateTime": "2025-03-28T23:30:00.000Z",
+      "homeTeamId": 10,
+      "awayTeamId": 2,
+      "homeTeamScore": 108,
+      "awayTeamScore": 97,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1339709436,
+          "count": 2,
+          "createdAt": "2025-03-29T02:01:39.920597+00:00"
+        },
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1339709436,
+          "count": 1,
+          "createdAt": "2025-03-29T19:27:39.812156+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1339709436,
+          "count": 1,
+          "createdAt": "2025-04-24T08:24:27.653649+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 2,
+        "sport": "nba",
+        "key": "CHA",
+        "name": "Hornets",
+        "displayName": "Hornets",
+        "avatar": "b389a808b0",
+        "overallRank": null,
+        "primaryColorReal": "#00788c44",
+        "secondaryColorReal": "#1d116044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 10,
+      "playerId": 20001671,
+      "gameId": 22015,
+      "opponentTeamId": 8,
+      "season": 2025,
+      "position": "F",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Ankle; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-26T23:42:13.960Z",
+      "id": 1336550949,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "3",
+      "rankOrder": null,
+      "commentCount": 18,
+      "day": "2025-03-26",
+      "dateTime": "2025-03-26T23:30:00.000Z",
+      "homeTeamId": 8,
+      "awayTeamId": 10,
+      "homeTeamScore": 86,
+      "awayTeamScore": 116,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "9e42fac26d272b6e7bd138763a00b888",
+          "playerBoxScoreId": 1336550949,
+          "count": 8,
+          "createdAt": "2025-03-26T23:50:28.349543+00:00"
+        },
+        {
+          "emojiId": "1f020721a9b785d59065362959cc4252",
+          "playerBoxScoreId": 1336550949,
+          "count": 6,
+          "createdAt": "2025-03-27T01:11:02.503821+00:00"
+        },
+        {
+          "emojiId": "6a94fa69618bd38793073d151e6c079e",
+          "playerBoxScoreId": 1336550949,
+          "count": 5,
+          "createdAt": "2025-03-27T01:49:48.117105+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1336550949,
+          "count": 1,
+          "createdAt": "2025-03-28T23:17:29.94749+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Ankle; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001671,
+        "sport": "nba",
+        "teamId": 10,
+        "avatar": "1e985895d5826d4ccdcd9de742d0e3ef",
+        "firstName": "Brandon",
+        "lastName": "Ingram",
+        "injuryStatus": null,
+        "displayName": "B. Ingram",
+        "backgroundColor": "#CE114144",
+        "jersey": 3
+      },
+      "team": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 8,
+        "sport": "nba",
+        "key": "BKN",
+        "name": "Nets",
+        "displayName": "Nets",
+        "avatar": "5a39a46cab",
+        "overallRank": null,
+        "primaryColorReal": "#11111144",
+        "secondaryColorReal": "#FFFFFF44"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    }
+  ],
+  "statsInfo": {
+    "playerId": "20001671",
+    "sport": "nba",
+    "games": 18,
+    "total": 150,
+    "season": 2025,
+    "seasonLabel": "2024-25",
+    "showSplits": true,
+    "stats": [
+      {
+        "statType": 1,
+        "display": null,
+        "rank": 32,
+        "label": "pts",
+        "displayLabel": "Points per game",
+        "value": "22.2"
+      },
+      {
+        "statType": 3,
+        "display": null,
+        "rank": 105,
+        "label": "reb",
+        "displayLabel": "Rebounds per game",
+        "value": "5.6"
+      },
+      {
+        "statType": 2,
+        "display": null,
+        "rank": 44,
+        "label": "ast",
+        "displayLabel": "Assists per game",
+        "value": "5.2"
+      },
+      {
+        "statType": 4,
+        "display": null,
+        "rank": 158,
+        "label": "stl",
+        "displayLabel": "Steals per game",
+        "value": "0.9"
+      },
+      {
+        "statType": 5,
+        "display": null,
+        "rank": 115,
+        "label": "blk",
+        "displayLabel": "Blocks per game",
+        "value": "0.6"
+      },
+      {
+        "statType": 6,
+        "display": null,
+        "rank": 4,
+        "label": "to",
+        "displayLabel": "Turnovers per game",
+        "value": "3.8"
+      },
+      {
+        "statType": 8,
+        "display": null,
+        "rank": 47,
+        "label": "min",
+        "displayLabel": "Minutes per game",
+        "value": "33.1"
+      },
+      {
+        "statType": 9,
+        "display": null,
+        "rank": 216,
+        "label": "fg%",
+        "displayLabel": "Field goal %",
+        "value": "46.5"
+      },
+      {
+        "statType": 10,
+        "display": null,
+        "rank": 142,
+        "label": "3fg%",
+        "displayLabel": "3-pointer %",
+        "value": "37.4"
+      },
+      {
+        "statType": 22,
+        "display": null,
+        "rank": 46,
+        "label": "3pa",
+        "displayLabel": "3-pointers attempted per game",
+        "value": "6.4"
+      },
+      {
+        "statType": 11,
+        "display": null,
+        "rank": 80,
+        "label": "ft%",
+        "displayLabel": "Free-throw %",
+        "value": "85.5"
+      },
+      {
+        "statType": 30,
+        "display": null,
+        "rank": 95,
+        "label": "fta",
+        "displayLabel": "Free throws attempted per game",
+        "value": "3.1"
+      },
+      {
+        "statType": 14,
+        "display": null,
+        "rank": 552,
+        "label": "+/-",
+        "displayLabel": "+/- per game",
+        "value": "-7.1"
+      },
+      {
+        "statType": 38,
+        "display": null,
+        "rank": 288,
+        "label": "ts%",
+        "displayLabel": "True-shooting %",
+        "value": "56.0"
+      }
+    ]
+  },
+  "perfData": {
+    "data": [
+      {
+        "title": "",
+        "data": [
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "WAS",
+            "path": "/eLF9FdF3B7Nwe"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "BKN",
+            "path": "/K5F8F1F8kWwxb"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "CHA",
+            "path": "/PkFYFDF4wQv8J"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "PHI",
+            "path": "/J8FBF5FOW0kMD"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "CHI",
+            "path": "/q6FQFWF1o8wDY"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "POR",
+            "path": "/VKFaFVFrrDmGw"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "DET",
+            "path": "/ENFoFMFJJ7PEb"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "BKN",
+            "path": "/vJFmFbFBdx6xG"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "CHA",
+            "path": "/VKFaFVFrKxOVY"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "DAL",
+            "path": "/xmFWFEFKe0p5r"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "SAS",
+            "path": "/eLF9FdF3k0mwQ"
+          }
+        ]
+      }
+    ],
+    "title": "Recent performances"
+  },
+  "emojiUsages": []
+}

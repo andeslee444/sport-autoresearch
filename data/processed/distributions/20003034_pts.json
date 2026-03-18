@@ -1,0 +1,35 @@
+{
+  "values": [
+    8.0,
+    11.0,
+    11.0,
+    14.0,
+    15.0,
+    17.0,
+    24.0,
+    25.0
+  ],
+  "n": 8,
+  "mean": 15.62,
+  "median": 15.0,
+  "std": 6.14,
+  "hit_rate": 0.375,
+  "weighted_hit_rate": 0.4138,
+  "line": 16,
+  "comparison": {
+    "base_hit_rate": 0.4138,
+    "stat_space": {
+      "hit_rate": 0.6552,
+      "method": "shift stat values, then count hits",
+      "total_shift_pts": 2.5
+    },
+    "prob_space": {
+      "hit_rate": 0.4749,
+      "method": "count hits, then shift probability",
+      "prob_shift": 0.0611
+    },
+    "divergence": 0.1803,
+    "divergence_pct": 18.03,
+    "material": true
+  }
+}

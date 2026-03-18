@@ -1,0 +1,1667 @@
+{
+  "playerBoxScores": [
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22158,
+      "opponentTeamId": 10,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgey ",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-13T19:43:05.926Z",
+      "id": 1367995410,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 9,
+      "day": "2025-04-13",
+      "dateTime": "2025-04-13T19:30:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 10,
+      "homeTeamScore": 125,
+      "awayTeamScore": 118,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "94b0053dd78ed86dcc679ee336227a08",
+          "playerBoxScoreId": 1367995410,
+          "count": 56,
+          "createdAt": "2025-04-13T20:23:36.396635+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1367995410,
+          "count": 13,
+          "createdAt": "2025-04-20T00:10:00.067363+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1367995410,
+          "count": 5,
+          "createdAt": "2025-04-13T22:41:54.263415+00:00"
+        },
+        {
+          "emojiId": "6fa841eeec235903847aa5b426a5adf9",
+          "playerBoxScoreId": 1367995410,
+          "count": 1,
+          "createdAt": "2025-04-13T22:44:29.056401+00:00"
+        },
+        {
+          "emojiId": "98dfea86ab5e159959d89bac14866919",
+          "playerBoxScoreId": 1367995410,
+          "count": 1,
+          "createdAt": "2025-06-02T06:30:15.371298+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgey ",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22143,
+      "opponentTeamId": 29,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-12T02:10:33.356Z",
+      "id": 1364654820,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 1,
+      "day": "2025-04-11",
+      "dateTime": "2025-04-12T02:00:00.000Z",
+      "homeTeamId": 29,
+      "awayTeamId": 24,
+      "homeTeamScore": 117,
+      "awayTeamScore": 98,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "94b0053dd78ed86dcc679ee336227a08",
+          "playerBoxScoreId": 1364654820,
+          "count": 9,
+          "createdAt": "2025-05-02T04:41:13.468451+00:00"
+        },
+        {
+          "emojiId": "943e1c8611436abbeb23c3b6f8bfa8a4",
+          "playerBoxScoreId": 1364654820,
+          "count": 5,
+          "createdAt": "2025-04-12T02:36:49.313297+00:00"
+        },
+        {
+          "emojiId": "b971a562045d668cc7941283c8563ab1",
+          "playerBoxScoreId": 1364654820,
+          "count": 3,
+          "createdAt": "2025-04-12T02:27:35.809298+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1364654820,
+          "count": 1,
+          "createdAt": "2025-04-15T03:51:59.010066+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 29,
+        "sport": "nba",
+        "key": "PHX",
+        "name": "Suns",
+        "displayName": "Suns",
+        "avatar": "62a63f7013",
+        "overallRank": null,
+        "primaryColorReal": "#1D116044",
+        "secondaryColorReal": "#E5602044"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22124,
+      "opponentTeamId": 26,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendor Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-10T02:10:35.261Z",
+      "id": 1361368461,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 3,
+      "day": "2025-04-09",
+      "dateTime": "2025-04-10T02:00:00.000Z",
+      "homeTeamId": 26,
+      "awayTeamId": 24,
+      "homeTeamScore": 111,
+      "awayTeamScore": 114,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1361368461,
+          "count": 5,
+          "createdAt": "2025-04-12T03:07:04.467172+00:00"
+        },
+        {
+          "emojiId": "058fec609e82460fa69e5726ff583f70",
+          "playerBoxScoreId": 1361368461,
+          "count": 3,
+          "createdAt": "2025-04-10T10:43:03.111857+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1361368461,
+          "count": 3,
+          "createdAt": "2025-04-16T01:14:05.789082+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendor Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 26,
+        "sport": "nba",
+        "key": "GSW",
+        "name": "Warriors",
+        "displayName": "Warriors",
+        "avatar": "2ecbb86d6b",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#FDB92744"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22116,
+      "opponentTeamId": 28,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-09T02:40:31.458Z",
+      "id": 1359859635,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "2",
+      "rankOrder": null,
+      "commentCount": 6,
+      "day": "2025-04-08",
+      "dateTime": "2025-04-09T02:30:00.000Z",
+      "homeTeamId": 28,
+      "awayTeamId": 24,
+      "homeTeamScore": 122,
+      "awayTeamScore": 117,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1359859635,
+          "count": 3,
+          "createdAt": "2025-04-09T03:07:43.995835+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1359859635,
+          "count": 2,
+          "createdAt": "2025-04-09T17:34:41.711022+00:00"
+        },
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1359859635,
+          "count": 1,
+          "createdAt": "2025-04-11T16:16:05.135716+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 28,
+        "sport": "nba",
+        "key": "LAC",
+        "name": "Clippers",
+        "displayName": "Clippers",
+        "avatar": "6e4b48bbd5",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22100,
+      "opponentTeamId": 19,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-06T22:11:38.404Z",
+      "id": 1356798392,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 7,
+      "day": "2025-04-06",
+      "dateTime": "2025-04-06T22:00:00.000Z",
+      "homeTeamId": 19,
+      "awayTeamId": 24,
+      "homeTeamScore": 120,
+      "awayTeamScore": 109,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "94b0053dd78ed86dcc679ee336227a08",
+          "playerBoxScoreId": 1356798392,
+          "count": 11,
+          "createdAt": "2025-04-06T23:48:24.985118+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1356798392,
+          "count": 8,
+          "createdAt": "2025-04-06T22:49:13.569968+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1356798392,
+          "count": 3,
+          "createdAt": "2025-04-08T18:55:28.192554+00:00"
+        },
+        {
+          "emojiId": "b971a562045d668cc7941283c8563ab1",
+          "playerBoxScoreId": 1356798392,
+          "count": 1,
+          "createdAt": "2025-04-08T23:20:51.496957+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 19,
+        "sport": "nba",
+        "key": "POR",
+        "name": "Blazers",
+        "displayName": "Blazers",
+        "avatar": "49592ec717",
+        "overallRank": null,
+        "primaryColorReal": "#E03A3E44",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22085,
+      "opponentTeamId": 12,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-05T00:10:38.145Z",
+      "id": 1352501173,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 3,
+      "day": "2025-04-04",
+      "dateTime": "2025-04-05T00:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 12,
+      "homeTeamScore": 113,
+      "awayTeamScore": 114,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "41b6b64fdc52f1525cd1d5b3cb3a3794",
+          "playerBoxScoreId": 1352501173,
+          "count": 4,
+          "createdAt": "2025-04-05T04:57:16.960676+00:00"
+        },
+        {
+          "emojiId": "9e52f6d2156e46c9aca18b885d6c9d33",
+          "playerBoxScoreId": 1352501173,
+          "count": 2,
+          "createdAt": "2025-04-05T18:36:54.918583+00:00"
+        },
+        {
+          "emojiId": "2eb0aed2b8e900cb5a0396fde0f04e52",
+          "playerBoxScoreId": 1352501173,
+          "count": 1,
+          "createdAt": "2025-04-05T07:01:28.332329+00:00"
+        },
+        {
+          "emojiId": "bb992fde9255d9f79aebb321c3ab9547",
+          "playerBoxScoreId": 1352501173,
+          "count": 0,
+          "createdAt": "2025-04-05T18:36:51.831111+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1352501173,
+          "count": 0,
+          "createdAt": "2025-04-05T18:36:48.896945+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 12,
+        "sport": "nba",
+        "key": "CLE",
+        "name": "Cavaliers",
+        "displayName": "Cavaliers",
+        "avatar": "066503f1e2",
+        "overallRank": null,
+        "primaryColorReal": "#6F263D44",
+        "secondaryColorReal": "#FDB81C44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22071,
+      "opponentTeamId": 20,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-03T01:10:56.342Z",
+      "id": 1348798087,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 7,
+      "day": "2025-04-02",
+      "dateTime": "2025-04-03T01:00:00.000Z",
+      "homeTeamId": 20,
+      "awayTeamId": 24,
+      "homeTeamScore": 106,
+      "awayTeamScore": 113,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "94b0053dd78ed86dcc679ee336227a08",
+          "playerBoxScoreId": 1348798087,
+          "count": 15,
+          "createdAt": "2025-04-03T02:03:14.890097+00:00"
+        },
+        {
+          "emojiId": "5ab4fd8a0b5ff20f96265943380b3e86",
+          "playerBoxScoreId": 1348798087,
+          "count": 3,
+          "createdAt": "2025-04-04T19:53:00.615878+00:00"
+        },
+        {
+          "emojiId": "9e52f6d2156e46c9aca18b885d6c9d33",
+          "playerBoxScoreId": 1348798087,
+          "count": 2,
+          "createdAt": "2025-04-05T18:37:03.994338+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1348798087,
+          "count": 0,
+          "createdAt": "2025-04-05T18:36:58.494807+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 20,
+        "sport": "nba",
+        "key": "DEN",
+        "name": "Nuggets",
+        "displayName": "Nuggets",
+        "avatar": "01ddb9455e",
+        "overallRank": null,
+        "primaryColorReal": "#00285E44",
+        "secondaryColorReal": "#5091CD44"
+      },
+      "awayTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22279,
+      "opponentTeamId": 5,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-02T00:10:26.318Z",
+      "id": 1346359073,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 2,
+      "day": "2025-04-01",
+      "dateTime": "2025-04-02T00:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 5,
+      "homeTeamScore": 105,
+      "awayTeamScore": 116,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "6e47205183e037260e1e0d092448e7d1",
+          "playerBoxScoreId": 1346359073,
+          "count": 2,
+          "createdAt": "2025-04-02T00:40:05.507138+00:00"
+        },
+        {
+          "emojiId": "a814ac8554ad1bb9ad7ff0b41fe6d176",
+          "playerBoxScoreId": 1346359073,
+          "count": 2,
+          "createdAt": "2025-04-02T01:19:50.944811+00:00"
+        },
+        {
+          "emojiId": "996f23bc55d2b546c31e17dccff4a12f",
+          "playerBoxScoreId": 1346359073,
+          "count": 1,
+          "createdAt": "2025-04-02T00:35:48.417382+00:00"
+        },
+        {
+          "emojiId": "e28406b9d1abf815f0f594fa8a52125c",
+          "playerBoxScoreId": 1346359073,
+          "count": 1,
+          "createdAt": "2025-04-02T02:25:44.395527+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1346359073,
+          "count": 1,
+          "createdAt": "2025-04-02T06:13:56.319263+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 5,
+        "sport": "nba",
+        "key": "ORL",
+        "name": "Magic",
+        "displayName": "Magic",
+        "avatar": "eb58840817",
+        "overallRank": null,
+        "primaryColorReal": "#0077C044",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22047,
+      "opponentTeamId": 26,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-30T23:10:40.528Z",
+      "id": 1343806532,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 4,
+      "day": "2025-03-30",
+      "dateTime": "2025-03-30T23:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 26,
+      "homeTeamScore": 106,
+      "awayTeamScore": 148,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "9a9040490fbb0fb6a00e487222466b8b",
+          "playerBoxScoreId": 1343806532,
+          "count": 6,
+          "createdAt": "2025-03-31T00:02:41.033377+00:00"
+        },
+        {
+          "emojiId": "ee1f013dc6aa743331a6217507cb4621",
+          "playerBoxScoreId": 1343806532,
+          "count": 2,
+          "createdAt": "2025-03-31T06:52:28.746448+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1343806532,
+          "count": 1,
+          "createdAt": "2025-04-28T17:13:13.289111+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1343806532,
+          "count": 1,
+          "createdAt": "2025-03-31T04:26:10.693752+00:00"
+        },
+        {
+          "emojiId": "625aec03042b5f2889ba66b75afee808",
+          "playerBoxScoreId": 1343806532,
+          "count": 0,
+          "createdAt": "2025-04-28T17:12:58.283679+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 26,
+        "sport": "nba",
+        "key": "GSW",
+        "name": "Warriors",
+        "displayName": "Warriors",
+        "avatar": "2ecbb86d6b",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#FDB92744"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 24,
+      "playerId": 20001824,
+      "gameId": 22041,
+      "opponentTeamId": 9,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Left Fifth Finger; Extensor Tendon Surgery",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-30T00:10:44.817Z",
+      "id": 1341706320,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "4",
+      "rankOrder": null,
+      "commentCount": 3,
+      "day": "2025-03-29",
+      "dateTime": "2025-03-30T00:00:00.000Z",
+      "homeTeamId": 24,
+      "awayTeamId": 9,
+      "homeTeamScore": 111,
+      "awayTeamScore": 121,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "5b448e1d0fc8b3d6b4f46c204c4800e0",
+          "playerBoxScoreId": 1341706320,
+          "count": 4,
+          "createdAt": "2025-04-01T20:28:36.200536+00:00"
+        },
+        {
+          "emojiId": "21385b2dc7d3853c1dc34e4aeb444ca2",
+          "playerBoxScoreId": 1341706320,
+          "count": 3,
+          "createdAt": "2025-03-30T00:28:57.130986+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1341706320,
+          "count": 2,
+          "createdAt": "2025-03-30T00:36:58.645949+00:00"
+        },
+        {
+          "emojiId": "16aa70ab2aeb378cadf11beac2b3d702",
+          "playerBoxScoreId": 1341706320,
+          "count": 0,
+          "createdAt": "2025-04-01T20:28:27.199387+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Left Fifth Finger; Extensor Tendon Surgery",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20001824,
+        "sport": "nba",
+        "teamId": 24,
+        "avatar": "19e930f5458a75379f0622b11073cbf9",
+        "firstName": "De'Aaron",
+        "lastName": "Fox",
+        "injuryStatus": null,
+        "displayName": "D. Fox",
+        "backgroundColor": "#95A7B244",
+        "jersey": 4
+      },
+      "team": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "homeTeam": {
+        "id": 24,
+        "sport": "nba",
+        "key": "SAS",
+        "name": "Spurs",
+        "displayName": "Spurs",
+        "avatar": "1538c540ba",
+        "overallRank": null,
+        "primaryColorReal": "#95A7B244",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      }
+    }
+  ],
+  "statsInfo": {
+    "playerId": "20001824",
+    "sport": "nba",
+    "games": 62,
+    "total": 150,
+    "season": 2025,
+    "seasonLabel": "2024-25",
+    "showSplits": true,
+    "stats": [
+      {
+        "statType": 1,
+        "display": null,
+        "rank": 28,
+        "label": "pts",
+        "displayLabel": "Points per game",
+        "value": "23.5"
+      },
+      {
+        "statType": 3,
+        "display": null,
+        "rank": 139,
+        "label": "reb",
+        "displayLabel": "Rebounds per game",
+        "value": "4.8"
+      },
+      {
+        "statType": 2,
+        "display": null,
+        "rank": 20,
+        "label": "ast",
+        "displayLabel": "Assists per game",
+        "value": "6.3"
+      },
+      {
+        "statType": 4,
+        "display": null,
+        "rank": 27,
+        "label": "stl",
+        "displayLabel": "Steals per game",
+        "value": "1.5"
+      },
+      {
+        "statType": 5,
+        "display": null,
+        "rank": 216,
+        "label": "blk",
+        "displayLabel": "Blocks per game",
+        "value": "0.4"
+      },
+      {
+        "statType": 6,
+        "display": null,
+        "rank": 34,
+        "label": "to",
+        "displayLabel": "Turnovers per game",
+        "value": "2.8"
+      },
+      {
+        "statType": 8,
+        "display": null,
+        "rank": 10,
+        "label": "min",
+        "displayLabel": "Minutes per game",
+        "value": "36.1"
+      },
+      {
+        "statType": 9,
+        "display": null,
+        "rank": 220,
+        "label": "fg%",
+        "displayLabel": "Field goal %",
+        "value": "46.3"
+      },
+      {
+        "statType": 10,
+        "display": null,
+        "rank": 344,
+        "label": "3fg%",
+        "displayLabel": "3-pointer %",
+        "value": "31.0"
+      },
+      {
+        "statType": 22,
+        "display": null,
+        "rank": 56,
+        "label": "3pa",
+        "displayLabel": "3-pointers attempted per game",
+        "value": "6.1"
+      },
+      {
+        "statType": 11,
+        "display": null,
+        "rank": 124,
+        "label": "ft%",
+        "displayLabel": "Free-throw %",
+        "value": "82.7"
+      },
+      {
+        "statType": 30,
+        "display": null,
+        "rank": 29,
+        "label": "fta",
+        "displayLabel": "Free throws attempted per game",
+        "value": "5.1"
+      },
+      {
+        "statType": 14,
+        "display": null,
+        "rank": 353,
+        "label": "+/-",
+        "displayLabel": "+/- per game",
+        "value": "-1.1"
+      },
+      {
+        "statType": 38,
+        "display": null,
+        "rank": 288,
+        "label": "ts%",
+        "displayLabel": "True-shooting %",
+        "value": "56.0"
+      }
+    ]
+  },
+  "perfData": {
+    "data": [
+      {
+        "title": "",
+        "data": [
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "CLE",
+            "path": "/G0FkFOFYDKEl2"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "BOS",
+            "path": "/xmFWFEFKgYDgv"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "GSW",
+            "path": "/ymF1FvFydA72L"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "ORL",
+            "path": "/o6FjFAFGKDQ1p"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "DEN",
+            "path": "/7GF9FRFr9Ad8G"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "CLE",
+            "path": "/NPF2FgF99vBQL"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "POR",
+            "path": "/9GFrFlFPY7A1N"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "LAC",
+            "path": "/PkFYFDF4vR1BR"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "GSW",
+            "path": "/xmFWFEFKeMdKN"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "PHX",
+            "path": "/9GFrFlFP2N5x2"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "TOR",
+            "path": "/5GFjF5FBxvDBO"
+          }
+        ]
+      }
+    ],
+    "title": "Recent performances"
+  },
+  "emojiUsages": []
+}

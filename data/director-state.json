@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-03-18T12:50:08",
+  "total_experiments": 83,
+  "v2_experiments": 1,
+  "convergence": {
+    "converged": false,
+    "experiments_since_improvement": 0,
+    "best_brier": 0.253,
+    "total_experiments": 1,
+    "message": "Too few experiments (1) to assess convergence (need 15)"
+  },
+  "metric_gaming": {
+    "gaming_detected": false,
+    "expected_sample_size": 1772,
+    "recent_run_size": 1,
+    "pre_v2_ignored": 82,
+    "sample_size_deviations": [],
+    "sudden_brier_drops": [],
+    "message": "Clean: sample_size stable at 1772 (1 experiments). Ignored 82 pre-v2 experiments with different sample sizes"
+  },
+  "ci_overlap": {
+    "significant": false,
+    "baseline_brier": 0.253,
+    "baseline_ci": [
+      0.2327543245540456,
+      0.2732456754459544
+    ],
+    "best_recent_brier": 0.253,
+    "best_recent_ci": [
+      0.2327543245540456,
+      0.2732456754459544
+    ],
+    "improvement": 0.0,
+    "ci_overlap": true,
+    "message": "No significant improvement: CIs overlap (improvement 0.0000)"
+  },
+  "data_sufficiency": {
+    "sufficient": true,
+    "current_ci_width": 0.012899999999999995,
+    "target_ci_width": 0.02,
+    "current_sample_size": 1772,
+    "estimated_n_required": 737,
+    "n_players": 42,
+    "n_games": 367,
+    "message": "Sufficient: CI width 0.0129 <= target 0.02"
+  },
+  "recommendation": {
+    "action": "CONTINUE",
+    "reason": "Research is productive \u2014 let agent keep running",
+    "detail": "Best Brier: 0.2530, 0 experiments since last improvement"
+  }
+}

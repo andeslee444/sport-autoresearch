@@ -1,0 +1,2767 @@
+{
+  "playerBoxScores": [
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22363,
+      "opponentTeamId": 6,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 27,
+      "seconds": 37,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-05-17T02:25:55.712Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-05-17T00:13:54.486Z",
+      "id": 1408124069,
+      "value": "1.777896314398808",
+      "tags": [
+        183,
+        115,
+        183,
+        65,
+        183,
+        65,
+        75,
+        184,
+        120,
+        184
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        533
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "1.777896314398808",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 748,
+      "day": "2025-05-16",
+      "dateTime": "2025-05-17T00:00:00.000Z",
+      "homeTeamId": 6,
+      "awayTeamId": 9,
+      "homeTeamScore": 119,
+      "awayTeamScore": 81,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "ab5086a6f22c8ca4915f231ec3589a00",
+          "playerBoxScoreId": 1408124069,
+          "count": 280,
+          "createdAt": "2025-05-17T00:17:39.853996+00:00"
+        },
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1408124069,
+          "count": 178,
+          "createdAt": "2025-05-17T00:51:07.33813+00:00"
+        },
+        {
+          "emojiId": "6c00f3333085425628e9ad939ab44093",
+          "playerBoxScoreId": 1408124069,
+          "count": 98,
+          "createdAt": "2025-05-17T00:14:39.847644+00:00"
+        },
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1408124069,
+          "count": 9,
+          "createdAt": "2025-05-17T00:14:54.542598+00:00"
+        },
+        {
+          "emojiId": "1f020721a9b785d59065362959cc4252",
+          "playerBoxScoreId": 1408124069,
+          "count": 7,
+          "createdAt": "2025-05-17T00:29:49.894461+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 11
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 2
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 4
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 28,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 11,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 2,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 4,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 0,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": -17,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 50,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "5/10",
+          "secondaryValue": "50%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "1/4",
+          "secondaryValue": "25%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "0/0",
+          "secondaryValue": "0%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 0,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 2,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 0,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 2,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 55,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 22,
+        "default": 19.4
+      },
+      "fantasyPointsFanduel": 19.4,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 6,
+        "sport": "nba",
+        "key": "NYK",
+        "name": "Knicks",
+        "displayName": "Knicks",
+        "avatar": "fd25c32727",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#F5842644"
+      },
+      "awayTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22362,
+      "opponentTeamId": 6,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 39,
+      "seconds": 5,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-05-15T01:39:41.300Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-05-14T23:05:56.166Z",
+      "id": 1405361497,
+      "value": "3.0287539529334326",
+      "tags": [
+        181,
+        120,
+        130,
+        182,
+        190,
+        120,
+        183,
+        120,
+        184,
+        120,
+        184,
+        65,
+        184,
+        120,
+        130
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        533,
+        622,
+        654
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "3.0287539529334326",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 1178,
+      "day": "2025-05-14",
+      "dateTime": "2025-05-14T23:00:00.000Z",
+      "homeTeamId": 9,
+      "awayTeamId": 6,
+      "homeTeamScore": 127,
+      "awayTeamScore": 102,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1405361497,
+          "count": 177,
+          "createdAt": "2025-05-14T23:21:04.012072+00:00"
+        },
+        {
+          "emojiId": "f1d970662ea8b873a9ddf4e2a963fc31",
+          "playerBoxScoreId": 1405361497,
+          "count": 153,
+          "createdAt": "2025-05-14T23:09:12.845867+00:00"
+        },
+        {
+          "emojiId": "4311962b4bd7fc8d26c285d141305425",
+          "playerBoxScoreId": 1405361497,
+          "count": 130,
+          "createdAt": "2025-05-14T23:06:32.940544+00:00"
+        },
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1405361497,
+          "count": 7,
+          "createdAt": "2025-05-14T23:41:45.945577+00:00"
+        },
+        {
+          "emojiId": "f9c18744182354579bfa67bf3bee4bde",
+          "playerBoxScoreId": 1405361497,
+          "count": 3,
+          "createdAt": "2025-05-14T23:18:45.378993+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 17
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 5
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 3
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 39,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 17,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 5,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 3,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 1,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 24,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 35.3,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "6/17",
+          "secondaryValue": "35.3%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "5/14",
+          "secondaryValue": "35.7%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "0/0",
+          "secondaryValue": "0%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 0,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 0,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 3,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 2,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 50,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 32,
+        "default": 30.5
+      },
+      "fantasyPointsFanduel": 30.5,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "awayTeam": {
+        "id": 6,
+        "sport": "nba",
+        "key": "NYK",
+        "name": "Knicks",
+        "displayName": "Knicks",
+        "avatar": "fd25c32727",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#F5842644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22361,
+      "opponentTeamId": 6,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 20,
+      "seconds": 21,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-06-19T06:43:08.286Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-05-12T23:44:31.218Z",
+      "id": 1403615299,
+      "value": "1.177220963371973",
+      "tags": [
+        181,
+        120,
+        220,
+        182,
+        65,
+        240,
+        184,
+        65,
+        75,
+        184,
+        120,
+        130
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        533,
+        658
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "1.177220963371973",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 1760,
+      "day": "2025-05-12",
+      "dateTime": "2025-05-12T23:30:00.000Z",
+      "homeTeamId": 6,
+      "awayTeamId": 9,
+      "homeTeamScore": 121,
+      "awayTeamScore": 113,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "98dfea86ab5e159959d89bac14866919",
+          "playerBoxScoreId": 1403615299,
+          "count": 137,
+          "createdAt": "2025-05-12T23:50:37.960678+00:00"
+        },
+        {
+          "emojiId": "0a0f0f63cc00854feec8898f2dd51f0f",
+          "playerBoxScoreId": 1403615299,
+          "count": 124,
+          "createdAt": "2025-05-12T23:46:06.867126+00:00"
+        },
+        {
+          "emojiId": "2e02c45e0bd333c9ec0ff3ca7c4b1b98",
+          "playerBoxScoreId": 1403615299,
+          "count": 123,
+          "createdAt": "2025-05-12T23:47:03.800149+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1403615299,
+          "count": 14,
+          "createdAt": "2025-05-12T23:46:09.691334+00:00"
+        },
+        {
+          "emojiId": "1f020721a9b785d59065362959cc4252",
+          "playerBoxScoreId": 1403615299,
+          "count": 7,
+          "createdAt": "2025-05-12T23:58:40.194993+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 12
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "4",
+          "label": "stl",
+          "fullLabel": "stl",
+          "value": 1
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 20,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 12,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 0,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 0,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 1,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 2,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 40,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "4/10",
+          "secondaryValue": "40%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "2/7",
+          "secondaryValue": "28.6%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "2/2",
+          "secondaryValue": "100%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 1,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 0,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 0,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 0,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 55.1,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 14,
+        "default": 14
+      },
+      "fantasyPointsFanduel": 14,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 6,
+        "sport": "nba",
+        "key": "NYK",
+        "name": "Knicks",
+        "displayName": "Knicks",
+        "avatar": "fd25c32727",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#F5842644"
+      },
+      "awayTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22360,
+      "opponentTeamId": 6,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 34,
+      "seconds": 31,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-06-19T06:43:40.237Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-05-10T19:41:43.888Z",
+      "id": 1401011126,
+      "value": "3.7593231560574347",
+      "tags": [
+        181,
+        120,
+        181,
+        90,
+        182,
+        120,
+        130,
+        182,
+        120,
+        183,
+        120,
+        183,
+        65,
+        75,
+        69,
+        184,
+        240,
+        120,
+        248,
+        184,
+        115
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        534,
+        654,
+        658,
+        600,
+        592
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "3.7593231560574347",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 328,
+      "day": "2025-05-10",
+      "dateTime": "2025-05-10T19:30:00.000Z",
+      "homeTeamId": 6,
+      "awayTeamId": 9,
+      "homeTeamScore": 93,
+      "awayTeamScore": 115,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "bbd964312e4454806e74e83f237f0bcf",
+          "playerBoxScoreId": 1401011126,
+          "count": 545,
+          "createdAt": "2025-05-10T19:42:20.701605+00:00"
+        },
+        {
+          "emojiId": "6b382b31d0a8f9dea669b146db261df3",
+          "playerBoxScoreId": 1401011126,
+          "count": 219,
+          "createdAt": "2025-05-10T19:42:32.798319+00:00"
+        },
+        {
+          "emojiId": "76fa4ba5a8f8a5fa7e46263b8d5bd17b",
+          "playerBoxScoreId": 1401011126,
+          "count": 218,
+          "createdAt": "2025-05-10T19:52:57.307757+00:00"
+        },
+        {
+          "emojiId": "f1d970662ea8b873a9ddf4e2a963fc31",
+          "playerBoxScoreId": 1401011126,
+          "count": 31,
+          "createdAt": "2025-05-10T19:59:27.894303+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1401011126,
+          "count": 10,
+          "createdAt": "2025-05-10T20:03:12.96629+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 23
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 4
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 2
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 35,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 23,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 4,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 2,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 1,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 8,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 50,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "8/16",
+          "secondaryValue": "50%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "5/10",
+          "secondaryValue": "50%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "2/2",
+          "secondaryValue": "100%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 0,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 3,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 2,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 2,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 68.1,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 40,
+        "default": 33.8
+      },
+      "fantasyPointsFanduel": 33.8,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 6,
+        "sport": "nba",
+        "key": "NYK",
+        "name": "Knicks",
+        "displayName": "Knicks",
+        "avatar": "fd25c32727",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#F5842644"
+      },
+      "awayTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22359,
+      "opponentTeamId": 6,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 21,
+      "seconds": 59,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-05-08T01:03:29.550Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-05-07T23:06:12.796Z",
+      "id": 1396972467,
+      "value": "1.0966981784647236",
+      "tags": [
+        181,
+        120,
+        184,
+        240,
+        120,
+        184,
+        120
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        654,
+        658
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "1.0966981784647236",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 308,
+      "day": "2025-05-07",
+      "dateTime": "2025-05-07T23:00:00.000Z",
+      "homeTeamId": 9,
+      "awayTeamId": 6,
+      "homeTeamScore": 90,
+      "awayTeamScore": 91,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "6b382b31d0a8f9dea669b146db261df3",
+          "playerBoxScoreId": 1396972467,
+          "count": 107,
+          "createdAt": "2025-05-07T23:07:48.31544+00:00"
+        },
+        {
+          "emojiId": "04cc6f7683486b14870757697314bb57",
+          "playerBoxScoreId": 1396972467,
+          "count": 86,
+          "createdAt": "2025-05-07T23:19:54.406167+00:00"
+        },
+        {
+          "emojiId": "6c00f3333085425628e9ad939ab44093",
+          "playerBoxScoreId": 1396972467,
+          "count": 85,
+          "createdAt": "2025-05-07T23:07:00.0653+00:00"
+        },
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1396972467,
+          "count": 14,
+          "createdAt": "2025-05-07T23:24:58.589422+00:00"
+        },
+        {
+          "emojiId": "f1d970662ea8b873a9ddf4e2a963fc31",
+          "playerBoxScoreId": 1396972467,
+          "count": 5,
+          "createdAt": "2025-05-07T23:26:02.254663+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 9
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 3
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 1
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 22,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 9,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 3,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 1,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 0,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 1,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 33.3,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "3/9",
+          "secondaryValue": "33.3%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "3/9",
+          "secondaryValue": "33.3%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "0/0",
+          "secondaryValue": "0%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 1,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 0,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 1,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 2,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 50,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 12,
+        "default": 13.1
+      },
+      "fantasyPointsFanduel": 13.1,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "awayTeam": {
+        "id": 6,
+        "sport": "nba",
+        "key": "NYK",
+        "name": "Knicks",
+        "displayName": "Knicks",
+        "avatar": "fd25c32727",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#F5842644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22358,
+      "opponentTeamId": 6,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 24,
+      "seconds": 21,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-05-06T01:07:41.610Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-05-05T23:06:24.351Z",
+      "id": 1394856075,
+      "value": "1.5778458569178726",
+      "tags": [
+        181,
+        120,
+        182,
+        190,
+        120,
+        130,
+        182,
+        65,
+        75
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        533,
+        654,
+        658
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "1.5778458569178726",
+      "detail": null,
+      "numBreakouts": 5,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 236,
+      "day": "2025-05-05",
+      "dateTime": "2025-05-05T23:00:00.000Z",
+      "homeTeamId": 9,
+      "awayTeamId": 6,
+      "homeTeamScore": 105,
+      "awayTeamScore": 108,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "f1d970662ea8b873a9ddf4e2a963fc31",
+          "playerBoxScoreId": 1394856075,
+          "count": 162,
+          "createdAt": "2025-05-05T23:08:00.483037+00:00"
+        },
+        {
+          "emojiId": "6c00f3333085425628e9ad939ab44093",
+          "playerBoxScoreId": 1394856075,
+          "count": 119,
+          "createdAt": "2025-05-05T23:07:15.458086+00:00"
+        },
+        {
+          "emojiId": "4eb12810d5b8aaa5f2b58b8f4b1fd206",
+          "playerBoxScoreId": 1394856075,
+          "count": 117,
+          "createdAt": "2025-05-05T23:20:07.458205+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1394856075,
+          "count": 5,
+          "createdAt": "2025-05-05T23:49:28.464252+00:00"
+        },
+        {
+          "emojiId": "f0a3bfd8d61375cda12e8211e9cfacc1",
+          "playerBoxScoreId": 1394856075,
+          "count": 3,
+          "createdAt": "2025-05-05T23:54:02.826575+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 13
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 3
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 1
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 24,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 13,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 3,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 1,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 0,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 1,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 50,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "3/6",
+          "secondaryValue": "50%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "2/5",
+          "secondaryValue": "40%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "5/5",
+          "secondaryValue": "100%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 1,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 2,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 0,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 3,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 79.3,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 18,
+        "default": 17.1
+      },
+      "fantasyPointsFanduel": 17.1,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "awayTeam": {
+        "id": 6,
+        "sport": "nba",
+        "key": "NYK",
+        "name": "Knicks",
+        "displayName": "Knicks",
+        "avatar": "fd25c32727",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#F5842644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22319,
+      "opponentTeamId": 5,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 25,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-04-30T03:05:59.435Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-30T00:52:20.790Z",
+      "id": 1386911848,
+      "value": "1.2113261771031485",
+      "tags": [
+        181,
+        65,
+        240,
+        183,
+        65,
+        75,
+        184,
+        120,
+        130,
+        184,
+        120
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        533,
+        658
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "1.2113261771031485",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 126,
+      "day": "2025-04-29",
+      "dateTime": "2025-04-30T00:30:00.000Z",
+      "homeTeamId": 9,
+      "awayTeamId": 5,
+      "homeTeamScore": 120,
+      "awayTeamScore": 89,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "393a6087eb3289dadd719efc1ac2327c",
+          "playerBoxScoreId": 1386911848,
+          "count": 53,
+          "createdAt": "2025-04-30T00:54:28.354479+00:00"
+        },
+        {
+          "emojiId": "c111ac3bdc86ad6e7934cb386bd3f2eb",
+          "playerBoxScoreId": 1386911848,
+          "count": 48,
+          "createdAt": "2025-04-30T01:07:32.711996+00:00"
+        },
+        {
+          "emojiId": "f1d970662ea8b873a9ddf4e2a963fc31",
+          "playerBoxScoreId": 1386911848,
+          "count": 47,
+          "createdAt": "2025-04-30T01:01:33.119274+00:00"
+        },
+        {
+          "emojiId": "6c00f3333085425628e9ad939ab44093",
+          "playerBoxScoreId": 1386911848,
+          "count": 7,
+          "createdAt": "2025-04-30T00:52:48.63197+00:00"
+        },
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1386911848,
+          "count": 4,
+          "createdAt": "2025-04-30T01:15:08.487997+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 10
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 3
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 1
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 25,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 10,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 3,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 1,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 0,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 29,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 50,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "4/8",
+          "secondaryValue": "50%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "2/4",
+          "secondaryValue": "50%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "0/0",
+          "secondaryValue": "0%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 2,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 2,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 1,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 2,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 62.5,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 13,
+        "default": 13.1
+      },
+      "fantasyPointsFanduel": 13.1,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "awayTeam": {
+        "id": 5,
+        "sport": "nba",
+        "key": "ORL",
+        "name": "Magic",
+        "displayName": "Magic",
+        "avatar": "eb58840817",
+        "overallRank": null,
+        "primaryColorReal": "#0077C044",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22316,
+      "opponentTeamId": 5,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 25,
+      "seconds": 59,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-06-19T06:43:36.224Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-27T23:05:52.255Z",
+      "id": 1385650806,
+      "value": "0.544475498853564",
+      "tags": [],
+      "seasonType": "postseason",
+      "performanceTags": [
+        610,
+        658
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0.544475498853564",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 925,
+      "day": "2025-04-27",
+      "dateTime": "2025-04-27T23:00:00.000Z",
+      "homeTeamId": 5,
+      "awayTeamId": 9,
+      "homeTeamScore": 98,
+      "awayTeamScore": 107,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "4e7a9cc696cb52acb16dfc76f9d129e2",
+          "playerBoxScoreId": 1385650806,
+          "count": 232,
+          "createdAt": "2025-04-27T23:06:45.751609+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1385650806,
+          "count": 158,
+          "createdAt": "2025-04-27T23:32:05.834624+00:00"
+        },
+        {
+          "emojiId": "6c00f3333085425628e9ad939ab44093",
+          "playerBoxScoreId": 1385650806,
+          "count": 100,
+          "createdAt": "2025-04-27T23:06:21.614401+00:00"
+        },
+        {
+          "emojiId": "4ada851e17c7cfcf4e0b3bdc44c13154",
+          "playerBoxScoreId": 1385650806,
+          "count": 10,
+          "createdAt": "2025-04-28T00:05:14.174018+00:00"
+        },
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1385650806,
+          "count": 9,
+          "createdAt": "2025-04-27T23:26:58.64534+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 1
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 2
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 26,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 0,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 1,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 2,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 0,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 11,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 0,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "0/2",
+          "secondaryValue": "0%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "0/2",
+          "secondaryValue": "0%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "0/0",
+          "secondaryValue": "0%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 0,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 3,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 1,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 0,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 0,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 3,
+        "default": 4.2
+      },
+      "fantasyPointsFanduel": 4.2,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 5,
+        "sport": "nba",
+        "key": "ORL",
+        "name": "Magic",
+        "displayName": "Magic",
+        "avatar": "eb58840817",
+        "overallRank": null,
+        "primaryColorReal": "#0077C044",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22300,
+      "opponentTeamId": 5,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 25,
+      "seconds": 33,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-04-26T01:59:54.659Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-25T23:14:02.189Z",
+      "id": 1382520699,
+      "value": "0.25366210263275535",
+      "tags": [
+        183,
+        65,
+        230
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0.25366210263275535",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 1375,
+      "day": "2025-04-25",
+      "dateTime": "2025-04-25T23:00:00.000Z",
+      "homeTeamId": 5,
+      "awayTeamId": 9,
+      "homeTeamScore": 95,
+      "awayTeamScore": 93,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1382520699,
+          "count": 341,
+          "createdAt": "2025-04-25T23:35:43.451732+00:00"
+        },
+        {
+          "emojiId": "6c00f3333085425628e9ad939ab44093",
+          "playerBoxScoreId": 1382520699,
+          "count": 89,
+          "createdAt": "2025-04-25T23:14:12.99074+00:00"
+        },
+        {
+          "emojiId": "9dd4b339939b94708474b73d89c794c4",
+          "playerBoxScoreId": 1382520699,
+          "count": 88,
+          "createdAt": "2025-04-25T23:16:40.421749+00:00"
+        },
+        {
+          "emojiId": "9e42fac26d272b6e7bd138763a00b888",
+          "playerBoxScoreId": 1382520699,
+          "count": 3,
+          "createdAt": "2025-04-25T23:15:22.259378+00:00"
+        },
+        {
+          "emojiId": "b708c52d7a518dfc318460cf4dac3832",
+          "playerBoxScoreId": 1382520699,
+          "count": 2,
+          "createdAt": "2025-04-25T23:32:13.298722+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 3
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 1
+        },
+        {
+          "type": "4",
+          "label": "stl",
+          "fullLabel": "stl",
+          "value": 2
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 26,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 3,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 1,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 0,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 2,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": -6,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 50,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "1/2",
+          "secondaryValue": "50%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "0/0",
+          "secondaryValue": "0%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "1/2",
+          "secondaryValue": "50%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 3,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 3,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 1,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 0,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 52.1,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 5,
+        "default": 7.2
+      },
+      "fantasyPointsFanduel": 7.2,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 5,
+        "sport": "nba",
+        "key": "ORL",
+        "name": "Magic",
+        "displayName": "Magic",
+        "avatar": "eb58840817",
+        "overallRank": null,
+        "primaryColorReal": "#0077C044",
+        "secondaryColorReal": "#00000044"
+      },
+      "awayTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 9,
+      "playerId": 20002551,
+      "gameId": 22299,
+      "opponentTeamId": 5,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 32,
+      "seconds": 37,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": "2025-06-19T06:43:40.304Z",
+      "injuryStatus": null,
+      "injuryBodyPart": null,
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-23T23:06:00.841Z",
+      "id": 1380910339,
+      "value": "1.5752553877113569",
+      "tags": [
+        182,
+        120,
+        182,
+        65,
+        75,
+        183,
+        120,
+        183,
+        120,
+        184,
+        65,
+        75,
+        245
+      ],
+      "seasonType": "postseason",
+      "performanceTags": [
+        533,
+        654,
+        658
+      ],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "1.5752553877113569",
+      "detail": null,
+      "numBreakouts": 4,
+      "breakoutPeriods": null,
+      "jerseyNumber": "11",
+      "rankOrder": null,
+      "commentCount": 2405,
+      "day": "2025-04-23",
+      "dateTime": "2025-04-23T23:00:00.000Z",
+      "homeTeamId": 9,
+      "awayTeamId": 5,
+      "homeTeamScore": 109,
+      "awayTeamScore": 100,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "e1d85c440f1045c645d0c59d9d2f861a",
+          "playerBoxScoreId": 1380910339,
+          "count": 331,
+          "createdAt": "2025-04-23T23:06:11.958909+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1380910339,
+          "count": 167,
+          "createdAt": "2025-04-23T23:12:31.98963+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1380910339,
+          "count": 108,
+          "createdAt": "2025-04-23T23:07:36.074024+00:00"
+        },
+        {
+          "emojiId": "fe0c2f9be33edd50b72687e5d0da2bac",
+          "playerBoxScoreId": 1380910339,
+          "count": 9,
+          "createdAt": "2025-04-23T23:29:44.510761+00:00"
+        },
+        {
+          "emojiId": "f1d970662ea8b873a9ddf4e2a963fc31",
+          "playerBoxScoreId": 1380910339,
+          "count": 8,
+          "createdAt": "2025-04-24T00:50:19.679382+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 14
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 3
+        },
+        {
+          "type": "4",
+          "label": "stl",
+          "fullLabel": "stl",
+          "value": 1
+        }
+      ],
+      "injuryDisplay": null,
+      "didNotPlay": false,
+      "statValues": [
+        {
+          "type": 8,
+          "value": 33,
+          "label": "min"
+        },
+        {
+          "type": 1,
+          "value": 14,
+          "label": "pts"
+        },
+        {
+          "type": 3,
+          "value": 3,
+          "label": "reb"
+        },
+        {
+          "type": 2,
+          "value": 0,
+          "label": "ast"
+        },
+        {
+          "type": 4,
+          "value": 1,
+          "label": "stl"
+        },
+        {
+          "type": 5,
+          "value": 0,
+          "label": "blk"
+        },
+        {
+          "type": 14,
+          "value": 6,
+          "colored": true,
+          "label": "+/-"
+        },
+        {
+          "type": 9,
+          "value": 45.5,
+          "label": "fg%",
+          "size": "lg"
+        },
+        {
+          "type": 26,
+          "value": "5/11",
+          "secondaryValue": "45.5%",
+          "label": "fg",
+          "size": "lg"
+        },
+        {
+          "type": 27,
+          "value": "3/6",
+          "secondaryValue": "50%",
+          "label": "3fg",
+          "size": "lg"
+        },
+        {
+          "type": 28,
+          "value": "1/3",
+          "secondaryValue": "33.3%",
+          "label": "fts",
+          "size": "lg"
+        },
+        {
+          "type": 6,
+          "value": 1,
+          "label": "to",
+          "size": "sm"
+        },
+        {
+          "type": 25,
+          "value": 3,
+          "label": "pf",
+          "size": "sm"
+        },
+        {
+          "type": 23,
+          "value": 0,
+          "label": "oreb"
+        },
+        {
+          "type": 24,
+          "value": 3,
+          "label": "dreb"
+        },
+        {
+          "type": 38,
+          "value": 56.8,
+          "label": "ts%"
+        }
+      ],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 19,
+        "default": 19.6
+      },
+      "fantasyPointsFanduel": 19.6,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002551,
+        "sport": "nba",
+        "teamId": 9,
+        "avatar": "b43905614cfb5f8098cdabaff5ba2980",
+        "firstName": "Payton",
+        "lastName": "Pritchard",
+        "injuryStatus": null,
+        "displayName": "P. Pritchard",
+        "backgroundColor": "#00834844",
+        "jersey": 11
+      },
+      "team": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "homeTeam": {
+        "id": 9,
+        "sport": "nba",
+        "key": "BOS",
+        "name": "Celtics",
+        "displayName": "Celtics",
+        "avatar": "326928298a",
+        "overallRank": null,
+        "primaryColorReal": "#00834844",
+        "secondaryColorReal": "#BB975344"
+      },
+      "awayTeam": {
+        "id": 5,
+        "sport": "nba",
+        "key": "ORL",
+        "name": "Magic",
+        "displayName": "Magic",
+        "avatar": "eb58840817",
+        "overallRank": null,
+        "primaryColorReal": "#0077C044",
+        "secondaryColorReal": "#00000044"
+      }
+    }
+  ],
+  "statsInfo": {
+    "playerId": "20002551",
+    "sport": "nba",
+    "games": 80,
+    "total": 150,
+    "season": 2025,
+    "seasonLabel": "2024-25",
+    "showSplits": true,
+    "stats": [
+      {
+        "statType": 1,
+        "display": null,
+        "rank": 106,
+        "label": "pts",
+        "displayLabel": "Points per game",
+        "value": "14.3"
+      },
+      {
+        "statType": 3,
+        "display": null,
+        "rank": 207,
+        "label": "reb",
+        "displayLabel": "Rebounds per game",
+        "value": "3.8"
+      },
+      {
+        "statType": 2,
+        "display": null,
+        "rank": 105,
+        "label": "ast",
+        "displayLabel": "Assists per game",
+        "value": "3.5"
+      },
+      {
+        "statType": 4,
+        "display": null,
+        "rank": 163,
+        "label": "stl",
+        "displayLabel": "Steals per game",
+        "value": "0.9"
+      },
+      {
+        "statType": 5,
+        "display": null,
+        "rank": 389,
+        "label": "blk",
+        "displayLabel": "Blocks per game",
+        "value": "0.2"
+      },
+      {
+        "statType": 6,
+        "display": null,
+        "rank": 240,
+        "label": "to",
+        "displayLabel": "Turnovers per game",
+        "value": "1.0"
+      },
+      {
+        "statType": 8,
+        "display": null,
+        "rank": 119,
+        "label": "min",
+        "displayLabel": "Minutes per game",
+        "value": "28.4"
+      },
+      {
+        "statType": 9,
+        "display": null,
+        "rank": 195,
+        "label": "fg%",
+        "displayLabel": "Field goal %",
+        "value": "47.2"
+      },
+      {
+        "statType": 10,
+        "display": null,
+        "rank": 55,
+        "label": "3fg%",
+        "displayLabel": "3-pointer %",
+        "value": "40.7"
+      },
+      {
+        "statType": 22,
+        "display": null,
+        "rank": 23,
+        "label": "3pa",
+        "displayLabel": "3-pointers attempted per game",
+        "value": "7.8"
+      },
+      {
+        "statType": 11,
+        "display": null,
+        "rank": 96,
+        "label": "ft%",
+        "displayLabel": "Free-throw %",
+        "value": "84.5"
+      },
+      {
+        "statType": 30,
+        "display": null,
+        "rank": 305,
+        "label": "fta",
+        "displayLabel": "Free throws attempted per game",
+        "value": "1.1"
+      },
+      {
+        "statType": 14,
+        "display": null,
+        "rank": 33,
+        "label": "+/-",
+        "displayLabel": "+/- per game",
+        "value": "5.4"
+      },
+      {
+        "statType": 38,
+        "display": null,
+        "rank": 59,
+        "label": "ts%",
+        "displayLabel": "True-shooting %",
+        "value": "63.3"
+      }
+    ]
+  },
+  "perfData": {
+    "data": [
+      {
+        "title": "",
+        "data": [
+          {
+            "value": "3.6",
+            "displayValue": "3.6",
+            "primaryLabel": "vs",
+            "subLabel": "ORL",
+            "path": "/dLFrFgFlP9oB8"
+          },
+          {
+            "value": "1.6",
+            "displayValue": "1.6",
+            "primaryLabel": "vs",
+            "subLabel": "ORL",
+            "path": "/9GFrFlFP4gOrR"
+          },
+          {
+            "value": "0.3",
+            "displayValue": "0.3",
+            "primaryLabel": "@",
+            "subLabel": "ORL",
+            "path": "/7GF9FRFrEAQ3G"
+          },
+          {
+            "value": "0.5",
+            "displayValue": "0.5",
+            "primaryLabel": "@",
+            "subLabel": "ORL",
+            "path": "/r6FdF1FJ6M3Ya"
+          },
+          {
+            "value": "1.2",
+            "displayValue": "1.2",
+            "primaryLabel": "vs",
+            "subLabel": "ORL",
+            "path": "/QvF5FJFra0xmD"
+          },
+          {
+            "value": "1.6",
+            "displayValue": "1.6",
+            "primaryLabel": "vs",
+            "subLabel": "NYK",
+            "path": "/bLF8FMFeA1EO3"
+          },
+          {
+            "value": "1.1",
+            "displayValue": "1.1",
+            "primaryLabel": "vs",
+            "subLabel": "NYK",
+            "path": "/7GF9FRFraeaK1"
+          },
+          {
+            "value": "3.8",
+            "displayValue": "3.8",
+            "primaryLabel": "@",
+            "subLabel": "NYK",
+            "path": "/dLFrFgFlYMDwK"
+          },
+          {
+            "value": "1.2",
+            "displayValue": "1.2",
+            "primaryLabel": "@",
+            "subLabel": "NYK",
+            "path": "/eLF9FdF3jPRYG"
+          },
+          {
+            "value": "3.0",
+            "displayValue": "3.0",
+            "primaryLabel": "vs",
+            "subLabel": "NYK",
+            "path": "/K5F8F1F8jbbP3"
+          },
+          {
+            "value": "1.8",
+            "displayValue": "1.8",
+            "primaryLabel": "@",
+            "subLabel": "NYK",
+            "path": "/LqFAFmFKbYLwm"
+          }
+        ]
+      }
+    ],
+    "title": "Recent performances"
+  },
+  "emojiUsages": []
+}

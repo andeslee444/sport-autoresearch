@@ -1,0 +1,120 @@
+{
+  "sport": "nba",
+  "min_minutes": 20.0,
+  "max_players_requested": 50,
+  "search_total": 50,
+  "qualified_count": 42,
+  "players_collected": 26,
+  "players_cached": 16,
+  "players_skipped_minutes": 1,
+  "players_errored": 0,
+  "total_games": 367,
+  "elapsed_seconds": 24.7,
+  "collected_at": "2026-03-18T16:37:17Z",
+  "players": {
+    "20001999": {
+      "name": "Shai Gilgeous-Alexander",
+      "games": 10
+    },
+    "20001856": {
+      "name": "Derrick White",
+      "games": 10
+    },
+    "20002666": {
+      "name": "Alperen Seng\u00fcn",
+      "games": 8
+    },
+    "20001836": {
+      "name": "Bam Adebayo",
+      "games": 8
+    },
+    "20003451": {
+      "name": "Kon Knueppel",
+      "games": 5
+    },
+    "20001998": {
+      "name": "Mikal Bridges",
+      "games": 10
+    },
+    "20002551": {
+      "name": "Payton Pritchard",
+      "games": 10
+    },
+    "20002550": {
+      "name": "Immanuel Quickley",
+      "games": 4
+    },
+    "20002863": {
+      "name": "Paolo Banchero",
+      "games": 8
+    },
+    "20000456": {
+      "name": "DeMar DeRozan",
+      "games": 10
+    },
+    "20001710": {
+      "name": "Pascal Siakam",
+      "games": 10
+    },
+    "20002285": {
+      "name": "Nickeil Alexander-Walker",
+      "games": 10
+    },
+    "20002875": {
+      "name": "Jalen Duren",
+      "games": 10
+    },
+    "20002534": {
+      "name": "Deni Avdija",
+      "games": 6
+    },
+    "20001460": {
+      "name": "Devin Booker",
+      "games": 9
+    },
+    "20003044": {
+      "name": "Keyonte George",
+      "games": 10
+    },
+    "20002870": {
+      "name": "Chet Holmgren",
+      "games": 10
+    },
+    "20002878": {
+      "name": "Dyson Daniels",
+      "games": 9
+    },
+    "20002669": {
+      "name": "Evan Mobley",
+      "games": 8
+    },
+    "20003444": {
+      "name": "Cooper Flagg",
+      "games": 2
+    },
+    "20002003": {
+      "name": "Miles Bridges",
+      "games": 7
+    },
+    "20003190": {
+      "name": "Donovan Clingan",
+      "games": 10
+    },
+    "20002531": {
+      "name": "Onyeka Okongwu",
+      "games": 9
+    },
+    "20003192": {
+      "name": "Stephon Castle",
+      "games": 10
+    },
+    "20001988": {
+      "name": "Michael Porter Jr.",
+      "games": 10
+    },
+    "20000678": {
+      "name": "Nikola Vu\u010devi\u0107",
+      "games": 9
+    }
+  }
+}

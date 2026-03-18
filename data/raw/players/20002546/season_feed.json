@@ -1,0 +1,1631 @@
+{
+  "playerBoxScores": [
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22152,
+      "opponentTeamId": 11,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-13T17:10:38.038Z",
+      "id": 1367180392,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 12,
+      "day": "2025-04-13",
+      "dateTime": "2025-04-13T17:00:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 11,
+      "homeTeamScore": 102,
+      "awayTeamScore": 122,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "ab32563245687587f4f6985f0b4c59d4",
+          "playerBoxScoreId": 1367180392,
+          "count": 37,
+          "createdAt": "2025-04-13T17:14:43.12444+00:00"
+        },
+        {
+          "emojiId": "8ba5c9b7f1b3674fa13be3c720b2333c",
+          "playerBoxScoreId": 1367180392,
+          "count": 12,
+          "createdAt": "2025-04-19T15:05:50.699613+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1367180392,
+          "count": 10,
+          "createdAt": "2025-04-17T03:50:45.284811+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1367180392,
+          "count": 1,
+          "createdAt": "2025-04-24T02:06:35.926962+00:00"
+        },
+        {
+          "emojiId": "56678257f896d87d58852e1404b3dc46",
+          "playerBoxScoreId": 1367180392,
+          "count": 1,
+          "createdAt": "2025-05-24T16:02:56.085168+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 11,
+        "sport": "nba",
+        "key": "CHI",
+        "name": "Bulls",
+        "displayName": "Bulls",
+        "avatar": "71792a2f05",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22134,
+      "opponentTeamId": 3,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-11T23:10:36.869Z",
+      "id": 1363709070,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 8,
+      "day": "2025-04-11",
+      "dateTime": "2025-04-11T23:00:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 3,
+      "homeTeamScore": 110,
+      "awayTeamScore": 124,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1363709070,
+          "count": 6,
+          "createdAt": "2025-04-12T00:20:19.640807+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1363709070,
+          "count": 3,
+          "createdAt": "2025-04-12T03:18:06.130399+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1363709070,
+          "count": 3,
+          "createdAt": "2025-04-13T01:27:16.953333+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 3,
+        "sport": "nba",
+        "key": "ATL",
+        "name": "Hawks",
+        "displayName": "Hawks",
+        "avatar": "8a9d542e2b",
+        "overallRank": null,
+        "primaryColorReal": "#E03A3E44",
+        "secondaryColorReal": "#C1D32F44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22118,
+      "opponentTeamId": 1,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-09T23:13:59.355Z",
+      "id": 1360719541,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 2,
+      "day": "2025-04-09",
+      "dateTime": "2025-04-09T23:00:00.000Z",
+      "homeTeamId": 1,
+      "awayTeamId": 7,
+      "homeTeamScore": 103,
+      "awayTeamScore": 122,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1360719541,
+          "count": 4,
+          "createdAt": "2025-04-11T03:00:24.717684+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1360719541,
+          "count": 2,
+          "createdAt": "2025-04-10T03:51:26.970675+00:00"
+        },
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1360719541,
+          "count": 1,
+          "createdAt": "2025-04-10T21:06:32.462871+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "W",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 1,
+        "sport": "nba",
+        "key": "WAS",
+        "name": "Wizards",
+        "displayName": "Wizards",
+        "avatar": "9f6961b4af",
+        "overallRank": null,
+        "primaryColorReal": "#E3183744",
+        "secondaryColorReal": "#002B5C44"
+      },
+      "awayTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22106,
+      "opponentTeamId": 4,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-07T23:42:20.016Z",
+      "id": 1357787740,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 11,
+      "day": "2025-04-07",
+      "dateTime": "2025-04-07T23:30:00.000Z",
+      "homeTeamId": 4,
+      "awayTeamId": 7,
+      "homeTeamScore": 117,
+      "awayTeamScore": 105,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "6e15d54d659a74f6b60b3d295bd445c9",
+          "playerBoxScoreId": 1357787740,
+          "count": 5,
+          "createdAt": "2025-04-08T00:02:00.845239+00:00"
+        },
+        {
+          "emojiId": "cc9fb8ccd14ef1e1fa6d1cd4ceba4f4e",
+          "playerBoxScoreId": 1357787740,
+          "count": 3,
+          "createdAt": "2025-04-08T04:14:07.964434+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 4,
+        "sport": "nba",
+        "key": "MIA",
+        "name": "Heat",
+        "displayName": "Heat",
+        "avatar": "94eab54aaf",
+        "overallRank": null,
+        "primaryColorReal": "#98002E44",
+        "secondaryColorReal": "#F9A01B44"
+      },
+      "awayTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22091,
+      "opponentTeamId": 16,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-05T23:10:59.299Z",
+      "id": 1354513504,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 8,
+      "day": "2025-04-05",
+      "dateTime": "2025-04-05T23:00:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 16,
+      "homeTeamScore": 109,
+      "awayTeamScore": 114,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1354513504,
+          "count": 5,
+          "createdAt": "2025-04-05T23:59:44.440143+00:00"
+        },
+        {
+          "emojiId": "943e1c8611436abbeb23c3b6f8bfa8a4",
+          "playerBoxScoreId": 1354513504,
+          "count": 5,
+          "createdAt": "2025-04-06T00:11:50.347321+00:00"
+        },
+        {
+          "emojiId": "98238a2aa55921d541dce8cf9004863a",
+          "playerBoxScoreId": 1354513504,
+          "count": 5,
+          "createdAt": "2025-04-06T05:39:12.901373+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 16,
+        "sport": "nba",
+        "key": "MIN",
+        "name": "Wolves",
+        "displayName": "Wolves",
+        "avatar": "3d19efa023",
+        "overallRank": null,
+        "primaryColorReal": "#0C234044",
+        "secondaryColorReal": "#78BE2044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22076,
+      "opponentTeamId": 15,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-03T23:10:18.562Z",
+      "id": 1349903107,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 8,
+      "day": "2025-04-03",
+      "dateTime": "2025-04-03T23:00:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 15,
+      "homeTeamScore": 113,
+      "awayTeamScore": 126,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "f0b1729e123d38e8b5b1b06560dd836c",
+          "playerBoxScoreId": 1349903107,
+          "count": 13,
+          "createdAt": "2025-04-03T23:35:04.023796+00:00"
+        },
+        {
+          "emojiId": "f7e7ae19d5eb8e98c5e212269513b312",
+          "playerBoxScoreId": 1349903107,
+          "count": 5,
+          "createdAt": "2025-04-03T23:30:59.630895+00:00"
+        },
+        {
+          "emojiId": "a0efb39488b7dc752f98f5253762c980",
+          "playerBoxScoreId": 1349903107,
+          "count": 4,
+          "createdAt": "2025-04-04T00:03:19.144982+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 15,
+        "sport": "nba",
+        "key": "MIL",
+        "name": "Bucks",
+        "displayName": "Bucks",
+        "avatar": "cc8c85a244",
+        "overallRank": null,
+        "primaryColorReal": "#00471B44",
+        "secondaryColorReal": "#EEE1C644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22059,
+      "opponentTeamId": 6,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-04-01T23:41:28.458Z",
+      "id": 1346223465,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 24,
+      "day": "2025-04-01",
+      "dateTime": "2025-04-01T23:30:00.000Z",
+      "homeTeamId": 6,
+      "awayTeamId": 7,
+      "homeTeamScore": 105,
+      "awayTeamScore": 91,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "c4200c5e333b90050e2cfdf287152875",
+          "playerBoxScoreId": 1346223465,
+          "count": 9,
+          "createdAt": "2025-04-03T06:05:32.743522+00:00"
+        },
+        {
+          "emojiId": "625aec03042b5f2889ba66b75afee808",
+          "playerBoxScoreId": 1346223465,
+          "count": 5,
+          "createdAt": "2025-04-02T06:13:14.037437+00:00"
+        },
+        {
+          "emojiId": "996f23bc55d2b546c31e17dccff4a12f",
+          "playerBoxScoreId": 1346223465,
+          "count": 4,
+          "createdAt": "2025-04-02T00:29:08.485835+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1346223465,
+          "count": 2,
+          "createdAt": "2025-04-02T06:13:11.040556+00:00"
+        },
+        {
+          "emojiId": "0472f97f67d3367c538b70855de340c8",
+          "playerBoxScoreId": 1346223465,
+          "count": 1,
+          "createdAt": "2025-04-03T20:05:08.99866+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 6,
+        "sport": "nba",
+        "key": "NYK",
+        "name": "Knicks",
+        "displayName": "Knicks",
+        "avatar": "fd25c32727",
+        "overallRank": null,
+        "primaryColorReal": "#006BB644",
+        "secondaryColorReal": "#F5842644"
+      },
+      "awayTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22048,
+      "opponentTeamId": 10,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-30T23:42:12.948Z",
+      "id": 1343925576,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 76,
+      "day": "2025-03-30",
+      "dateTime": "2025-03-30T23:30:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 10,
+      "homeTeamScore": 109,
+      "awayTeamScore": 127,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "c4200c5e333b90050e2cfdf287152875",
+          "playerBoxScoreId": 1343925576,
+          "count": 6,
+          "createdAt": "2025-04-03T06:05:35.743602+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1343925576,
+          "count": 3,
+          "createdAt": "2025-03-30T23:46:19.025828+00:00"
+        },
+        {
+          "emojiId": "d1a3dc6cc58cbb52b23de7b467630169",
+          "playerBoxScoreId": 1343925576,
+          "count": 2,
+          "createdAt": "2025-03-31T01:11:16.111465+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 10,
+        "sport": "nba",
+        "key": "TOR",
+        "name": "Raptors",
+        "displayName": "Raptors",
+        "avatar": "d49c98fe26",
+        "overallRank": null,
+        "primaryColorReal": "#CE114144",
+        "secondaryColorReal": "#00000044"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22037,
+      "opponentTeamId": 4,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-29T23:40:48.220Z",
+      "id": 1341606366,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 7,
+      "day": "2025-03-29",
+      "dateTime": "2025-03-29T23:30:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 4,
+      "homeTeamScore": 95,
+      "awayTeamScore": 118,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1341606366,
+          "count": 5,
+          "createdAt": "2025-03-30T09:37:14.867394+00:00"
+        },
+        {
+          "emojiId": "f7e7ae19d5eb8e98c5e212269513b312",
+          "playerBoxScoreId": 1341606366,
+          "count": 3,
+          "createdAt": "2025-03-30T01:37:38.049311+00:00"
+        },
+        {
+          "emojiId": "9e354cc425b0c99bf459f1f867856a93",
+          "playerBoxScoreId": 1341606366,
+          "count": 3,
+          "createdAt": "2025-03-30T02:09:41.379404+00:00"
+        },
+        {
+          "emojiId": "ee1f013dc6aa743331a6217507cb4621",
+          "playerBoxScoreId": 1341606366,
+          "count": 0,
+          "createdAt": "2025-03-30T04:26:43.287068+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 4,
+        "sport": "nba",
+        "key": "MIA",
+        "name": "Heat",
+        "displayName": "Heat",
+        "avatar": "94eab54aaf",
+        "overallRank": null,
+        "primaryColorReal": "#98002E44",
+        "secondaryColorReal": "#F9A01B44"
+      }
+    },
+    {
+      "sport": "nba",
+      "teamId": 7,
+      "playerId": 20002546,
+      "gameId": 22014,
+      "opponentTeamId": 1,
+      "season": 2025,
+      "position": "G",
+      "started": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "lineupConfirmed": null,
+      "lineupStatus": null,
+      "updated": null,
+      "onCourtAt": null,
+      "injuryStatus": "Out",
+      "injuryBodyPart": "Right Finger; Sprain",
+      "injuryStartDate": null,
+      "injuryNotes": null,
+      "realCreatedAt": "2025-03-26T23:11:34.659Z",
+      "id": 1336530733,
+      "value": "0",
+      "tags": [],
+      "seasonType": "regularseason",
+      "performanceTags": [],
+      "played": true,
+      "experience": null,
+      "ignoredStatTypes": null,
+      "brawlValue": "0",
+      "detail": null,
+      "numBreakouts": null,
+      "breakoutPeriods": null,
+      "jerseyNumber": "0",
+      "rankOrder": null,
+      "commentCount": 11,
+      "day": "2025-03-26",
+      "dateTime": "2025-03-26T23:00:00.000Z",
+      "homeTeamId": 7,
+      "awayTeamId": 1,
+      "homeTeamScore": 114,
+      "awayTeamScore": 119,
+      "gameStatus": "final",
+      "emojis": [
+        {
+          "emojiId": "83ea4e2554f1d9268d43217f1f09926a",
+          "playerBoxScoreId": 1336530733,
+          "count": 4,
+          "createdAt": "2025-03-26T23:25:53.160774+00:00"
+        },
+        {
+          "emojiId": "3735f6a160ba16356e57a5e6a275c617",
+          "playerBoxScoreId": 1336530733,
+          "count": 4,
+          "createdAt": "2025-03-27T02:21:09.023565+00:00"
+        },
+        {
+          "emojiId": "9dd4b339939b94708474b73d89c794c4",
+          "playerBoxScoreId": 1336530733,
+          "count": 1,
+          "createdAt": "2025-03-28T08:09:34.332163+00:00"
+        },
+        {
+          "emojiId": "3d2fcdb643604ef96cd0b3ed1dc37e89",
+          "playerBoxScoreId": 1336530733,
+          "count": 0,
+          "createdAt": "2025-03-29T03:49:12.66352+00:00"
+        },
+        {
+          "emojiId": "2284511c34c7d67fafffcfcc4eccde3d",
+          "playerBoxScoreId": 1336530733,
+          "count": 0,
+          "createdAt": "2025-03-29T03:49:06.663373+00:00"
+        }
+      ],
+      "topStats": [
+        {
+          "type": "1",
+          "label": "pts",
+          "fullLabel": "pts",
+          "value": 0
+        },
+        {
+          "type": "3",
+          "label": "reb",
+          "fullLabel": "reb",
+          "value": 0
+        },
+        {
+          "type": "2",
+          "label": "ast",
+          "fullLabel": "ast",
+          "value": 0
+        }
+      ],
+      "injuryDisplay": "Out \u00b7 Right Finger; Sprain",
+      "didNotPlay": true,
+      "statValues": [],
+      "advancedStatValues": [],
+      "fantasyStats": {
+        "espn": 0,
+        "default": 0
+      },
+      "fantasyPointsFanduel": 0,
+      "gameResultLabel": "L",
+      "player": {
+        "id": 20002546,
+        "sport": "nba",
+        "teamId": 7,
+        "avatar": "8d403a433fb9ece2babbad72e48a4025",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "injuryStatus": "Out",
+        "displayName": "T. Maxey",
+        "backgroundColor": "#ED174C44",
+        "jersey": 0
+      },
+      "team": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "homeTeam": {
+        "id": 7,
+        "sport": "nba",
+        "key": "PHI",
+        "name": "76ers",
+        "displayName": "76ers",
+        "avatar": "e278eda9de",
+        "overallRank": null,
+        "primaryColorReal": "#ED174C44",
+        "secondaryColorReal": "#006BB644"
+      },
+      "awayTeam": {
+        "id": 1,
+        "sport": "nba",
+        "key": "WAS",
+        "name": "Wizards",
+        "displayName": "Wizards",
+        "avatar": "9f6961b4af",
+        "overallRank": null,
+        "primaryColorReal": "#E3183744",
+        "secondaryColorReal": "#002B5C44"
+      }
+    }
+  ],
+  "statsInfo": {
+    "playerId": "20002546",
+    "sport": "nba",
+    "games": 52,
+    "total": 150,
+    "season": 2025,
+    "seasonLabel": "2024-25",
+    "showSplits": true,
+    "stats": [
+      {
+        "statType": 1,
+        "display": null,
+        "rank": 8,
+        "label": "pts",
+        "displayLabel": "Points per game",
+        "value": "26.3"
+      },
+      {
+        "statType": 3,
+        "display": null,
+        "rank": 263,
+        "label": "reb",
+        "displayLabel": "Rebounds per game",
+        "value": "3.3"
+      },
+      {
+        "statType": 2,
+        "display": null,
+        "rank": 22,
+        "label": "ast",
+        "displayLabel": "Assists per game",
+        "value": "6.1"
+      },
+      {
+        "statType": 4,
+        "display": null,
+        "rank": 9,
+        "label": "stl",
+        "displayLabel": "Steals per game",
+        "value": "1.8"
+      },
+      {
+        "statType": 5,
+        "display": null,
+        "rank": 215,
+        "label": "blk",
+        "displayLabel": "Blocks per game",
+        "value": "0.4"
+      },
+      {
+        "statType": 6,
+        "display": null,
+        "rank": 57,
+        "label": "to",
+        "displayLabel": "Turnovers per game",
+        "value": "2.4"
+      },
+      {
+        "statType": 8,
+        "display": null,
+        "rank": 1,
+        "label": "min",
+        "displayLabel": "Minutes per game",
+        "value": "37.7"
+      },
+      {
+        "statType": 9,
+        "display": null,
+        "rank": 311,
+        "label": "fg%",
+        "displayLabel": "Field goal %",
+        "value": "43.7"
+      },
+      {
+        "statType": 10,
+        "display": null,
+        "rank": 272,
+        "label": "3fg%",
+        "displayLabel": "3-pointer %",
+        "value": "33.7"
+      },
+      {
+        "statType": 22,
+        "display": null,
+        "rank": 8,
+        "label": "3pa",
+        "displayLabel": "3-pointers attempted per game",
+        "value": "9.2"
+      },
+      {
+        "statType": 11,
+        "display": null,
+        "rank": 50,
+        "label": "ft%",
+        "displayLabel": "Free-throw %",
+        "value": "87.9"
+      },
+      {
+        "statType": 30,
+        "display": null,
+        "rank": 23,
+        "label": "fta",
+        "displayLabel": "Free throws attempted per game",
+        "value": "5.6"
+      },
+      {
+        "statType": 14,
+        "display": null,
+        "rank": 435,
+        "label": "+/-",
+        "displayLabel": "+/- per game",
+        "value": "-2.4"
+      },
+      {
+        "statType": 38,
+        "display": null,
+        "rank": 282,
+        "label": "ts%",
+        "displayLabel": "True-shooting %",
+        "value": "56.2"
+      }
+    ]
+  },
+  "perfData": {
+    "data": [
+      {
+        "title": "",
+        "data": [
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "NOP",
+            "path": "/vJFmFbFBAW0wL"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "WAS",
+            "path": "/B3FkFoFE506oJ"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "MIA",
+            "path": "/xmFWFEFKg0do1"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "TOR",
+            "path": "/WaFYFDFMxPQaA"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "NYK",
+            "path": "/PkFYFDF4yyOg6"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "MIL",
+            "path": "/5GFjF5FBBW4rJ"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "MIN",
+            "path": "/VKFaFVFrNWeWa"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "MIA",
+            "path": "/MAFvFkF9bEgkN"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "@",
+            "subLabel": "WAS",
+            "path": "/vJFmFbFB1Q4MN"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "ATL",
+            "path": "/ENFoFMFJyVolK"
+          },
+          {
+            "value": "0.0",
+            "displayValue": "0.0",
+            "primaryLabel": "vs",
+            "subLabel": "CHI",
+            "path": "/LqFAFmFKvmP9l"
+          }
+        ]
+      }
+    ],
+    "title": "Recent performances"
+  },
+  "emojiUsages": []
+}
