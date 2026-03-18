@@ -581,52 +581,81 @@ def director_loop(check_interval: int, no_agent: bool) -> None:
 
 
 def _wait_with_visibility(seconds: int) -> None:
-    """Wait with a live countdown and agent log tailing."""
+    """Wait with live countdown, experiment timing, and agent log tailing."""
     log_path = PROJECT_ROOT / "run.log"
     last_log_size = log_path.stat().st_size if log_path.exists() else 0
     last_results_count = _count_results()
+    last_experiment_time = time.time()
+    experiment_durations: list[float] = []
 
     for remaining in range(seconds, 0, -1):
         if _shutdown.is_set():
             return
 
-        # Every 5 seconds, check for new agent activity
-        if remaining % 5 == 0:
-            # Check for new experiments in results.tsv
+        # Every 3 seconds, check for new agent activity
+        if remaining % 3 == 0:
             current_count = _count_results()
             if current_count > last_results_count:
-                new_exps = current_count - last_results_count
+                now = time.time()
+                duration = now - last_experiment_time
+                experiment_durations.append(duration)
+                last_experiment_time = now
                 last_results_count = current_count
-                # Show the latest experiment
-                _show_latest_experiment()
+                _show_latest_experiment(experiment_durations)
 
             # Check for new log output
             if log_path.exists():
-                current_size = log_path.stat().st_size
-                if current_size > last_log_size:
-                    _show_new_log_lines(log_path, last_log_size, current_size)
-                    last_log_size = current_size
+                try:
+                    current_size = log_path.stat().st_size
+                    if current_size > last_log_size:
+                        _show_new_log_lines(log_path, last_log_size, current_size)
+                        last_log_size = current_size
+                except OSError:
+                    pass
 
             # Check if agent died
             if _agent_proc is not None and not is_agent_alive():
-                return  # exit wait early so director loop handles it
+                return
 
-        # Print countdown every 30 seconds
-        if remaining % 30 == 0 and remaining > 0:
-            agent_status = f"{_GREEN}running{_RESET}" if is_agent_alive() else f"{_RED}stopped{_RESET}"
-            mm, ss = divmod(remaining, 60)
-            print(
-                f"  {_DIM}next check in {mm}m{ss:02d}s  |  "
-                f"agent: {agent_status}{_DIM}  |  "
-                f"experiments: {last_results_count}{_RESET}",
-                end="\r",
-            )
-            sys.stdout.flush()
+        # Update status line every 5 seconds
+        if remaining % 5 == 0 and remaining > 0:
+            _print_countdown(remaining, last_results_count, experiment_durations, last_experiment_time)
 
         _shutdown.wait(1)
 
-    # Clear the countdown line
-    print(" " * 80, end="\r")
+    print(" " * 100, end="\r")
+
+
+def _print_countdown(
+    remaining: int,
+    exp_count: int,
+    durations: list[float],
+    last_exp_time: float,
+) -> None:
+    """Print live status line with director countdown + experiment ETA."""
+    agent_status = f"{_GREEN}running{_RESET}" if is_agent_alive() else f"{_RED}stopped{_RESET}"
+    mm, ss = divmod(remaining, 60)
+
+    # Estimate next experiment time
+    exp_eta = ""
+    if durations and is_agent_alive():
+        avg_dur = sum(durations[-5:]) / len(durations[-5:])  # rolling avg of last 5
+        elapsed_since = time.time() - last_exp_time
+        eta_seconds = max(0, avg_dur - elapsed_since)
+        if eta_seconds > 0:
+            exp_eta = f"  {_DIM}next exp ~{int(eta_seconds)}s{_RESET}"
+        else:
+            exp_eta = f"  {_DIM}exp due now{_RESET}"
+
+    line = (
+        f"  {_DIM}director:{_RESET} {mm}m{ss:02d}s  "
+        f"{_DIM}agent:{_RESET} {agent_status}  "
+        f"{_DIM}experiments:{_RESET} {exp_count}"
+        f"{exp_eta}"
+    )
+    # Pad to clear previous line content
+    print(f"{line:<100}", end="\r")
+    sys.stdout.flush()
 
 
 def _count_results() -> int:
@@ -639,23 +668,33 @@ def _count_results() -> int:
         return 0
 
 
-def _show_latest_experiment() -> None:
-    """Print the latest experiment result from results.tsv."""
+def _show_latest_experiment(durations: list[float]) -> None:
+    """Print the latest experiment result with timestamp and timing."""
     try:
         lines = RESULTS_TSV.read_text().strip().split("\n")
         if len(lines) < 2:
             return
         last = lines[-1].split("\t")
-        # commit, brier, cal_err, profit, hit, samples, trades, ci, status, desc
-        if len(last) >= 10:
-            commit = last[0][:7]
-            brier = last[1]
-            profit = last[3]
-            status = last[8]
-            desc = last[9][:50]
-            color = _GREEN if status == "run" else _RED
-            print(" " * 80, end="\r")  # clear countdown
-            _print_status("Experiment", f"{color}{commit}{_RESET}  brier={brier}  profit={profit}%  {desc}", _CYAN)
+        if len(last) < 10:
+            return
+        commit = last[0][:7]
+        brier = last[1]
+        profit = last[3]
+        status = last[8]
+        desc = last[9][:45]
+        n_exp = len(lines) - 1
+
+        color = _GREEN if status == "run" else _RED
+        dur_str = ""
+        if durations:
+            dur_str = f"  {_DIM}({durations[-1]:.0f}s){_RESET}"
+
+        print(" " * 100, end="\r")  # clear countdown
+        _print_status(
+            f"#{n_exp}",
+            f"{color}{commit}{_RESET}  brier={brier}  profit={profit}%{dur_str}  {desc}",
+            _CYAN,
+        )
     except (OSError, IndexError):
         pass
 
@@ -668,9 +707,8 @@ def _show_new_log_lines(log_path: Path, old_size: int, new_size: int) -> None:
             new_text = f.read(new_size - old_size)
         for line in new_text.strip().split("\n"):
             line = line.strip()
-            # Only show metric lines and key events
             if any(line.startswith(k) for k in ("brier_score:", "expected_profit", "CRASH")):
-                print(" " * 80, end="\r")  # clear countdown
+                print(" " * 100, end="\r")
                 _print_status("Agent", f"  {line}", _DIM)
     except OSError:
         pass
