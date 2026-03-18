@@ -48,7 +48,7 @@ OT_GAP_THRESHOLD = 0.30
 # ── Edge Thresholds ──────────────────────────────────────────────
 
 BOOK_A_MIN_EDGE = 0.15
-BOOK_B_MIN_EDGE = 0.05
+BOOK_B_MIN_EDGE = 0.06
 BOOK_C_MIN_EDGE = 0.12
 
 # ── Position Sizing ──────────────────────────────────────────────
