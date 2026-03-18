@@ -26,8 +26,8 @@ B2B_PENALTY = -0.05
 
 # Recency weights for empirical hit rate
 # Games sorted most-recent-first; index determines weight bucket
-RECENCY_WEIGHT_LAST5 = 2.0     # Games 1-5 (most recent)
-RECENCY_WEIGHT_LAST10 = 1.5    # Games 6-10
+RECENCY_WEIGHT_LAST5 = 1.0     # Games 1-5 (most recent)
+RECENCY_WEIGHT_LAST10 = 1.0    # Games 6-10
 RECENCY_WEIGHT_SEASON = 1.0    # Games 11+
 
 # Fallback sigma when no game data available (logistic approximation)
