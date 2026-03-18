@@ -42,6 +42,7 @@
         <p class="text-xs text-zinc-500 mt-0.5">Research Dashboard &mdash; port 3457</p>
       </div>
       <div class="flex items-center gap-4">
+        <span id="countdown-display" class="text-xs px-2 py-1 rounded font-mono bg-zinc-800 text-zinc-400 border border-zinc-700">--:--</span>
         <span id="research-badge" class="text-xs px-2 py-1 rounded font-medium bg-zinc-700 text-zinc-400">Checking...</span>
         <span id="refresh-ts" class="text-xs text-zinc-600"></span>
       </div>
@@ -391,8 +392,17 @@
       var valid = results.filter(function(r) { return r.brier_score > 0 && r.status !== 'crash'; });
       if (!valid.length) return;
 
-      // Find best
-      var best = valid.reduce(function(a, b) { return a.brier_score < b.brier_score ? a : b; });
+      // Filter to v2-era: most recent contiguous run with same sample_size
+      var latestSize = valid[valid.length - 1].sample_size;
+      var v2Start = valid.length - 1;
+      for (var i = valid.length - 2; i >= 0; i--) {
+        if (valid[i].sample_size === latestSize) v2Start = i;
+        else break;
+      }
+      var v2 = valid.slice(v2Start);
+
+      // Find best from v2 experiments only
+      var best = v2.reduce(function(a, b) { return a.brier_score < b.brier_score ? a : b; });
       document.getElementById('best-brier').textContent = best.brier_score.toFixed(4);
       document.getElementById('best-cal').textContent = best.calibration_error.toFixed(4);
       document.getElementById('best-profit').textContent = best.expected_profit_pct.toFixed(1) + '%';
@@ -849,13 +859,75 @@
       });
     }
 
+    // ── Countdown timer ─────────────────────────────────────────────
+
+    var _nextCheckAt = null;
+    var _avgExpSeconds = 0;
+    var _lastExpCount = 0;
+    var _lastExpTime = Date.now();
+
+    function updateCountdown() {
+      var el = document.getElementById('countdown-display');
+      if (!_nextCheckAt) {
+        el.textContent = '--:--';
+        return;
+      }
+      var now = new Date();
+      var target = new Date(_nextCheckAt);
+      var diff = Math.max(0, Math.floor((target - now) / 1000));
+      var mm = Math.floor(diff / 60);
+      var ss = diff % 60;
+
+      var parts = [];
+      parts.push('Director ' + mm + ':' + (ss < 10 ? '0' : '') + ss);
+
+      // Experiment ETA
+      if (_avgExpSeconds > 0 && _lastExpTime) {
+        var sinceLast = (Date.now() - _lastExpTime) / 1000;
+        var expEta = Math.max(0, Math.floor(_avgExpSeconds - sinceLast));
+        if (expEta > 0) parts.push('Exp ~' + expEta + 's');
+        else parts.push('Exp due');
+      }
+
+      el.textContent = parts.join('  |  ');
+    }
+
+    function fetchOrchestratorStatus() {
+      return api('/api/orchestrator/status').then(function(data) {
+        if (!data) return;
+        if (data.next_check_at) _nextCheckAt = data.next_check_at;
+        if (data.avg_experiment_seconds) _avgExpSeconds = data.avg_experiment_seconds;
+      });
+    }
+
+    // Track experiment count for timing
+    function trackExperiments(results) {
+      if (!results) return;
+      if (results.length > _lastExpCount && _lastExpCount > 0) {
+        _lastExpTime = Date.now();
+      }
+      _lastExpCount = results.length;
+    }
+
     // Initial load
     fullRefresh();
+    fetchOrchestratorStatus();
 
-    // Auto-refresh every 30 seconds
-    setInterval(refresh, 30000);
-    // Full refresh (including sensitivity + git) every 2 minutes
-    setInterval(fullRefresh, 120000);
+    // Auto-refresh every 15 seconds (faster for live feel)
+    setInterval(function() {
+      refresh().then(function() {
+        trackExperiments(resultsData);
+      });
+    }, 15000);
+    // Full refresh (including sensitivity + git + orchestrator) every 2 minutes
+    setInterval(function() {
+      fullRefresh();
+      fetchOrchestratorStatus();
+    }, 120000);
+    // Countdown ticks every second
+    setInterval(updateCountdown, 1000);
+    // Fetch orchestrator state every 30 seconds
+    setInterval(fetchOrchestratorStatus, 30000);
   </script>
 </body>
 </html>

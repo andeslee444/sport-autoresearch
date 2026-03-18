@@ -503,6 +503,39 @@ async def start_collection():
         raise HTTPException(status_code=500, detail=f"Failed to start collector: {e}")
 
 
+# ── Orchestrator status ──────────────────────────────────────────────
+
+ORCHESTRATOR_STATE = DATA_DIR / "orchestrator-state.json"
+
+
+@app.get("/api/orchestrator/status")
+async def get_orchestrator_status():
+    """Return orchestrator timing info for countdown display."""
+    state = {}
+    if ORCHESTRATOR_STATE.exists():
+        try:
+            state = json.loads(ORCHESTRATOR_STATE.read_text())
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    # Also read director state for last check time
+    director_state = {}
+    if DIRECTOR_STATE.exists():
+        try:
+            director_state = json.loads(DIRECTOR_STATE.read_text())
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    return JSONResponse(content={
+        "check_interval": state.get("check_interval", 300),
+        "last_check": director_state.get("checked_at", ""),
+        "next_check_at": state.get("next_check_at", ""),
+        "agent_started_at": state.get("agent_started_at", ""),
+        "experiments_this_session": state.get("experiments_this_session", 0),
+        "avg_experiment_seconds": state.get("avg_experiment_seconds", 0),
+    })
+
+
 # ── Main ─────────────────────────────────────────────────────────────
 
 

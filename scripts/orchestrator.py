@@ -49,6 +49,7 @@ EXPERIMENT_PY = PROJECT_ROOT / "experiment.py"
 RESULTS_TSV = PROJECT_ROOT / "results.tsv"
 RESEARCH_PROGRAM = PROJECT_ROOT / "research_program.md"
 EXPORT_HISTORY = DATA_DIR / "export-history.json"
+ORCHESTRATOR_STATE = DATA_DIR / "orchestrator-state.json"
 HINTS_FILE = DATA_DIR / "director-hints.txt"
 EXPORT_OUTPUT = PROJECT_ROOT / ".." / "kalshi-trading" / "config" / "oracle-calibration.json"
 
@@ -577,14 +578,43 @@ def director_loop(check_interval: int, no_agent: bool) -> None:
                 start_agent()
 
         # Wait for next check — show countdown and tail agent logs
-        _wait_with_visibility(check_interval)
+        _wait_with_visibility(check_interval, check_interval)
 
 
-def _wait_with_visibility(seconds: int) -> None:
+def _write_orchestrator_state(
+    check_interval: int,
+    next_check_at: str,
+    experiment_durations: list[float],
+) -> None:
+    """Write timing state for dashboard consumption."""
+    avg_dur = 0
+    if experiment_durations:
+        recent = experiment_durations[-10:]
+        avg_dur = sum(recent) / len(recent)
+
+    state = {
+        "check_interval": check_interval,
+        "next_check_at": next_check_at,
+        "agent_started_at": datetime.fromtimestamp(
+            _agent_proc.pid and time.time()  # approximate
+        ).isoformat(timespec="seconds") if _agent_proc else "",
+        "experiments_this_session": len(experiment_durations),
+        "avg_experiment_seconds": round(avg_dur, 1),
+        "updated_at": datetime.now().isoformat(timespec="seconds"),
+    }
+    try:
+        ORCHESTRATOR_STATE.write_text(json.dumps(state, indent=2) + "\n")
+    except OSError:
+        pass
+
+
+def _wait_with_visibility(seconds: int, check_interval: int = 300) -> None:
     """Wait with live countdown, experiment timing, and agent log tailing."""
+    from datetime import timedelta
     log_path = PROJECT_ROOT / "run.log"
     last_log_size = log_path.stat().st_size if log_path.exists() else 0
     last_results_count = _count_results()
+    next_check_at = (datetime.now() + timedelta(seconds=seconds)).isoformat(timespec="seconds")
     last_experiment_time = time.time()
     experiment_durations: list[float] = []
 
@@ -620,6 +650,10 @@ def _wait_with_visibility(seconds: int) -> None:
         # Update status line every 5 seconds
         if remaining % 5 == 0 and remaining > 0:
             _print_countdown(remaining, last_results_count, experiment_durations, last_experiment_time)
+
+        # Write orchestrator state every 10 seconds for dashboard
+        if remaining % 10 == 0:
+            _write_orchestrator_state(check_interval, next_check_at, experiment_durations)
 
         _shutdown.wait(1)
 
