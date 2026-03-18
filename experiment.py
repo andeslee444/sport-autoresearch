@@ -18,7 +18,7 @@ VENUE_MULTIPLIER = 0.20
 VENUE_CAP = 0.05
 
 # Back-to-back: second night penalty (fixed)
-B2B_PENALTY = -0.05
+B2B_PENALTY = 0.0
 
 # Recency weights for empirical hit rate
 # Games sorted most-recent-first; index determines weight bucket
