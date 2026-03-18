@@ -1,408 +1,506 @@
-# The Oracle: NBA Hybrid Trading Strategy for Kalshi
+# The Oracle: NBA Multi-Book Trading System for Kalshi
 
-> **Date**: 2026-03-17
+> **Date**: 2026-03-17 (v2 — major redesign)
 > **Status**: Design approved, pending implementation
-> **Scope**: NBA-focused, model-informed speed trading on Kalshi using Real Sports App as data source
-> **Capital**: $1-5k bankroll, $30-100/trade, max 12 simultaneous positions
-> **Supersedes**: Risk parameters in `KALSHI_MAPPING.md` Section "Risk Management Parameters" — this spec is the source of truth for all strategy configuration.
+> **Scope**: NBA-focused, three independent trading books on Kalshi using Real Sports App as data source
+> **Capital**: $1-5k bankroll, max 10 simultaneous positions across all books
+> **Supersedes**: Risk parameters in `KALSHI_MAPPING.md` — this spec is the single source of truth.
 
 ---
 
 ## 1. Overview
 
-The Oracle is a three-layer hybrid trading system that combines deep statistical modeling with real-time live game signals to trade NBA prediction markets on Kalshi. Real Sports App provides the data (player stats, live feeds, momentum signals); Kalshi provides the execution venue.
+The Oracle is a **three-book trading system**, not a single unified strategy. Each book has independent alpha generation, risk limits, edge thresholds, position sizing, and execution rules. The books share infrastructure (API clients, data pipeline, risk ledger) but are otherwise isolated.
 
-**Edge theory**: Model-informed speed. The model computes fair value for every market using information most Kalshi traders don't have (per-opponent splits, pace matchups, recency-weighted averages). Real-time signals from Real's WebSocket confirm the thesis and time the entry.
+**Why three books**: Cross-platform divergence, pregame player props, and live event trading have fundamentally different latency profiles, signal characteristics, fill behavior, and calibration needs. A single threshold and sizing rule across all three will misprice risk and overallocate to the noisiest signals.
 
-**Trading universe**: NBA only (deepest data + only sport with Kalshi player props).
+| Book | Alpha Source | Latency Profile | Edge Character |
+|---|---|---|---|
+| **A: Game Divergence** | Real market price vs Kalshi price | Minutes (price discovery lag) | Wide, slow-moving, high conviction |
+| **B: Pregame Player Props** | Real splits/stats vs Kalshi prop lines | Hours (pre-game edge) | Moderate, data-driven, medium conviction |
+| **C: Live Events** | Real WebSocket signals vs Kalshi adjustment speed | Seconds (speed edge) | Narrow, time-sensitive, binary conviction |
+
+**Critical design principle**: Kalshi prices are NEVER used as alpha inputs in the model. They appear only in two roles: (1) execution target (what price do we get?), and (2) risk overlay (how much exposure do we have?). Using Kalshi prices as predictive features creates endogenous circularity — the model would bake venue consensus into its fair value, then compare back to venue consensus, manufacturing false edge through double-counting.
 
 ---
 
 ## 2. Market Universe
 
-### Player Props (Primary — fattest edge)
+### Player Props (Books B and C)
 
 | Kalshi Series | Prop | Real Data Advantage |
 |---|---|---|
-| `KXNBAPTS` | Points O/U | Splits (last 5/10/20), per-opponent, home/away, pace |
-| `KXNBAREB` | Rebounds O/U | Per-opponent (some teams give up boards), position matchup |
+| `KXNBAPTS` | Points O/U | Splits, per-opponent, home/away, pace, stat tracker odds |
+| `KXNBAREB` | Rebounds O/U | Per-opponent, position matchup, stat tracker odds |
 | `KXNBAAST` | Assists O/U | Pace, teammate availability, per-opponent |
-| `KXNBA3PT` | 3-Pointers O/U | Last-5 shooting splits, opponent 3PT defense ranking |
-| `KXNBA2D` | Double-Double | Combined splits analysis (pts+reb or pts+ast trending) |
-| `KXNBA3D` | Triple-Double | Only bet when splits show all three stats trending high |
+| `KXNBA3PT` | 3-Pointers O/U | Last-5 shooting splits, opponent 3PT defense |
+| `KXNBA2D` | Double-Double | Combined splits (pts+reb or pts+ast) |
+| `KXNBA3D` | Triple-Double | Only when all three stats trending high |
 | `KXNBABLK` | Blocks O/U | Per-opponent, rim protection matchup |
 | `KXNBASTL` | Steals O/U | Per-opponent, pace-adjusted |
 
-### Game-Level (Secondary — wider markets, thinner edge)
+### Game-Level (Book A)
 
 | Kalshi Series | Market | Real Data Advantage |
 |---|---|---|
-| `KXNBAGAME` | Game Winner | Team rankings, H2H, home/away records, momentum |
-| `KXNBASPREAD` | Spread | Same + live score differential tracking |
-| `KXNBATOTAL` | Total O/U | Team pace data, recent scoring trends |
-| `KXNBATEAMTOTAL` | Team Total | Pace + opponent defensive rating |
-| `KXNBA1HWINNER` | 1st Half Winner | Early momentum signals, Q1 trends |
-| `KXNBA2HWINNER` | 2nd Half Winner | Halftime adjustment patterns, Q3 momentum |
+| `KXNBAGAME` | Game Winner | Real's crowd probability vs Kalshi's crowd probability |
+| `KXNBASPREAD` | Spread | Same |
+| `KXNBATOTAL` | Total O/U | Same |
+| `KXNBATEAMTOTAL` | Team Total | Same |
+| `KXNBA1HWINNER` | 1st Half Winner | Same |
+| `KXNBA2HWINNER` | 2nd Half Winner | Same |
 
 ---
 
-## 3. Layer 1 — Pre-Game Prior Model
+## 3. Book A — Real-vs-Kalshi Game Divergence
 
-Runs 1-2 hours before tip-off. Computes fair value probability for every player prop and game market on tonight's slate.
+### Alpha Theory
 
-### 6-Factor Model for Player Props
+Real Sports and Kalshi are two independent prediction markets with different participant pools. Real's prices reflect the Real crowd's view; Kalshi's prices reflect the Kalshi crowd's view. When they disagree significantly, one of them is wrong. We trade the cheaper side on Kalshi.
 
-```
-P(over) = f(baseline, recency, opportunity, matchup, situational, correlated_markets)
-```
+This is the cleanest external-prior book because Real's price IS the model output — no statistical model needed, just price comparison.
 
-**Model type**: Linear weighted average of per-factor probabilities as a v1 heuristic. This is NOT a proper probability model — a linear blend of probabilities is not guaranteed to be well-calibrated. In v2, migrate to log-odds blending (convert each factor to log-odds, weighted average, convert back) or logistic regression. In v1, apply Platt scaling (a sigmoid calibration layer) trained on the first 200+ trades to correct for systematic over/under-confidence.
-
-#### Factor 1: Baseline (15% weight)
-
-- **What**: Player's season average for this stat
-- **Source**: Real player profile `seasonStats` via `GET /players/{id}/sport/nba?season=2025`
-- **Purpose**: Anchor. Kalshi already prices near this — our edge comes from the other factors.
-
-#### Factor 2: Recency (25% weight)
-
-- **What**: Last-5 game average (last-3 for volatile stats: 3PT, blocks, steals)
-- **Source**: Real splits `averages` for "Last 5" / "Last 3" periods
-- **Purpose**: Captures streakiness. The "hot hand" is real (Miller & Sanjurjo 2018). Markets underweight recency by anchoring to season averages.
-- **Computation**: Empirical hit rate — how many of the last N games did the player clear this line?
-
-#### Factor 3: Opportunity (25% weight)
-
-Composite of four sub-factors that determine how many chances the player gets tonight:
-
-**a) Projected Minutes**
-- Player's recent minutes average from splits data
-- Source: Real player profile splits — the `SplitRow` for "Last 5" or "Last 10" should include a `min` or `minutes` stat in the `stats` record. **Technical risk**: If minutes are NOT in the splits, fallback to fetching last 5 box scores via `GET /playerboxscores/{id}?version=2` and averaging the minutes field. This fallback costs ~5 API calls per player (50-100 total calls pre-game for a full slate). Budget this into the pre-game data fetch.
-- Back-to-back adjustment: -2 to -5 minutes on second night of B2B
-- Source for B2B detection: Real schedule `GET /home/nba/days?type=condensed`
-- Every +1 minute played = ~0.7 more points for a starter
-
-**b) Pace**
-- How fast do both teams play? High-pace game (110 possessions) = ~15% more counting stats than low-pace (95 possessions)
-- Source: Real team stat leaders + Kalshi's game total market as proxy
-- Single most underpriced factor in player props
-
-**c) Usage Boost (Teammate Availability)**
-- Key teammate OUT → player's usage rate increases → more shots → more points (fewer assists)
-- Source: Real player status (Active/Out/Questionable) for all roster players
-- Effect: +2-4 points when a team's #2 scorer is out
-
-**d) Blowout Risk**
-- Spread > 10 points → favorite's starters may sit Q4 (lose ~8 minutes)
-- Source: Kalshi spread market `KXNBASPREAD`
-- Negative predictor: high blowout risk → fewer minutes → lower stats
-
-#### Factor 4: Matchup Quality (20% weight)
-
-Two sub-components:
-
-**a) Player vs. Opponent History**
-- Source: Real per-opponent splits (included in player profile)
-- Primary if >= 3 games of data, else fallback to (b)
-
-**b) Opponent Defensive Ranking for This Stat**
-- Source: Real `GET /teamstatleaders/nba/seasons/2025/seasontypes/regularseason/stats/{statId}`
-- Bottom-5 defense for this stat category → adjust +8-12%
-- Top-5 defense → adjust -8-12%
-- **statId discovery**: Query `GET /teamstatleaders/nba/seasons` first to retrieve the list of available stat categories and their numeric IDs. Cache this mapping at startup. Expected mappings (must be verified at runtime):
-
-| Stat Name | Expected statId | Used For |
-|---|---|---|
-| Points Per Game | TBD | Points prop matchup |
-| Rebounds Per Game | TBD | Rebounds prop matchup |
-| Assists Per Game | TBD | Assists prop matchup |
-| 3-Pointers Per Game | TBD | 3PT prop matchup |
-| Blocks Per Game | TBD | Blocks prop matchup |
-| Steals Per Game | TBD | Steals prop matchup |
-| Opponent Points Per Game | TBD | Defensive rating |
-
-#### Factor 5: Situational (10% weight)
-
-- **Home/away**: +1.5 pts at home on average. Source: Real splits home/away averages.
-- **Rest**: Back-to-back = -2 to -3 pts on average. Source: Computed from Real schedule.
-- **Game importance**: Teams in playoff race play starters more. Source: Real standings clinch/elimination status.
-
-#### Factor 6: Correlated Markets (5% weight)
-
-Use other Kalshi market prices as inputs:
-- Game total (O/U 235 implies high-scoring → inflate all point props)
-- Team total (LAL over 118.5 at $0.70 → LAL players will score a lot)
-- Spread (proxy for blowout risk, already in Opportunity, but price gives market's confidence)
-
-### Game-Level Model
-
-For game winner, spread, and total markets:
-
-```
-P(home_win) = logistic_regression(
-  team_season_ranking,        # Real: /rankings/sport/nba/entity/team/ranking/primary
-  team_7day_ranking,          # Real: /rankings/.../tertiary
-  home_court_advantage,       # Real: team standings home/away records
-  recent_h2h,                 # Real: last 3 matchups
-  key_player_availability,    # Real: player status Active/Out/Questionable
-  streak,                     # Real: team standings streak (W5, L2)
-  rest_advantage              # Real: schedule (one team on B2B, other rested)
-)
-```
-
-### Example Calculation
-
-```
-Player: LeBron James | Stat: Points | Line: 27.5
-
-Baseline     (15%):  Season avg 27.1 → ~50% at 27.5
-Recency      (25%):  Last-5 avg 31.2, cleared 4/5 → 80%
-Opportunity  (25%):  Home (full min), no B2B, fast pace matchup,
-                      no teammate out, spread -4.5 (no blowout) → 75%
-Matchup      (20%):  34.5 avg vs HOU (2 games), HOU 25th defense → 82%
-Situational  (10%):  Home, not B2B, playoff race → 68%
-Correlated    (5%):  Game total O/U 232, over at $0.62 → 65%
-
-Raw P(over)  = 0.15(0.50) + 0.25(0.80) + 0.25(0.75) + 0.20(0.82)
-             + 0.10(0.68) + 0.05(0.65)
-             = 0.727 (72.7%)
-
-Calibrated P = platt_sigmoid(0.727) → ~0.73 (after calibration layer)
-
-Kalshi YES price: $0.60
-Kalshi fee on win: ~$0.04 (see Fees section)
-Net edge: 0.73 - 0.60 - (0.73 * 0.04) = $0.101 (10.1 cents net)
-Gross edge: 0.73 - 0.60 = $0.13 (13 cents gross)
-→ SIGNAL: BUY YES (gross edge > 12 cent threshold)
-```
-
----
-
-## 4. Layer 2 — Live Bayesian Update Engine
-
-Once the game tips off, the engine updates probability every time a play event comes through Real's WebSocket.
-
-### Core: Pace-Adjusted Projection
+### Signal Generation
 
 ```python
-from scipy.stats import norm
+def book_a_scan(real_markets, kalshi_markets):
+    """Compare Real's implied probability to Kalshi's price for game-level markets."""
+    for game in matched_games:
+        real_prob = game.real_price / 100  # Real uses 0-100 percentage
+        kalshi_price = game.kalshi_yes_price / 100  # Kalshi uses 1-99 cents
 
-# Base standard deviation per stat type (calibrate from historical data)
-BASE_STD_DEV = {
-    'pts': 8.5,    # NBA player point totals have ~8.5 std dev
-    'reb': 3.2,    # Rebounds
-    'ast': 2.8,    # Assists
-    '3pt': 1.5,    # 3-pointers made
-    'blk': 1.0,    # Blocks
-    'stl': 0.9,    # Steals
-}
+        edge = real_prob - kalshi_price
 
-REGULATION_MINUTES = 48  # NBA regulation; add 5 per OT period
+        # Only trust high-volume Real markets
+        if game.real_volume < 200_000:
+            continue
 
-def update_probability(player, stat, line, game_state, overtimes=0):
-    current = player.live_stats[stat]
-    minutes_played = player.minutes_played
-    total_game_minutes = REGULATION_MINUTES + (overtimes * 5)
-    minutes_remaining = estimate_remaining_minutes(
-        game_period, game_clock, game_state, player.fouls,
-        total_game_minutes
-    )
+        if abs(edge) >= BOOK_A_MIN_EDGE:
+            if edge > 0:
+                signal = Signal(side='yes', edge=edge)  # Real thinks YES is underpriced
+            else:
+                signal = Signal(side='no', edge=abs(edge))  # Real thinks NO is underpriced
+```
 
-    # Use tonight's rate if enough sample, else season rate
-    if minutes_played > 8:
-        rate_tonight = current / minutes_played
+### Book A Parameters
+
+| Parameter | Value | Rationale |
+|---|---|---|
+| Min edge threshold | $0.15 (15 cents) | Wider threshold — cross-platform divergence is noisier |
+| Min Real volume | 200,000 | Only trust well-traded Real markets |
+| Position sizing | Fixed fractional: 2% of bankroll per trade | Conservative — Real's price is not a calibrated model |
+| Max positions (Book A) | 4 | Game-level markets are correlated within a night |
+| Max total Book A exposure | 8% of bankroll | Limited because this is the least sophisticated book |
+| Polling frequency | Every 30 seconds (Real REST + Kalshi REST) | Slow-moving edge, no need for speed |
+
+### When NOT to trade Book A
+
+- Real volume < 200k (thin crowd = unreliable signal)
+- Game is already in progress (live prices are noisy, defer to Book C)
+- Edge has been narrowing over the last 3 polls (converging = edge is pricing in)
+
+---
+
+## 4. Book B — Pregame NBA Player Props
+
+### Alpha Theory
+
+Use Real's rich player data — splits, per-opponent history, home/away performance, game-by-game season feed, stat tracker prop lines/odds, and teammate availability — to build an independent fair-value estimate for each player prop. Compare to Kalshi's price. Trade when our estimate disagrees by enough.
+
+**Critical rule**: No Kalshi-derived data enters the alpha model. Kalshi prices are used ONLY at the execution step to calculate edge and fill orders.
+
+### Data Pipeline (Pre-Game, T-2 hours)
+
+```
+FOR EACH player on tonight's slate:
+
+1. EMPIRICAL DISTRIBUTION (core prior)
+   Source: GET /players/{id}/sport/nba/seasonfeed?limit=20&season=2025
+   → Fetch last 20 game-by-game stat lines
+   → Build empirical CDF for each stat (pts, reb, ast, 3pt, etc.)
+   → This gives the ACTUAL distribution, not a normal approximation
+
+2. RECENCY ADJUSTMENT
+   Source: GET /players/{id}/sport/nba?season=2025 → splits
+   → Compare last-5 average to season average
+   → If last-5 > season by > 1 std dev → upward shift
+   → If last-5 < season by > 1 std dev → downward shift
+
+3. MATCHUP ADJUSTMENT
+   Source: Player profile per-opponent splits + team stat leaders
+   → Player's per-opponent history (if >= 3 games)
+   → Opponent defensive ranking for this stat category
+   → statId discovery: GET /teamstatleaders/nba/seasons → cache stat category IDs
+
+4. OPPORTUNITY ADJUSTMENT
+   a) Minutes: from splits or box score history
+   b) Pace: from Real team stat leaders (team PPG as proxy)
+   c) Teammate availability: Real player status Active/Out/Questionable
+   d) Back-to-back: computed from Real schedule
+
+5. VENUE ADJUSTMENT
+   Source: Player profile home/away splits
+   → Home vs away delta for this stat
+
+6. EXTERNAL ODDS CONTEXT (from Real stat trackers)
+   Source: GET /stattrackers?day={today}&sport=nba
+   → Real exposes overOdds/underOdds for each prop line
+   → These are sportsbook-sourced odds, NOT Kalshi prices
+   → Use as a Bayesian prior: if external books say over is -130 (56.5%),
+     and our model says 62%, we have independent confirmation
+   → If external odds strongly disagree with our model (>10% gap),
+     flag for review — our model may be wrong
+```
+
+### Fair Value Computation
+
+Instead of a hand-weighted 6-factor linear blend (which is mathematically questionable), use an **empirical distribution approach**:
+
+```python
+def book_b_fair_value(player_id, stat, line, context):
+    """
+    Build fair value from empirical game-by-game distribution,
+    adjusted by matchup/venue/opportunity factors.
+    """
+    # Step 1: Get last 20 game stat values from season feed
+    recent_games = fetch_season_feed(player_id, limit=20)
+    stat_values = [g.stats[stat] for g in recent_games]
+
+    # Step 2: Apply adjustments as shifts to the distribution
+    shift = 0.0
+
+    # Matchup adjustment
+    opp_def_rank = get_opponent_defensive_rank(context.opponent, stat)
+    if opp_def_rank >= 25:       # Bottom 5 defense
+        shift += 0.08 * mean(stat_values)  # +8%
+    elif opp_def_rank <= 5:      # Top 5 defense
+        shift -= 0.08 * mean(stat_values)  # -8%
+
+    # Per-opponent history override (if enough data)
+    opp_history = get_per_opponent_splits(player_id, context.opponent)
+    if opp_history and opp_history.games >= 3:
+        opp_avg = opp_history.average[stat]
+        season_avg = mean(stat_values)
+        shift += (opp_avg - season_avg) * 0.5  # blend toward opponent-specific
+
+    # Venue adjustment
+    home_avg = get_home_away_split(player_id, 'home')[stat]
+    away_avg = get_home_away_split(player_id, 'away')[stat]
+    venue_delta = (home_avg - away_avg) if context.is_home else (away_avg - home_avg)
+    shift += venue_delta * 0.3  # partial credit
+
+    # Opportunity: B2B penalty
+    if context.is_back_to_back:
+        shift -= 0.06 * mean(stat_values)  # -6% on B2B
+
+    # Opportunity: Pace adjustment
+    pace_factor = context.matchup_pace / league_avg_pace
+    shift += (pace_factor - 1.0) * mean(stat_values)  # proportional to pace differential
+
+    # Opportunity: Teammate out → usage boost for points,
+    #              usage reduction for assists
+    if context.key_teammate_out:
+        if stat == 'pts':
+            shift += 2.5  # ~2-3 point boost
+        elif stat == 'ast':
+            shift -= 1.5  # fewer assist opportunities
+
+    # Step 3: Compute hit rate from adjusted distribution
+    adjusted_values = [v + shift for v in stat_values]
+    hit_rate = sum(1 for v in adjusted_values if v > line) / len(adjusted_values)
+
+    # Step 4: Recency weighting — weight recent games more
+    # Last 5 games get 2x weight, last 6-10 get 1.5x, last 11-20 get 1x
+    weights = [2.0]*5 + [1.5]*5 + [1.0]*10
+    weights = weights[:len(adjusted_values)]
+    weighted_hits = sum(w * (1 if v > line else 0)
+                       for w, v in zip(weights, adjusted_values))
+    weighted_total = sum(weights[:len(adjusted_values)])
+    weighted_hit_rate = weighted_hits / weighted_total
+
+    # Step 5: Cross-reference with external odds (from Real stat trackers)
+    tracker = get_stat_tracker(player_id, stat, context.date)
+    if tracker and tracker.over_odds:
+        external_prob = implied_probability(tracker.over_odds)
+        # Bayesian blend: 70% our model, 30% external odds
+        fair_value = 0.70 * weighted_hit_rate + 0.30 * external_prob
     else:
-        rate_tonight = player.season_per_minute_rate
+        fair_value = weighted_hit_rate
 
-    projected = current + (rate_tonight * minutes_remaining)
-
-    # Standard deviation shrinks as game progresses (less time = less variance)
-    # Use sqrt for proper variance scaling over time
-    base_std = BASE_STD_DEV.get(stat, 5.0)
-    std_dev = base_std * (minutes_remaining / total_game_minutes) ** 0.5
-
-    # Normal distribution CDF for probability
-    # Note: norm.cdf `scale` parameter is standard deviation, NOT variance
-    p_over = 1 - norm.cdf(line, loc=projected, scale=max(std_dev, 0.1))
-    return p_over
+    return fair_value
 ```
 
-### Adjustment 1: Time-Weighted Production Rate
+### Lineup Gating Rules
 
-NBA scoring distribution across quarters:
-- Q1: ~24%, Q2: ~26%, Q3: ~25%, Q4: ~25%
-- Close games Q4: ~28% (stars take over)
-- Blowouts Q4: ~12% (bench minutes)
-
-### Adjustment 2: Foul Trouble Detection
+NBA prop repricing is dominated by late availability information. These hard rules prevent trading on stale lineup assumptions:
 
 ```
-4 fouls before Q4 → projected_minutes * 0.75
-5 fouls any time  → projected_minutes * 0.50 (foul-out risk)
+LINEUP GATES (Book B):
+
+1. QUESTIONABLE PLAYERS
+   - If the prop player's status is "Questionable": NO TRADE
+   - Wait for status to change to "Active" or "Out"
+   - If still "Questionable" at T-30 min before tip: skip this player entirely
+
+2. KEY TEAMMATE STATUS
+   - If a key teammate (top-3 usage on team) is "Questionable":
+     NO TRADE on any prop for players on that team
+   - Reason: teammate playing/sitting changes usage distribution for everyone
+
+3. NO-TRADE WINDOW
+   - No NEW Book B orders within 15 minutes of tip-off
+   - Reason: late lineup changes can flip edge; we can't reprice fast enough
+   - Exception: if a "Questionable" player is officially confirmed Active/Out
+     in the last 15 min, allow ONE trade on that player's props (edge is fresh)
+
+4. MINUTES CAPS
+   - If a player's last-5 minutes average is < 20 min: NO TRADE on any prop
+   - Reason: low-minutes players have too much variance; they're one
+     coaching decision from a 12-minute night
+   - Exception: if player has been consistently starting (>28 min) and one
+     recent low-minutes game was a blowout, discard that outlier
+
+5. OFFICIAL STARTERS
+   - Ideal: confirm starting lineup before trading
+   - Real doesn't expose starting lineups directly
+   - Proxy: if player's last-5 average > 28 minutes, treat as presumed starter
+   - If player's minutes are 20-28 (rotation player), apply 50% position size reduction
 ```
 
-**Source**: Primary: `LiveFeedSocketPlayersUpdated` WebSocket event — check if `personalFouls` or `pf` field exists in the player stats payload. **Technical risk**: The exact schema of this event is not confirmed to include foul data. **Fallback**: If fouls are not in the WebSocket payload, detect fouls by parsing play-by-play event descriptions from `LiveFeedSocketPlaysAdded` (look for "foul" in the `description` field and track a local counter). Secondary fallback: poll `GET /playerboxscores/{id}?version=2` every 60 seconds during games.
+### Book B Parameters
 
-### Adjustment 3: Game Flow State Machine
-
-| State | Condition | Effect on Projections |
+| Parameter | Value | Rationale |
 |---|---|---|
-| COMPETITIVE | Margin < 10 | Normal projection. Stars play full minutes. |
-| BLOWOUT_FOR | Team +15 | Star sits Q4. REDUCE stats. Sell overs. |
-| BLOWOUT_AGN | Team -15 | High variance. Star may sit or go hero mode. Don't trade. |
-| CLUTCH | Close game, Q4 < 5 min | Stars get all touches. INCREASE pts/ast for primary scorers. |
-| OVERTIME | Tied, < 2 min or OT started | +15% stat boost for starters. Buy overs BEFORE OT starts. Reset minutes_remaining to include OT period (5 min). |
-
-### Prior-to-Live Blending Weights
-
-| Game Phase | Pre-Game Prior | Live Update |
-|---|---|---|
-| Game start | 100% | 0% |
-| End Q1 | 60% | 40% |
-| Halftime | 30% | 70% |
-| End Q3 | 10% | 90% |
-| Q4 < 5 min | 0% | 100% |
-
-### Killer Signals (Largest Live Edges)
-
-| Signal | Detection Source | Why Kalshi Lags | Edge |
-|---|---|---|---|
-| Star 4th foul in Q3 | PlayersUpdated / play-by-play text | Traders aren't tracking fouls | 15-25 cents |
-| Overtime likely | Score tied, < 2 min | OT not priced until it happens | 10-20 cents |
-| Blowout developing | +15 margin in Q3 | Star minutes cut not priced | 10-15 cents |
-| Player hot start | 15+ pts in Q1 | Market anchors to season line | 12-18 cents |
-| Teammate ejected/injured | PlayersUpdated | Usage redistribution not instant | 10-15 cents |
-| Clutch mode | Competitive, Q4 < 5 min | Star usage spike not priced | 8-12 cents |
+| Min edge threshold | $0.10 (10 cents) | Tighter than Book A — better calibrated alpha |
+| Position sizing | Fixed fractional: 1.5% of bankroll per trade | Conservative for v1 heuristic model |
+| Max positions (Book B) | 6 | Diversified across players/games |
+| Max per-game exposure (Book B) | 4% of bankroll | Correlated: blowout/OT affects all game props |
+| Max per-player exposure (Book B) | 2.5% of bankroll | Injury wipes all player props |
+| Execution | Limit orders only, never market orders | Pregame = patient, no speed pressure |
+| External odds agreement | Flag if model disagrees with stat tracker odds by >10% | Sanity check, not blocking |
 
 ---
 
-## 5. Layer 3 — Execution Engine
+## 5. Book C — Live Event Trading
 
-### Price Convention
+### Alpha Theory
 
-All internal calculations use **decimal probability (0.00-1.00)**. Kalshi's API uses **integer cents (1-99)** for `yes_price`. Conversion:
-- Internal → Kalshi: `yes_price_cents = int(internal_price * 100)`
-- Kalshi → Internal: `internal_price = yes_price_cents / 100`
+Trade a **narrow set of hard signals** where Real's Socket.io feed is demonstrably faster than Kalshi repricing. This is NOT a general live model — it's a discrete event book that fires only on specific, validated triggers.
 
-All code examples in this spec use internal decimal format unless noted otherwise.
+**Critical rule**: Book C does NOT use a continuous probability update model. The v1 live model (naive per-minute rate switching after 8 minutes) would chase hot starts and overtrade. Instead, Book C only trades on discrete state transitions with clear mechanical edge.
 
-### Execution Pipeline
+### Validated Signal Set (v1 — start narrow, expand with data)
+
+Only these three signals are active in v1. Each has a clear mechanical reason why Kalshi lags:
+
+#### Signal 1: Foul Trouble
 
 ```
-Model P(over) update
-  → Edge calculation (model_prob - kalshi_price)
-  → Subtract expected fee to get net edge
-  → Net edge > 12 cents? (min threshold)
-  → Confidence filter (>= 2 of 3 strong factors agree)
-  → Portfolio check (within all risk limits)
-  → Position sizing (half-Kelly on net edge, capped)
-  → Order placement (limit first, re-price up to 3x)
+TRIGGER: Star player accumulates 4th personal foul before Q4
+DETECTION:
+  Primary: LiveFeedSocketPlayersUpdated → check pf/personalFouls field
+  Fallback: LiveFeedSocketPlaysAdded → parse "foul" in description, maintain local counter
+  Secondary fallback: Poll GET /playerboxscores/{id}?version=2 every 45s
+
+WHY KALSHI LAGS: Most Kalshi traders are not monitoring individual foul counts.
+  The player's over/under props should drop 15-25 cents because:
+  - Coach will limit minutes to avoid 5th foul → fewer stats
+  - Player plays passively to avoid fouling → less aggressive scoring
+
+ACTION:
+  - SELL (buy NO) on all active over props for this player
+  - BUY (buy YES) on under props if available
+
+EDGE: 15-25 cents expected
+DECAY: Edge lasts ~60-120 seconds as Kalshi adjusts
 ```
 
-### Kalshi Fee Structure
+#### Signal 2: Overtime Transition
 
-Kalshi charges fees **on settlement of winning contracts only**:
+```
+TRIGGER: Game score tied with < 2:00 remaining in Q4
+DETECTION: LiveFeedSocketPlaysAdded → score + clock parsing
 
-| Contract Settlement Price | Fee per Contract |
-|---|---|
-| $0.01 - $0.10 | $0.01 |
-| $0.11 - $0.20 | $0.02 |
-| $0.21 - $0.30 | $0.03 |
-| $0.31 - $0.40 | $0.04 |
-| $0.41 - $0.50 | $0.05 |
-| $0.51 - $0.60 | $0.06 |
-| $0.61 - $0.99 | $0.07 |
+WHY KALSHI LAGS: Prop lines are set for regulation. OT adds 5 minutes of
+  starter play → ~15% boost to all counting stats. Kalshi doesn't reprice
+  until OT actually starts (2+ minute window).
 
-> **Note**: Verify current fee schedule at runtime via Kalshi docs. Fees apply only to winning side. Losing contracts cost $0 in fees (you just lose the premium).
+ACTION:
+  - BUY (yes) on over props for BOTH teams' stars
+  - Only props where current accumulation + expected OT production clears the line
 
-**Net edge formula**:
-```python
-gross_edge = model_prob - kalshi_price
-expected_fee = model_prob * fee_for_price(1.0 - kalshi_price)  # fee on winning
-net_edge = gross_edge - expected_fee
+VALIDATION BEFORE TRADE:
+  Player has current_stat + (per_minute_rate * 5_min_OT_estimate) > line * 1.05
+  (require 5% margin — don't trade marginal cases)
+
+EDGE: 10-20 cents expected
+DECAY: Edge exists from "tied < 2 min" until OT tip-off (~3-5 min window)
 ```
 
-The 12-cent min threshold applies to **gross edge** (simpler, slightly conservative since expected fee is typically 2-5 cents). This means effective net edge is ~7-10 cents minimum.
+#### Signal 3: Blowout Minutes Cut
 
-### Position Sizing: Half-Kelly Criterion
+```
+TRIGGER: Score differential >= 20 points at any point in Q3 or later
+DETECTION: LiveFeedSocketPlaysAdded → score differential parsing
 
-```python
-def calculate_position_size(edge, kalshi_price, side, bankroll):
-    # Fee adjustment: reduce win payout by expected fee
-    if side == 'yes':
-        settlement_price = 1.0 - kalshi_price
-        fee = fee_for_price(settlement_price)
-        win_payout = (1.0 - kalshi_price) - fee  # net of fee
-        loss_amount = kalshi_price
-        model_prob = kalshi_price + edge
-    else:
-        settlement_price = kalshi_price
-        fee = fee_for_price(settlement_price)
-        win_payout = kalshi_price - fee  # net of fee
-        loss_amount = 1.0 - kalshi_price
-        model_prob = (1.0 - kalshi_price) + edge
+WHY KALSHI LAGS: When a game is a 20+ point blowout by Q3, the losing team's
+  starters AND winning team's starters will sit most of Q4 (replaced by bench).
+  Props were set for 34-36 minutes; stars may only play 26-28.
 
-    b = win_payout / loss_amount
-    p = model_prob
-    q = 1 - p
+ACTION:
+  - SELL (buy NO) on over props for BOTH teams' starters
+  - Only trade players who haven't already cleared the line
 
-    full_kelly = (p * b - q) / b
-    half_kelly = full_kelly / 2
+VALIDATION:
+  Player's current stat < line AND
+  Projected remaining minutes < 10 (blowout scenario)
 
-    # Convert to contract count
-    cost_per_contract = kalshi_price if side == 'yes' else (1.0 - kalshi_price)
-    contracts = int((bankroll * half_kelly) / cost_per_contract)
-
-    # Apply hard caps (percentage-based, see Risk Management)
-    max_contracts = int(bankroll * MAX_SINGLE_MARKET_PCT / cost_per_contract)
-    contracts = min(contracts, max_contracts)
-    contracts = max(contracts, 0)
-    return contracts
+EDGE: 10-15 cents expected
+DECAY: Edge lasts until Kalshi reprices (1-3 minutes)
 ```
 
-### Order Strategy
+### Execution Rules (Book C — Speed-Optimized)
 
-1. **Limit order first** at current best ask (or 1 cent below for maker rebate)
-2. **Wait 30 seconds** for fill
-3. **Re-price up to 3 times** at new ask if not filled
-4. **Never chase**: if price moved 5+ cents toward model value, recalculate edge
-5. **Time-sensitive signals** (foul trouble, OT imminent) get **market orders** immediately
+Book C execution is fundamentally different from Books A and B:
 
-### Exit Rules
+```
+BOOK C EXECUTION:
 
-| Rule | Trigger | Action |
+1. HIGH-FREQUENCY TARGETED READS
+   - When a Book C trigger fires, immediately poll Kalshi for the
+     specific ticker(s) affected — don't wait for the next polling cycle
+   - Use up to 5 read/s on specific tickers (within 20 read/s budget)
+
+2. QUOTE QUALITY CHECKS (before every order)
+   - Quote age: orderbook must be < 5 seconds old (re-fetch if stale)
+   - Spread check: bid-ask spread must be < 8 cents; wider = illiquid, skip
+   - Displayed depth: at least 5 contracts on the side we're taking; less = skip
+   - If ANY check fails, do NOT trade — the edge may be illusory
+
+3. ORDER TYPE
+   - Limit orders at best ask (or best bid for sells), NOT market orders
+   - Market orders on thin books will get terrible fills and leak all the edge
+   - If our limit isn't filled in 15 seconds, cancel and re-assess
+   - Max 2 re-prices; after that, the edge has likely priced in
+
+4. SLIPPAGE ATTRIBUTION
+   - Log for every Book C trade:
+     - Signal timestamp (when we detected the event)
+     - Kalshi quote at signal time
+     - Kalshi quote at fill time
+     - Fill price
+     - Slippage = fill_price - quote_at_signal
+   - If average slippage exceeds 3 cents over 20+ trades,
+     the signal is not fast enough — disable it
+
+5. CANCEL DISCIPLINE
+   - If the signal condition reverses (e.g., blowout narrows to < 15),
+     cancel any unfilled Book C orders immediately
+   - Never leave stale Book C orders sitting
+```
+
+### Book C Parameters
+
+| Parameter | Value | Rationale |
 |---|---|---|
-| Thesis invalidated | Model probability drops below Kalshi price | Sell at current bid, take small loss |
-| Lock in profit | Model > 92% AND Kalshi > $0.88 | Sell at current bid |
-| Game state changed | Blowout develops while holding overs | Sell all affected positions |
-| Hold to settlement | Default | Let binary contract settle at $1 or $0 |
+| Min edge threshold | $0.12 (12 cents) | Moderate — need to cover slippage + fees |
+| Position sizing | Fixed fractional: 1% of bankroll per signal | Smallest book — highest noise |
+| Max positions (Book C) | 3 | Narrow signal set, fast in/out |
+| Max total Book C exposure | 3% of bankroll | This is the riskiest book |
+| Execution | Limit orders with 15s timeout, quote checks | Speed matters but fills must be clean |
+| Signal validation | Mechanical checks per signal type | No continuous model — discrete events only |
+| Slippage monitoring | Track and disable signals if avg slippage > 3c | Self-correcting |
+
+### Expansion Path (v2+)
+
+After collecting 100+ Book C paper trades with full slippage data:
+- Evaluate which signals actually have speed edge (positive P&L net of slippage)
+- Consider adding: teammate ejection/injury, clutch mode (Q4 < 3 min, competitive)
+- Consider adding a **Bayesian shrinkage live model** for general live prop trading:
+
+```
+Bayesian Shrinkage (v2 concept — NOT in v1):
+
+Instead of switching to tonight's raw per-minute rate after 8 minutes:
+  shrunk_rate = (n * tonight_rate + k * prior_rate) / (n + k)
+
+  where:
+    n = minutes played tonight (grows during game)
+    k = shrinkage strength (tuned, ~15-20)
+    tonight_rate = current_stat / minutes_played
+    prior_rate = season per-minute rate adjusted for matchup/venue
+
+  Early game (n=5): prior dominates → no hot-start chasing
+  Mid game (n=20): balanced → reasonable projection
+  Late game (n=35): tonight dominates → mostly arithmetic
+
+  Combined with role-conditioned minutes estimation:
+    starter → 32-38 min
+    rotation → 20-28 min
+    situational → 10-18 min
+
+  And separate state transitions for foul/blowout/OT
+  (already implemented as Book C discrete signals)
+```
 
 ---
 
 ## 6. Risk Management
 
-### Hard Limits (Never Violated)
+### Portfolio-Wide Limits
 
-All percentage-based limits are computed dynamically from current bankroll. Dollar amounts shown assume $2k bankroll as example.
+All limits as percentages of current bankroll. Dollar examples assume $2k.
 
 | Parameter | Limit | Example ($2k) | Rationale |
 |---|---|---|---|
-| Max simultaneous positions | 12 | 12 | Manageable complexity |
-| Max total capital at risk | 40% of bankroll | $800 | Survive worst-case night |
-| Max single market exposure | 4% of bankroll | $80 | No single bet kills you |
-| Max exposure per game | 10% of bankroll | $200 | Correlated risk — game goes wrong, all props lose |
-| Max exposure per player | 6% of bankroll | $120 | Single injury wipes all their props |
-| Daily stop-loss | 7.5% of bankroll | -$150 | Stop trading, review model |
-| Min edge to enter (gross) | $0.12 (12 cents) | — | Covers fees + noise |
-| Min edge for market order | $0.18 (18 cents) | — | Need bigger edge to pay spread |
-| Min confidence | 2 of 3 strong factors agree | — | Avoid single-factor bets |
+| Max total capital at risk | 18% of bankroll | $360 | Conservative for v1 heuristic model |
+| Max simultaneous positions | 10 (all books combined) | 10 | Manageable; reduces correlation risk |
+| Daily stop-loss | 5% of bankroll | -$100 | Stop all trading, review model |
+| Max drawdown (cumulative) | 15% before full halt | -$300 | Halt system, re-evaluate everything |
+
+### Per-Book Limits
+
+| Parameter | Book A | Book B | Book C |
+|---|---|---|---|
+| Max positions | 4 | 6 | 3 |
+| Max total exposure | 8% | 9% | 3% |
+| Per-market exposure | 2% | 1.5% | 1% |
+| Per-game exposure | 4% | 4% | 2% |
+| Per-player exposure | n/a | 2.5% | 1.5% |
+| Min edge (gross) | $0.15 | $0.10 | $0.12 |
+| Sizing method | Fixed 2% | Fixed 1.5% | Fixed 1% |
+
+### Why NOT Half-Kelly in v1
+
+The spec previously used half-Kelly. This is wrong for a v1 heuristic model on a small bankroll:
+
+1. **Kelly requires accurate probability estimates**. Our v1 model is a hand-weighted heuristic with no live calibration data. Kelly amplifies calibration errors — if the model is overconfident, Kelly sizes too large, accelerating ruin.
+
+2. **Correlated positions**. Kelly assumes independent bets. NBA props for players in the same game are correlated (blowout, OT, pace all affect every prop). Kelly on correlated bets overallocates.
+
+3. **Small bankroll**. With $2k, a few max-Kelly losses can destroy the bankroll before the law of large numbers kicks in.
+
+**v1 approach**: Fixed fractional sizing (1-2% per trade). Simple, robust, and won't blow up on calibration errors. Graduate to fractional Kelly (0.1x Kelly, then 0.25x Kelly) only after collecting 200+ live trades with verified calibration.
 
 ### Correlation Guards
 
-- Never hold YES on both sides of a spread (e.g., LAL winner AND HOU +5.5)
-- Reduce position size by 30% when holding multiple props for same player (pts + reb + ast are correlated)
-- Reduce position size by 20% when holding 3+ props in same game (all affected by OT, blowout)
-- Track implied correlation: if 4 positions all need the same game to be high-scoring, that's concentrated risk — enforce per-game cap
+- Never hold YES on both sides of a spread
+- Max 2 props per player across all books
+- Max 4 prop positions in the same game across all books
+- If Book A holds a game-level position and Book B/C holds player props in the same game, reduce Book B/C sizing by 40%
+- Track directional correlation: if 3+ positions all benefit from "high-scoring game," enforce per-game cap
+
+### Lineup Gates (Portfolio-Wide)
+
+```
+NO-TRADE RULES:
+
+1. Player status "Questionable" → no trades on that player (Book B)
+2. Key teammate "Questionable" → no trades on that team's players (Book B)
+3. T-15 min to tip-off → no NEW Book B orders (late lineup changes)
+4. Player last-5 avg < 20 minutes → skip (too much variance)
+5. Rotation player (20-28 min avg) → 50% position size reduction
+```
 
 ---
 
@@ -410,40 +508,30 @@ All percentage-based limits are computed dynamically from current bankroll. Doll
 
 ### Discovering Tonight's Players
 
-The system needs to know which players are in tonight's games and their Real player IDs.
+1. Fetch tonight's schedule: `GET /home/nba/next?cohort=0`
+2. Fetch stat trackers: `GET /stattrackers?day={today}&sport=nba` — returns player names, prop lines, and **overOdds/underOdds** (external odds context)
+3. Player lookup table (SQLite): `{player_name, team}` → `{real_player_id}`. Populated via `GET /players/sport/nba/search?season=2025` on first encounter. Cached permanently.
 
-**Primary approach**:
-1. Fetch tonight's schedule from Real: `GET /home/nba/next?cohort=0` — returns tonight's games with team info
-2. Fetch stat trackers: `GET /stattrackers?day={today}&sport=nba` — returns player names with prop lines for today's games
-3. Maintain a local **player lookup table** (SQLite) mapping `{player_name, team}` → `{real_player_id}`. Populated incrementally: when a new player name appears in stat trackers, search via `GET /players/sport/nba/search?season=2025` to find their ID. Cache permanently (player IDs don't change).
-
-**Pre-game data fetch volume** (per game night with ~6 games, ~15 players per game):
-- 1 call: tonight's schedule
-- 1 call: stat trackers for the day
-- ~90 calls: player profiles (15 players x 6 games, cached 5 min)
-- ~12 calls: team data (6 games x 2 teams, cached 15 min)
-- Total: ~104 calls, at 200ms each = ~21 seconds sequential. Well within rate limits.
+**Pre-game API budget**: ~104 calls (90 player profiles + 12 team data + 2 meta), ~21 seconds at 200ms each.
 
 ### Matching Real Players to Kalshi Tickers
 
-Kalshi player prop tickers encode player names in abbreviated form:
-```
-KXNBAPTS-26MAR18-LALLEBRONJ25-27
-         │        │  │       │
-         │        │  │       └── Line value
-         │        │  └── Abbreviated player name
-         │        └── Team abbreviation
-         └── Date
-```
+1. Query Kalshi `GET /markets?series_ticker=KXNBAPTS&status=open` — parse full player name from `title` field
+2. Fuzzy match to Real's player names (handle Jr./III, hyphenated, nicknames)
+3. Store mapping `{real_player_id}` → `{kalshi_ticker_pattern}` in SQLite
+4. Refresh daily
 
-**Matching strategy**:
-1. Query Kalshi `GET /markets?series_ticker=KXNBAPTS&status=open` — each market has a `title` and `subtitle` field containing the full player name (e.g., "LeBron James Over 27.5 Points")
-2. Parse the full player name from the Kalshi market title
-3. Fuzzy match to Real's player names (handle Jr./III, hyphenated names, nicknames)
-4. Store the mapping `{real_player_id}` → `{kalshi_ticker_pattern}` in the local lookup table
-5. Refresh mapping daily (new players, line changes)
+### statId Discovery
 
-**Edge cases**: Players with identical last names on the same team (rare in NBA). Handle by including first name initial in the match. Log any ambiguous matches for manual review.
+Query `GET /teamstatleaders/nba/seasons` at startup to get stat category → numeric ID mapping. Cache permanently. Expected categories (verify at runtime):
+
+| Stat Name | Used For |
+|---|---|
+| Points Per Game | Points prop matchup |
+| Rebounds Per Game | Rebounds prop matchup |
+| Assists Per Game | Assists prop matchup |
+| 3-Pointers Per Game | 3PT prop matchup |
+| Opponent Points Per Game | Defensive rating |
 
 ---
 
@@ -453,148 +541,197 @@ KXNBAPTS-26MAR18-LALLEBRONJ25-27
 T-2 hours (before first game):
   ├── Fetch tonight's slate from Kalshi + Real
   ├── Discover player IDs (lookup table + search fallback)
-  ├── Pull player profiles, splits, team data from Real
+  ├── Pull player profiles, splits, season feeds from Real
+  ├── Fetch stat trackers (prop lines + external odds)
+  ├── Apply lineup gates: exclude Questionable players
   ├── Discover statId mappings (if not cached)
   ├── Match Real players to Kalshi tickers
-  ├── Run Layer 1 pre-game model for all markets
-  ├── Identify edges > 12 cents
-  ├── Queue pre-game limit orders
-  └── Log all model outputs
+  ├── Run Book A: compare Real game prices to Kalshi game prices
+  ├── Run Book B: compute prop fair values from Real data
+  ├── Identify edges, queue limit orders
+  └── Log FULL opportunity set (all model outputs, not just triggered trades)
+
+T-15 min (lineup gate):
+  ├── Re-check all player statuses
+  ├── Cancel Book B orders for players now Questionable
+  ├── Place final Book B orders for players confirmed Active
+  └── No new Book B orders after this point
 
 T-0 (tip-off):
   ├── Open Socket.io connection to Real (LiveFeed + PlayerBoxScore)
-  ├── Start Kalshi price polling (every 5-10 seconds)
-  ├── Layer 2 live engine activates
-  └── Reassess unfilled pre-game orders
+  ├── Start Kalshi price polling (every 10 seconds for Book A/B monitoring)
+  ├── Book C event detector activates
+  └── Monitor existing positions for exit signals
 
 T+ongoing (during games):
-  ├── Every play event → update projections
-  ├── Every Kalshi poll → recalculate edges
-  ├── Execute when pipeline passes all checks
-  ├── Monitor positions for exit signals
+  ├── Book C: watch for foul trouble / OT / blowout triggers
+  ├── On Book C trigger: targeted Kalshi read → quote check → order
+  ├── All books: monitor positions for exit rules
+  ├── Log all signals (triggered and NOT triggered) for validation
   └── Enforce risk limits continuously
 
 T+final (games end):
   ├── Positions settle on Kalshi ($1 or $0)
-  ├── Record results: predicted edge vs actual outcome
+  ├── Record per-trade: predicted edge, fill price, slippage, outcome
+  ├── Bucket results by book (A, B, C separately)
   ├── Update calibration log
-  └── Generate daily P&L report
+  └── Generate daily P&L report by book
 
 Weekly:
-  ├── Recalibrate factor weights from results
-  ├── Re-train Platt scaling sigmoid on accumulated data
-  ├── Adjust min edge threshold if win rate is off
-  └── Review signal profitability by type
+  ├── Recalibrate Book B distribution shifts
+  ├── Review Book C slippage data — disable unprofitable signals
+  ├── Evaluate expanding Book C signal set
+  ├── Adjust edge thresholds per book based on realized vs predicted
+  └── Review full opportunity set: are we missing profitable signals?
 ```
 
 ---
 
-## 9. Key Statistical Correlations Exploited
+## 9. Validation & Performance Measurement
+
+### Why Win Rate Alone Is Wrong
+
+For a mixed-price book (trades at $0.30 and trades at $0.70), win rate is misleading. A 60% win rate on $0.70 contracts is much worse than 45% on $0.30 contracts.
+
+### Required Metrics (tracked per book)
+
+| Metric | Definition | Target |
+|---|---|---|
+| **Brier Score** | Mean squared error of probability forecasts: `mean((predicted - outcome)^2)` | < 0.20 |
+| **Log Loss** | `-mean(outcome * log(predicted) + (1-outcome) * log(1-predicted))` | < 0.60 |
+| **Realized Edge** | Average (model_prob - fill_price) on winning trades | Positive per book |
+| **Quoted vs Realized Edge** | Compare pre-trade edge estimate to post-settlement actual edge | Within 3 cents |
+| **CLV (Closing Line Value)** | Compare our entry price to the price at game end. If we consistently buy below closing price, we have real edge. | Positive |
+| **Slippage** (Book C) | Average (fill_price - quote_at_signal_time) | < 3 cents |
+| **P&L by Book** | Net profit per book after fees | Positive per book |
+| **ROI by Book** | P&L / capital_at_risk per book | > 0% per book |
+| **Calibration Curve** | Bin predicted probabilities (50-60%, 60-70%, etc.) and compare to actual hit rates | Within 5% per bin |
+
+### Validation Phases
+
+```
+PHASE 1: Paper Trading (Kalshi Demo API)
+  Duration: Minimum 4 weeks or 150+ trades (whichever is later)
+  Capital: $3,447 demo balance
+  Books: All three active
+  Gate to Phase 2:
+    - Positive P&L in each book independently
+    - Brier score < 0.22 (slightly relaxed for small sample)
+    - No individual book has > 25% drawdown
+    - Book C slippage < 4 cents average
+    - Calibration curve within 8% per bin
+
+PHASE 2: Small Live Trading (Kalshi Production)
+  Duration: 4 weeks
+  Capital: $500 (subset of bankroll)
+  Books: Book B only first (best data-driven edge)
+  Sizing: 50% of normal (0.75% per trade instead of 1.5%)
+  Gate to Phase 3:
+    - Positive P&L on Book B
+    - CLV consistently positive
+    - Calibration within 5% per bin
+    - Then add Book A (2 more weeks)
+    - Then add Book C (2 more weeks)
+
+PHASE 3: Full Deployment
+  Capital: Full bankroll ($1-5k)
+  Books: All three at normal sizing
+  Ongoing: Weekly metric review, monthly strategy audit
+
+LOG EVERYTHING:
+  - Every model output (not just triggers)
+  - Every Kalshi quote at signal time
+  - Every fill price and slippage
+  - Every lineup gate decision (why we didn't trade)
+  - Every game state transition
+  - Full opportunity set for backtesting
+```
+
+---
+
+## 10. Key Statistical Correlations Exploited
 
 | Correlation | Direction | Trading Implication |
 |---|---|---|
-| Pace ↔ All counting stats | Strong positive | High-pace games inflate points, rebounds, assists |
+| Pace ↔ All counting stats | Strong positive | High-pace = inflate all props |
 | Minutes ↔ All counting stats | Strongest predictor | +1 min = ~0.7 pts, ~0.3 reb, ~0.2 ast |
-| Teammate absence ↔ Usage | Positive for pts, negative for ast | Buy points over, sell assists over |
-| Blowout risk ↔ Star minutes | Strong negative | Sell the over on heavy favorites |
-| Back-to-back ↔ Performance | Moderate negative (-5-8%) | Discount all props on B2B |
-| 3PT rate ↔ Rebound variance | Moderate negative | More 3s = fewer offensive rebounds |
-| Home court ↔ Points | Weak positive (+1.5 pts) | Consistent, compounds with other factors |
-| Opponent pace ↔ Player stats | Strong positive | Fast opponent = more possessions for both |
+| Teammate absence ↔ Usage | + for pts, - for ast | Buy points over, sell assists over |
+| Blowout ↔ Star minutes | Strong negative | Book C signal: sell overs |
+| Back-to-back ↔ Performance | -5-8% | Discount all props on B2B |
+| Opponent pace ↔ Player stats | Strong positive | Fast opponent = more possessions |
+| Foul trouble ↔ Minutes | Strong negative | Book C signal: sell overs |
+| OT ↔ Counting stats | +15% boost | Book C signal: buy overs |
 
 ---
 
-## 10. Data Sources Summary
+## 11. Data Sources Summary
 
-### Real Sports App (Signal Source)
+### Real Sports App (Signal Source — NO Kalshi data enters alpha models)
 
-| Data | Endpoint | Frequency | Purpose |
+| Data | Endpoint | Used By | Frequency |
 |---|---|---|---|
-| Player profile + splits | `GET /players/{id}/sport/nba?season=2025` | Pre-game (cache 5 min) | Layer 1 factors 1-5 |
-| Player box scores | `GET /playerboxscores/{id}?version=2` | Pre-game (fallback for minutes) | Minutes avg if not in splits |
-| Player search | `GET /players/sport/nba/search?season=2025` | On new player discovery | Populate player ID lookup |
-| Team standings | `GET /teamstandings/sport/nba/...` | Pre-game (cache 15 min) | Situational factor |
-| Team rankings | `GET /rankings/sport/nba/entity/team/ranking/{period}` | Pre-game (cache 5 min) | Game-level model |
-| Player rankings | `GET /rankings/sport/nba/entity/player/ranking/{period}` | Pre-game (cache 5 min) | Recency signal |
-| Team stat leaders | `GET /teamstatleaders/nba/seasons/2025/...` | Pre-game (cache 15 min) | Matchup defensive rating |
-| Team stat categories | `GET /teamstatleaders/nba/seasons` | Startup (cache permanently) | Discover statId mappings |
-| Stat trackers | `GET /stattrackers?day={date}&sport=nba` | Pre-game | Prop lines + player discovery |
-| Schedule | `GET /home/nba/days?type=condensed` | Daily | B2B detection |
-| Tonight's games | `GET /home/nba/next?cohort=0` | Pre-game | Game slate discovery |
-| Live feed (Socket.io) | `https://web.realsports.io` LiveFeed socket | Real-time | Layer 2 play-by-play |
-| Player box score (Socket.io) | `https://web.realsports.io` PlayerBoxScore socket | Real-time | Live stat accumulation |
-| Game markets (Socket.io) | `https://web.realsports.io` GameMarkets socket | Real-time | Real price tracking |
+| Player profile + splits | `GET /players/{id}/sport/nba?season=2025` | Book B | Pre-game, cache 5 min |
+| Player season feed | `GET /players/{id}/sport/nba/seasonfeed?limit=20&season=2025` | Book B | Pre-game, cache 5 min |
+| Player box scores | `GET /playerboxscores/{id}?version=2` | Book B (minutes fallback) | Pre-game |
+| Stat trackers + odds | `GET /stattrackers?day={date}&sport=nba` | Book B (external odds prior) | Pre-game |
+| Game markets (prices) | `GET /predictions/gamemarkets/nba` | Book A | Pre-game + every 30s |
+| Team standings | `GET /teamstandings/sport/nba/...` | Book B (situational) | Pre-game, cache 15 min |
+| Team rankings | `GET /rankings/sport/nba/entity/team/ranking/{period}` | Book A | Pre-game, cache 5 min |
+| Team stat leaders | `GET /teamstatleaders/nba/seasons/2025/...` | Book B (matchup) | Pre-game, cache 15 min |
+| Schedule | `GET /home/nba/days?type=condensed` | All (B2B detection) | Daily |
+| Tonight's games | `GET /home/nba/next?cohort=0` | All (slate) | Pre-game |
+| Live feed (Socket.io) | `https://web.realsports.io` LiveFeed | Book C | Real-time |
+| Player box score (Socket.io) | `https://web.realsports.io` PlayerBoxScore | Book C | Real-time |
 
-**Note**: Real's WebSocket uses Socket.io (not raw WebSocket). Must use a Socket.io client library (`python-socketio`), not a raw `websockets` connection. Connection is made to `https://web.realsports.io` which upgrades to `wss://` internally.
+### Kalshi (Execution Venue — prices used for execution and risk only)
 
-### Kalshi (Execution Venue)
-
-| Data | Endpoint | Frequency | Purpose |
+| Data | Endpoint | Used By | Frequency |
 |---|---|---|---|
-| Market list | `GET /markets?series_ticker=KXNBA*&status=open` | Pre-game + every 5-10s | Discover markets, get prices, parse player names |
-| Market orderbook | `GET /markets/{ticker}/orderbook` | Every 5-10s during games | Best bid/ask for execution |
-| Place order | `POST /portfolio/orders` | On signal | Execute trades |
-| Cancel order | `DELETE /portfolio/orders/{id}` | On re-price or exit | Order management |
-| Positions | `GET /portfolio/positions` | Every 30s | Track open positions |
-| Balance | `GET /portfolio/balance` | Every 60s | Available capital |
+| Market list + prices | `GET /markets?series_ticker=KXNBA*&status=open` | All (execution) | Pre-game + 10s polling |
+| Market orderbook | `GET /markets/{ticker}/orderbook` | Book C (quote checks) | On signal (targeted) |
+| Place order | `POST /portfolio/orders` | All | On signal |
+| Cancel order | `DELETE /portfolio/orders/{id}` | All | On re-price/exit |
+| Positions | `GET /portfolio/positions` | All (risk) | Every 30s |
+| Balance | `GET /portfolio/balance` | All (risk) | Every 60s |
 
 ---
 
-## 11. Failure Modes & Recovery
+## 12. Failure Modes & Recovery
 
 ### WebSocket Disconnection
 
 | Scenario | Detection | Recovery |
 |---|---|---|
-| Socket.io disconnect | `disconnect` event | Auto-reconnect (Socket.io built-in, 250ms-1s delay). Re-subscribe to rooms. |
-| No data for 30+ seconds | Heartbeat watchdog timer | Mark all live data as STALE. Fall back to REST polling at 5s intervals. Do NOT execute new trades on stale data. |
-| Reconnect fails 3 times | Reconnect attempt counter | Switch to REST-only mode for remainder of session. Log alert. |
+| Socket.io disconnect | `disconnect` event | Auto-reconnect. Re-subscribe. |
+| No data 30+ seconds | Heartbeat watchdog | Mark STALE. Fall back to REST 5s. No new Book C trades. |
+| Reconnect fails 3x | Counter | REST-only mode. Book C disabled. Log alert. |
 
 ### Kalshi API Failures
 
 | Scenario | Detection | Recovery |
 |---|---|---|
-| Order rejected (400) | HTTP 400 response | Log reason. Do NOT retry (likely invalid params). |
-| Rate limited (429) | HTTP 429 response | Back off 1 second. Reduce polling frequency by 50%. Resume after 10s. |
-| Auth failure (401) | HTTP 401 response | Re-sign request with fresh timestamp. If still failing, halt all trading. |
-| Network timeout | No response in 5s | Retry once. If second attempt fails, mark Kalshi as DOWN. No new orders. |
-| Partial fill | Order status `partial` | Keep remaining order active. Adjust position tracking for filled portion. |
+| Order rejected (400) | HTTP 400 | Log. No retry. |
+| Rate limited (429) | HTTP 429 | Back off 2s. Reduce polling 50%. |
+| Auth failure (401) | HTTP 401 | Re-sign. If still failing, halt all books. |
+| Timeout (5s) | No response | Retry once. Then mark DOWN, no new orders. |
 
-### Kill Switch
+### Kill Switch Triggers
 
-If the system enters an unknown or degraded state:
-1. Cancel ALL open (unfilled) orders on Kalshi
-2. Stop placing new orders
-3. Keep existing positions (they'll settle naturally)
-4. Log full system state for diagnosis
-5. Send alert (log file / stdout — no external notification in v1)
-
-Trigger conditions:
-- Daily loss limit hit
-- 3+ consecutive order failures
-- Both Real WebSocket AND REST polling are down simultaneously
-- Position tracking disagrees with Kalshi reported positions by > 2 contracts
+1. Daily stop-loss hit (-5% of bankroll)
+2. 3+ consecutive order failures
+3. Real WebSocket AND REST both down
+4. Position tracking disagrees with Kalshi by > 2 contracts
+5. Any single book draws down > 10% of its allocation in one session
 
 ---
 
-## 12. Tech Stack
+## 13. Tech Stack
 
-- **Language**: Python 3.11+ (scipy for stats, asyncio for concurrency)
-- **Real API client**: httpx (async HTTP) + python-socketio (Socket.io client)
-- **Kalshi API client**: httpx + cryptography (RSA-PSS signing)
-- **Probability engine**: scipy.stats.norm for CDF calculations
-- **Scheduling**: asyncio event loop with timers
-- **Storage**: SQLite for trade log, calibration data, daily P&L, player lookup table, statId cache
-- **Configuration**: YAML for risk parameters (easy to tune without code changes) — single source of truth for all limits
-
----
-
-## 13. Success Criteria
-
-- **Win rate**: 58-68% on triggered trades (above break-even after Kalshi fees)
-- **Average edge per trade**: $0.12-0.20 gross, $0.08-0.16 net of fees
-- **Daily volume**: 8-20 trades on a full NBA slate
-- **Monthly ROI target**: 8-15% on deployed capital
-- **Max drawdown tolerance**: 20% of bankroll before full model review
-- **Calibration accuracy**: Model's predicted probabilities within 5% of actual hit rates over 200+ trades
-- **Paper trade first**: Run on Kalshi demo API for minimum 2 weeks (50+ trades) before deploying real capital
+- **Language**: Python 3.11+ (scipy, asyncio)
+- **Real API client**: httpx (async) + python-socketio
+- **Kalshi API client**: httpx + cryptography (RSA-PSS)
+- **Probability**: scipy.stats for distributions, empirical CDF
+- **Scheduling**: asyncio event loop
+- **Storage**: SQLite (trade log, calibration, player lookup, statId cache, opportunity log)
+- **Configuration**: YAML (per-book risk params, edge thresholds, signal toggles)
+- **Logging**: Structured JSON logs with full opportunity set
