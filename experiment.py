@@ -14,7 +14,7 @@ MATCHUP_CAP = 0.20
 
 # Venue: home/away performance shift
 # Formula: clamp((venue_avg / season_avg - 1.0) * MULTIPLIER, -CAP, CAP)
-VENUE_MULTIPLIER = 0.20
+VENUE_MULTIPLIER = 0.30
 VENUE_CAP = 0.08
 
 # Back-to-back: second night penalty (fixed)
