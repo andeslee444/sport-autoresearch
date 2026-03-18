@@ -1,0 +1,87 @@
+{
+  "game_id": 17274,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Nets",
+  "away_team": "Bucks",
+  "home_team_id": 8,
+  "away_team_id": 15,
+  "period": 1,
+  "total_plays": 256,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 98,
+    "FieldGoalMade": 86,
+    "Steal": 15,
+    "Turnover": 23,
+    "FreeThrows": 16,
+    "Block": 10
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 109,
+      "away_score": 121,
+      "margin": 12
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 38,
+      "margin": 22,
+      "home_score": 95,
+      "away_score": 117
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 80,
+      "away_score": 98,
+      "margin": 18
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 80,
+      "away_score": 98,
+      "margin": 18
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 49,
+      "away_score": 60,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 49,
+      "away_score": 60,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 21,
+      "away_score": 29,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 21,
+      "away_score": 29,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:31Z"
+}

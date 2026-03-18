@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAAST-26MAR17INDNYK-NYKJHART3-10",
+  "title": "Josh Hart: 10+ assists",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAAST",
+    "date_teams": "26MAR17INDNYK",
+    "player_line_raw": "NYKJHART3-10",
+    "line": 10.0,
+    "ticker": "KXNBAAST-26MAR17INDNYK-NYKJHART3-10"
+  },
+  "collected_at": "2026-03-18T21:03:07Z"
+}

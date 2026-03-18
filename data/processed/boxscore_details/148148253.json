@@ -1,0 +1,82 @@
+{
+  "personal_fouls": 2,
+  "offensive_rebounds": 6,
+  "defensive_rebounds": 8,
+  "plus_minus": 0,
+  "true_shooting_pct": 69,
+  "position": "C",
+  "started": true,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": "33.8",
+  "home_team_score": 113,
+  "away_team_score": 109,
+  "shots": [
+    {
+      "x": 44.04,
+      "y": 69.61,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 39.7,
+      "y": 49.26,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 43.51,
+      "y": 51.72,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 43.91,
+      "y": 53.19,
+      "period": 1,
+      "made": false
+    },
+    {
+      "x": 42.72,
+      "y": 50.74,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 42.43,
+      "y": 49.51,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 44.41,
+      "y": 50,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 44.14,
+      "y": 58.82,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 44.17,
+      "y": 53.19,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 42.2,
+      "y": 51.23,
+      "period": 1,
+      "made": true
+    }
+  ],
+  "shot_count": 10,
+  "box_score_id": 148148253,
+  "player_id": "20000549",
+  "game_id": 17899,
+  "day": "2022-04-08",
+  "collected_at": "2026-03-18T20:27:03Z"
+}

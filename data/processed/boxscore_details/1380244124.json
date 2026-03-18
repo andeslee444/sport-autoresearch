@@ -1,0 +1,178 @@
+{
+  "personal_fouls": 4,
+  "offensive_rebounds": 3,
+  "defensive_rebounds": 8,
+  "plus_minus": 9,
+  "true_shooting_pct": 50.6,
+  "position": "F",
+  "started": true,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": 48.7,
+  "home_team_score": 94,
+  "away_team_score": 85,
+  "shots": [
+    {
+      "x": 28.93,
+      "y": 31.37,
+      "period": 2,
+      "made": false
+    },
+    {
+      "x": 40.46,
+      "y": 47.55,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 42.2,
+      "y": 51.72,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 43.61,
+      "y": 52.7,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 41.11,
+      "y": 50.49,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 24.85,
+      "y": 90.2,
+      "period": 2,
+      "made": false
+    },
+    {
+      "x": 17.33,
+      "y": 39.46,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 23.01,
+      "y": 30.88,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 41.28,
+      "y": 25.98,
+      "period": 1,
+      "made": false
+    },
+    {
+      "x": 41.93,
+      "y": 47.79,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 32.34,
+      "y": 16.42,
+      "period": 2,
+      "made": false
+    },
+    {
+      "x": 30.6,
+      "y": 50.74,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 40.46,
+      "y": 99.9,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 24.82,
+      "y": 13.48,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 29.58,
+      "y": 60.05,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 42.43,
+      "y": 50.74,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 16.97,
+      "y": 51.72,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 43.48,
+      "y": 51.72,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 42.99,
+      "y": 46.81,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 22.49,
+      "y": 36.03,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 36.42,
+      "y": 43.87,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 41.54,
+      "y": 52.45,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 42.69,
+      "y": 59.8,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 33.75,
+      "y": 75.25,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 43.61,
+      "y": 49.51,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 43.74,
+      "y": 50.25,
+      "period": 4,
+      "made": true
+    }
+  ],
+  "shot_count": 26,
+  "box_score_id": 1380244124,
+  "player_id": "20000571",
+  "game_id": 22308,
+  "day": "2025-04-22",
+  "collected_at": "2026-03-18T20:26:04Z"
+}

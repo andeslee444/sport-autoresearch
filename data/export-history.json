@@ -1,0 +1,69 @@
+[
+  {
+    "exported_at": "2026-03-18T15:12:12",
+    "old_brier": null,
+    "new_brier": 0.094,
+    "param_changes": {
+      "B2B_PENALTY": {
+        "old": null,
+        "new": -0.04
+      },
+      "FALLBACK_SIGMA": {
+        "old": null,
+        "new": 0.15
+      },
+      "MATCHUP_CAP": {
+        "old": null,
+        "new": 0.1
+      },
+      "MATCHUP_MULTIPLIER": {
+        "old": null,
+        "new": 0.0
+      },
+      "RECENCY_WEIGHT_LAST10": {
+        "old": null,
+        "new": 1.0
+      },
+      "RECENCY_WEIGHT_LAST5": {
+        "old": null,
+        "new": 1.0
+      },
+      "RECENCY_WEIGHT_SEASON": {
+        "old": null,
+        "new": 1.0
+      },
+      "USE_STAT_SPACE": {
+        "old": null,
+        "new": false
+      },
+      "VENUE_CAP": {
+        "old": null,
+        "new": 0.03
+      },
+      "VENUE_MULTIPLIER": {
+        "old": null,
+        "new": 0.3
+      }
+    },
+    "new_metrics": {
+      "brier_score": 0.094,
+      "calibration_error": 0.0235,
+      "expected_profit_pct": 141.5,
+      "sample_size": 7685,
+      "timestamp": ""
+    }
+  },
+  {
+    "exported_at": "2026-03-18T15:18:04",
+    "old_brier": 0.094,
+    "new_brier": 0.094,
+    "param_changes": {},
+    "new_metrics": {
+      "brier_score": 0.094,
+      "calibration_error": 0.0235,
+      "expected_profit_pct": 141.5,
+      "sample_size": 7685,
+      "timestamp": ""
+    }
+  }
+]

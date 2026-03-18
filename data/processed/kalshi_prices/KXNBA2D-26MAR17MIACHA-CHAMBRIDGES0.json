@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBA2D-26MAR17MIACHA-CHAMBRIDGES0",
+  "title": "Miles Bridges: Double Double",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBA2D",
+    "date_teams": "26MAR17MIACHA",
+    "player_line_raw": "CHAMBRIDGES0",
+    "line": null,
+    "ticker": "KXNBA2D-26MAR17MIACHA-CHAMBRIDGES0"
+  },
+  "collected_at": "2026-03-18T21:04:00Z"
+}

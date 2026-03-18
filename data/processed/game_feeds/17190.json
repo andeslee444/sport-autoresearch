@@ -1,0 +1,79 @@
+{
+  "game_id": 17190,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Bulls",
+  "away_team": "Pacers",
+  "home_team_id": 11,
+  "away_team_id": 13,
+  "period": 1,
+  "total_plays": 246,
+  "play_types": {
+    "FieldGoalMissed": 84,
+    "Period": 8,
+    "FreeThrows": 20,
+    "Turnover": 24,
+    "FieldGoalMade": 84,
+    "Block": 12,
+    "Steal": 14
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 113,
+      "away_score": 105,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 87,
+      "away_score": 79,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 87,
+      "away_score": 79,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 63,
+      "away_score": 48,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 63,
+      "away_score": 48,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 33,
+      "away_score": 27,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 33,
+      "away_score": 27,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:13:59Z"
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBABLK-26MAR17INDNYK-NYKMBRIDGES25-1",
+  "title": "Mikal Bridges: 1+ blocks",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 100,
+  "last_price": 65,
+  "volume": 1,
+  "open_interest": 1,
+  "parsed": {
+    "series": "KXNBABLK",
+    "date_teams": "26MAR17INDNYK",
+    "player_line_raw": "NYKMBRIDGES25-1",
+    "line": 1.0,
+    "ticker": "KXNBABLK-26MAR17INDNYK-NYKMBRIDGES25-1"
+  },
+  "collected_at": "2026-03-18T21:03:50Z"
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAPTS-26MAR18TORCHI-TORIQUICKLEY5-25",
+  "title": "Immanuel Quickley: 25+ points",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAPTS",
+    "date_teams": "26MAR18TORCHI",
+    "player_line_raw": "TORIQUICKLEY5-25",
+    "line": 25.0,
+    "ticker": "KXNBAPTS-26MAR18TORCHI-TORIQUICKLEY5-25"
+  },
+  "collected_at": "2026-03-18T21:04:17Z"
+}

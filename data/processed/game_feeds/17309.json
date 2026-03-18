@@ -1,0 +1,151 @@
+{
+  "game_id": 17309,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Pistons",
+  "away_team": "Suns",
+  "home_team_id": 14,
+  "away_team_id": 29,
+  "period": 1,
+  "total_plays": 262,
+  "play_types": {
+    "FreeThrows": 33,
+    "Period": 8,
+    "Turnover": 28,
+    "TechnicalFoul": 9,
+    "FieldGoalMissed": 74,
+    "FieldGoalMade": 89,
+    "Block": 11,
+    "Steal": 10
+  },
+  "game_state_snapshots": [
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 42,
+      "margin": 27,
+      "home_score": 108,
+      "away_score": 135
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 108,
+      "away_score": 135,
+      "margin": 27
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 42,
+      "player_id": 20001828,
+      "margin": 28
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 42,
+      "player_id": 20001828,
+      "margin": 28
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 48,
+      "player_id": 20002535,
+      "margin": 24
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 82,
+      "away_score": 103,
+      "margin": 21
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 82,
+      "away_score": 103,
+      "margin": 21
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 22,
+      "player_id": 20002667,
+      "margin": 20
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 22,
+      "player_id": 20002667,
+      "margin": 20
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 41,
+      "player_id": 20002667,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 54,
+      "away_score": 64,
+      "margin": 10
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 54,
+      "away_score": 64,
+      "margin": 10
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 24,
+      "player_id": 20001828,
+      "margin": 3
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 33,
+      "player_id": 20000828,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 35,
+      "away_score": 39,
+      "margin": 4
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 35,
+      "away_score": 39,
+      "margin": 4
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 56,
+      "player_id": 20001990,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:41Z"
+}

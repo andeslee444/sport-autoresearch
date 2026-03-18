@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAPTS-26MAR18ATLDAL-ATLOOKONGWU17-15",
+  "title": "Onyeka Okongwu: 15+ points",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAPTS",
+    "date_teams": "26MAR18ATLDAL",
+    "player_line_raw": "ATLOOKONGWU17-15",
+    "line": 15.0,
+    "ticker": "KXNBAPTS-26MAR18ATLDAL-ATLOOKONGWU17-15"
+  },
+  "collected_at": "2026-03-18T21:04:21Z"
+}

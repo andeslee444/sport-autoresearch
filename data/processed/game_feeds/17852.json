@@ -1,0 +1,87 @@
+{
+  "game_id": 17852,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "76ers",
+  "away_team": "Hornets",
+  "home_team_id": 7,
+  "away_team_id": 2,
+  "period": 1,
+  "total_plays": 266,
+  "play_types": {
+    "Period": 8,
+    "Steal": 24,
+    "Turnover": 36,
+    "FieldGoalMissed": 75,
+    "FreeThrows": 19,
+    "FieldGoalMade": 95,
+    "Block": 9
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 144,
+      "away_score": 114,
+      "margin": 30
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 30,
+      "home_score": 144,
+      "away_score": 114
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 103,
+      "away_score": 80,
+      "margin": 23
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 103,
+      "away_score": 80,
+      "margin": 23
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 58,
+      "away_score": 53,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 58,
+      "away_score": 53,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 29,
+      "away_score": 26,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 29,
+      "away_score": 26,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:16Z"
+}

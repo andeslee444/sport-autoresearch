@@ -1,0 +1,95 @@
+{
+  "game_id": 17885,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Jazz",
+  "away_team": "Thunder",
+  "home_team_id": 17,
+  "away_team_id": 18,
+  "period": 4,
+  "total_plays": 250,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 25,
+    "FieldGoalMade": 86,
+    "FieldGoalMissed": 79,
+    "Steal": 17,
+    "FreeThrows": 20,
+    "Block": 14,
+    "TechnicalFoul": 1
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 137,
+      "away_score": 101,
+      "margin": 36
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 36,
+      "home_score": 137,
+      "away_score": 101
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 106,
+      "away_score": 85,
+      "margin": 21
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 106,
+      "away_score": 85,
+      "margin": 21
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 4,
+      "player_id": 20001747,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 71,
+      "away_score": 58,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 71,
+      "away_score": 58,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 41,
+      "away_score": 31,
+      "margin": 10
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 41,
+      "away_score": 31,
+      "margin": 10
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:48Z"
+}

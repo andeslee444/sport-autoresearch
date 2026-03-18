@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBABLK-26MAR18LALHOU-LALDAYTON5-2",
+  "title": "Deandre Ayton: 2+ blocks",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBABLK",
+    "date_teams": "26MAR18LALHOU",
+    "player_line_raw": "LALDAYTON5-2",
+    "line": 2.0,
+    "ticker": "KXNBABLK-26MAR18LALHOU-LALDAYTON5-2"
+  },
+  "collected_at": "2026-03-18T21:05:39Z"
+}

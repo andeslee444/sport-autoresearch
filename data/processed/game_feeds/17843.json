@@ -1,0 +1,130 @@
+{
+  "game_id": 17843,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Wizards",
+  "away_team": "Mavs",
+  "home_team_id": 1,
+  "away_team_id": 25,
+  "period": 1,
+  "total_plays": 243,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 82,
+    "FieldGoalMade": 85,
+    "Turnover": 23,
+    "Block": 7,
+    "FreeThrows": 22,
+    "Steal": 10,
+    "TechnicalFoul": 6
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 135,
+      "away_score": 103,
+      "margin": 32
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 32,
+      "home_score": 135,
+      "away_score": 103
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 47,
+      "player_id": 20001984,
+      "margin": 21
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 47,
+      "player_id": null,
+      "margin": 21
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 47,
+      "player_id": null,
+      "margin": 20
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 59,
+      "player_id": 20000816,
+      "margin": 17
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 94,
+      "away_score": 78,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 94,
+      "away_score": 78,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 67,
+      "away_score": 53,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 67,
+      "away_score": 53,
+      "margin": 14
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 47,
+      "player_id": 20001984,
+      "margin": 12
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 47,
+      "player_id": 20000539,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 41,
+      "away_score": 30,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 41,
+      "away_score": 30,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:08Z"
+}

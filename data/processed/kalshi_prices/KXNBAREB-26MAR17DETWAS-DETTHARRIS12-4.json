@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR17DETWAS-DETTHARRIS12-4",
+  "title": "Tobias Harris: 4+ rebounds",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 100,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR17DETWAS",
+    "player_line_raw": "DETTHARRIS12-4",
+    "line": 4.0,
+    "ticker": "KXNBAREB-26MAR17DETWAS-DETTHARRIS12-4"
+  },
+  "collected_at": "2026-03-18T21:02:49Z"
+}

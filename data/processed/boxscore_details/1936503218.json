@@ -1,0 +1,21 @@
+{
+  "personal_fouls": 0,
+  "offensive_rebounds": 0,
+  "defensive_rebounds": 0,
+  "plus_minus": 0,
+  "true_shooting_pct": 0,
+  "position": "F",
+  "started": false,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": 0,
+  "home_team_score": 117,
+  "away_team_score": 130,
+  "shots": [],
+  "shot_count": 0,
+  "box_score_id": 1936503218,
+  "player_id": "20003556",
+  "game_id": 23458,
+  "day": "2026-03-17",
+  "collected_at": "2026-03-18T20:25:49Z"
+}

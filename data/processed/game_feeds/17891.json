@@ -1,0 +1,159 @@
+{
+  "game_id": 17891,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Wolves",
+  "away_team": "Spurs",
+  "home_team_id": 16,
+  "away_team_id": 24,
+  "period": 4,
+  "total_plays": 264,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 97,
+    "FreeThrows": 29,
+    "Turnover": 24,
+    "FieldGoalMade": 85,
+    "Block": 7,
+    "Steal": 13,
+    "TechnicalFoul": 1
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 127,
+      "away_score": 121,
+      "margin": 6
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 1,
+      "margin": 6,
+      "home_score": 127,
+      "away_score": 121
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 4,
+      "margin": 6,
+      "home_score": 127,
+      "away_score": 121
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 6,
+      "margin": 4,
+      "home_score": 125,
+      "away_score": 121
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 8,
+      "margin": 4,
+      "home_score": 125,
+      "away_score": 121
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 8,
+      "margin": 4,
+      "home_score": 125,
+      "away_score": 121
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 9,
+      "margin": 6,
+      "home_score": 125,
+      "away_score": 119
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 4,
+      "home_score": 123,
+      "away_score": 119
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 17,
+      "margin": 5,
+      "home_score": 123,
+      "away_score": 118
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 27,
+      "margin": 5,
+      "home_score": 123,
+      "away_score": 118
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 97,
+      "away_score": 82,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 97,
+      "away_score": 82,
+      "margin": 15
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 40,
+      "player_id": 20001431,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 64,
+      "away_score": 57,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 64,
+      "away_score": 57,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 35,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 35,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:53Z"
+}

@@ -1,0 +1,87 @@
+{
+  "game_id": 17426,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Magic",
+  "away_team": "Pistons",
+  "home_team_id": 5,
+  "away_team_id": 14,
+  "period": 1,
+  "total_plays": 258,
+  "play_types": {
+    "FieldGoalMissed": 88,
+    "Period": 8,
+    "FieldGoalMade": 74,
+    "Turnover": 27,
+    "Block": 18,
+    "Steal": 15,
+    "FreeThrows": 28
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 119,
+      "away_score": 103,
+      "margin": 16
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 2,
+      "margin": 22,
+      "home_score": 119,
+      "away_score": 97
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 92,
+      "away_score": 75,
+      "margin": 17
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 92,
+      "away_score": 75,
+      "margin": 17
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 67,
+      "away_score": 51,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 67,
+      "away_score": 51,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 39,
+      "away_score": 19,
+      "margin": 20
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 39,
+      "away_score": 19,
+      "margin": 20
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:51Z"
+}

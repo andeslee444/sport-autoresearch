@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAAST-26MAR17PHIDEN-DENJMURRAY27-8",
+  "title": "Jamal Murray: 8+ assists",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAAST",
+    "date_teams": "26MAR17PHIDEN",
+    "player_line_raw": "DENJMURRAY27-8",
+    "line": 8.0,
+    "ticker": "KXNBAAST-26MAR17PHIDEN-DENJMURRAY27-8"
+  },
+  "collected_at": "2026-03-18T21:03:20Z"
+}

@@ -1,0 +1,137 @@
+{
+  "game_id": 17887,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Hornets",
+  "away_team": "Magic",
+  "home_team_id": 2,
+  "away_team_id": 5,
+  "period": 4,
+  "total_plays": 269,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 29,
+    "FieldGoalMade": 86,
+    "FieldGoalMissed": 90,
+    "Block": 15,
+    "FreeThrows": 19,
+    "Steal": 15,
+    "TechnicalFoul": 7
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 128,
+      "away_score": 101,
+      "margin": 27
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 27,
+      "home_score": 128,
+      "away_score": 101
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 45,
+      "player_id": 20002311,
+      "margin": 25
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 45,
+      "player_id": 20000618,
+      "margin": 25
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 45,
+      "player_id": 20002311,
+      "margin": 25
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 45,
+      "player_id": 20001447,
+      "margin": 25
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 45,
+      "player_id": 20000618,
+      "margin": 25
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 45,
+      "player_id": 20001447,
+      "margin": 25
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 45,
+      "player_id": 20002316,
+      "margin": 25
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 97,
+      "away_score": 82,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 97,
+      "away_score": 82,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 70,
+      "away_score": 50,
+      "margin": 20
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 70,
+      "away_score": 50,
+      "margin": 20
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 28,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 28,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:50Z"
+}

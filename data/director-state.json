@@ -1,52 +1,58 @@
 {
-  "checked_at": "2026-03-18T12:50:08",
-  "total_experiments": 83,
-  "v2_experiments": 1,
+  "checked_at": "2026-03-18T16:14:59",
+  "total_experiments": 86,
+  "v2_experiments": 86,
   "convergence": {
-    "converged": false,
-    "experiments_since_improvement": 0,
-    "best_brier": 0.253,
-    "total_experiments": 1,
-    "message": "Too few experiments (1) to assess convergence (need 15)"
+    "converged": true,
+    "experiments_since_improvement": 15,
+    "best_brier": 0.094,
+    "total_experiments": 86,
+    "message": "CONVERGED: No improvement in 15 experiments"
   },
   "metric_gaming": {
-    "gaming_detected": false,
-    "expected_sample_size": 1772,
+    "gaming_detected": true,
+    "expected_sample_size": 93313,
     "recent_run_size": 1,
-    "pre_v2_ignored": 82,
+    "pre_v2_ignored": 85,
     "sample_size_deviations": [],
     "sudden_brier_drops": [],
-    "message": "Clean: sample_size stable at 1772 (1 experiments). Ignored 82 pre-v2 experiments with different sample sizes"
+    "message": "INTEGRITY CHAIN BROKEN: Chain broken at row 85 (expected 7e48cf4b34be..., got 4eaee0bff509...). Clean: sample_size stable at 93313 (1 experiments). Ignored 85 pre-v2 experiments with different sample sizes",
+    "chain_broken": true
   },
   "ci_overlap": {
-    "significant": false,
+    "significant": true,
     "baseline_brier": 0.253,
     "baseline_ci": [
-      0.2327543245540456,
-      0.2732456754459544
+      0.23044722300611784,
+      0.2755527769938822
     ],
-    "best_recent_brier": 0.253,
+    "best_recent_brier": 0.1936,
     "best_recent_ci": [
-      0.2327543245540456,
-      0.2732456754459544
+      0.1923321425350003,
+      0.19486785746499968
     ],
-    "improvement": 0.0,
-    "ci_overlap": true,
-    "message": "No significant improvement: CIs overlap (improvement 0.0000)"
+    "improvement": 0.05940000000000001,
+    "ci_overlap": false,
+    "message": "Significant improvement: 0.0594 (CIs don't overlap)"
   },
   "data_sufficiency": {
     "sufficient": true,
-    "current_ci_width": 0.012899999999999995,
+    "current_ci_width": 0.0024000000000000132,
     "target_ci_width": 0.02,
-    "current_sample_size": 1772,
-    "estimated_n_required": 737,
-    "n_players": 42,
-    "n_games": 367,
-    "message": "Sufficient: CI width 0.0129 <= target 0.02"
+    "current_sample_size": 93313,
+    "estimated_n_required": 1343,
+    "n_players": 199,
+    "n_games": 4231,
+    "message": "Sufficient: CI width 0.0024 <= target 0.02"
   },
   "recommendation": {
-    "action": "CONTINUE",
-    "reason": "Research is productive \u2014 let agent keep running",
-    "detail": "Best Brier: 0.2530, 0 experiments since last improvement"
+    "action": "ALERT",
+    "reason": "Metric gaming detected \u2014 sample size changed between experiments",
+    "detail": "INTEGRITY CHAIN BROKEN: Chain broken at row 85 (expected 7e48cf4b34be..., got 4eaee0bff509...). Clean: sample_size stable at 93313 (1 experiments). Ignored 85 pre-v2 experiments with different sample sizes"
+  },
+  "integrity_chain": {
+    "valid": false,
+    "rows_verified": 0,
+    "message": "Chain broken at row 85 (expected 7e48cf4b34be..., got 4eaee0bff509...)"
   }
 }

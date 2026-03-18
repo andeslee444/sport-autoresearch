@@ -1,0 +1,94 @@
+{
+  "game_id": 17893,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Warriors",
+  "away_team": "Lakers",
+  "home_team_id": 26,
+  "away_team_id": 27,
+  "period": 4,
+  "total_plays": 270,
+  "play_types": {
+    "Period": 8,
+    "FreeThrows": 22,
+    "Block": 11,
+    "FieldGoalMade": 88,
+    "FieldGoalMissed": 86,
+    "Steal": 18,
+    "Turnover": 35,
+    "TechnicalFoul": 2
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 128,
+      "away_score": 112,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 91,
+      "away_score": 84,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 91,
+      "away_score": 84,
+      "margin": 7
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 42,
+      "player_id": 20002300,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 65,
+      "away_score": 62,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 65,
+      "away_score": 62,
+      "margin": 3
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 47,
+      "player_id": 20000543,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 27,
+      "away_score": 32,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 27,
+      "away_score": 32,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:55Z"
+}

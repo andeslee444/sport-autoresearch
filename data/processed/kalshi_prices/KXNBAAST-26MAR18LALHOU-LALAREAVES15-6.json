@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAAST-26MAR18LALHOU-LALAREAVES15-6",
+  "title": "Austin Reaves: 6+ assists",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAAST",
+    "date_teams": "26MAR18LALHOU",
+    "player_line_raw": "LALAREAVES15-6",
+    "line": 6.0,
+    "ticker": "KXNBAAST-26MAR18LALHOU-LALAREAVES15-6"
+  },
+  "collected_at": "2026-03-18T21:05:13Z"
+}

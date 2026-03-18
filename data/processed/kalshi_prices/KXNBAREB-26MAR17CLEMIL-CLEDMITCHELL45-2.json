@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR17CLEMIL-CLEDMITCHELL45-2",
+  "title": "Donovan Mitchell: 2+ rebounds",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR17CLEMIL",
+    "player_line_raw": "CLEDMITCHELL45-2",
+    "line": 2.0,
+    "ticker": "KXNBAREB-26MAR17CLEMIL-CLEDMITCHELL45-2"
+  },
+  "collected_at": "2026-03-18T21:02:59Z"
+}

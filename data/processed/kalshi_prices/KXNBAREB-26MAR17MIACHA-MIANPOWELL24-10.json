@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR17MIACHA-MIANPOWELL24-10",
+  "title": "Norman Powell: 10+ rebounds",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR17MIACHA",
+    "player_line_raw": "MIANPOWELL24-10",
+    "line": 10.0,
+    "ticker": "KXNBAREB-26MAR17MIACHA-MIANPOWELL24-10"
+  },
+  "collected_at": "2026-03-18T21:02:51Z"
+}

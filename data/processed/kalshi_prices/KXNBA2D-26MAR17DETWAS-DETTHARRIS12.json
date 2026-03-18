@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBA2D-26MAR17DETWAS-DETTHARRIS12",
+  "title": "Tobias Harris: Double Double",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 100,
+  "last_price": 51,
+  "volume": 2,
+  "open_interest": 2,
+  "parsed": {
+    "series": "KXNBA2D",
+    "date_teams": "26MAR17DETWAS",
+    "player_line_raw": "DETTHARRIS12",
+    "line": null,
+    "ticker": "KXNBA2D-26MAR17DETWAS-DETTHARRIS12"
+  },
+  "collected_at": "2026-03-18T21:04:00Z"
+}

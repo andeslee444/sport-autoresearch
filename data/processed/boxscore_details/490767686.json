@@ -1,0 +1,46 @@
+{
+  "personal_fouls": 0,
+  "offensive_rebounds": 3,
+  "defensive_rebounds": 2,
+  "plus_minus": -26,
+  "true_shooting_pct": 77.3,
+  "position": "C",
+  "started": true,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": "19.5",
+  "home_team_score": 99,
+  "away_team_score": 79,
+  "shots": [
+    {
+      "x": 35.33,
+      "y": 51.23,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 43.48,
+      "y": 49.02,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 44.14,
+      "y": 50.49,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 44.69,
+      "y": 48.53,
+      "period": 4,
+      "made": true
+    }
+  ],
+  "shot_count": 4,
+  "box_score_id": 490767686,
+  "player_id": "20001837",
+  "game_id": 19463,
+  "day": "2023-04-21",
+  "collected_at": "2026-03-18T20:27:22Z"
+}

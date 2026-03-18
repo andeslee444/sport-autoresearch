@@ -1,0 +1,87 @@
+{
+  "game_id": 17245,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Nets",
+  "away_team": "Grizzlies",
+  "home_team_id": 8,
+  "away_team_id": 21,
+  "period": 1,
+  "total_plays": 267,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 88,
+    "Steal": 23,
+    "Turnover": 28,
+    "FieldGoalMade": 85,
+    "FreeThrows": 21,
+    "Block": 14
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 104,
+      "away_score": 118,
+      "margin": 14
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 36,
+      "margin": 22,
+      "home_score": 86,
+      "away_score": 108
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 73,
+      "away_score": 96,
+      "margin": 23
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 73,
+      "away_score": 96,
+      "margin": 23
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 47,
+      "away_score": 56,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 47,
+      "away_score": 56,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 24,
+      "away_score": 29,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 24,
+      "away_score": 29,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:22Z"
+}

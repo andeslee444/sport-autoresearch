@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBASTL-26MAR17OKCORL-OKCLDORT5-1",
+  "title": "Luguentz Dort: 1+ steals",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 100,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBASTL",
+    "date_teams": "26MAR17OKCORL",
+    "player_line_raw": "OKCLDORT5-1",
+    "line": 1.0,
+    "ticker": "KXNBASTL-26MAR17OKCORL-OKCLDORT5-1"
+  },
+  "collected_at": "2026-03-18T21:03:36Z"
+}

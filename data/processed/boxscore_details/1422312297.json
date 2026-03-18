@@ -1,0 +1,70 @@
+{
+  "personal_fouls": 5,
+  "offensive_rebounds": 1,
+  "defensive_rebounds": 2,
+  "plus_minus": 13,
+  "true_shooting_pct": 52.4,
+  "position": "G",
+  "started": false,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": 28.1,
+  "home_team_score": 124,
+  "away_team_score": 94,
+  "shots": [
+    {
+      "x": 42.56,
+      "y": 51.96,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 44.92,
+      "y": 48.77,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 45.06,
+      "y": 3.43,
+      "period": 1,
+      "made": false
+    },
+    {
+      "x": 47.42,
+      "y": 4.9,
+      "period": 2,
+      "made": false
+    },
+    {
+      "x": 41.41,
+      "y": 53.68,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 43.25,
+      "y": 96.81,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 36.15,
+      "y": 96.32,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 17.36,
+      "y": 38.97,
+      "period": 4,
+      "made": true
+    }
+  ],
+  "shot_count": 8,
+  "box_score_id": 1422312297,
+  "player_id": "20001801",
+  "game_id": 22390,
+  "day": "2025-05-28",
+  "collected_at": "2026-03-18T20:25:20Z"
+}

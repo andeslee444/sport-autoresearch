@@ -1,0 +1,109 @@
+{
+  "game_id": 17610,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Lakers",
+  "away_team": "Pelicans",
+  "home_team_id": 27,
+  "away_team_id": 23,
+  "period": 1,
+  "total_plays": 275,
+  "play_types": {
+    "Period": 8,
+    "Steal": 24,
+    "Turnover": 38,
+    "Block": 12,
+    "FieldGoalMissed": 87,
+    "FieldGoalMade": 82,
+    "FreeThrows": 21,
+    "TechnicalFoul": 3
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 95,
+      "away_score": 123,
+      "margin": 28
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 28,
+      "home_score": 95,
+      "away_score": 123
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 65,
+      "away_score": 95,
+      "margin": 30
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 65,
+      "away_score": 95,
+      "margin": 30
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 14,
+      "player_id": 20002274,
+      "margin": 29
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 19,
+      "player_id": null,
+      "margin": 27
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 45,
+      "player_id": 20002274,
+      "margin": 28
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 40,
+      "away_score": 51,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 40,
+      "away_score": 51,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 20,
+      "away_score": 24,
+      "margin": 4
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 20,
+      "away_score": 24,
+      "margin": 4
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:04Z"
+}

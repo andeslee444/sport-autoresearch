@@ -1,0 +1,21 @@
+{
+  "personal_fouls": 1,
+  "offensive_rebounds": 0,
+  "defensive_rebounds": 0,
+  "plus_minus": 0,
+  "true_shooting_pct": 0,
+  "position": "G",
+  "started": false,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": 0,
+  "home_team_score": 115,
+  "away_team_score": 119,
+  "shots": [],
+  "shot_count": 0,
+  "box_score_id": 379678472,
+  "player_id": "20001864",
+  "game_id": 18799,
+  "day": "2023-01-12",
+  "collected_at": "2026-03-18T20:28:49Z"
+}

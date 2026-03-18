@@ -1,0 +1,100 @@
+{
+  "personal_fouls": 8,
+  "offensive_rebounds": 4,
+  "defensive_rebounds": 10,
+  "plus_minus": 14,
+  "true_shooting_pct": 84.4,
+  "position": "C",
+  "started": true,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": "50.3",
+  "home_team_score": 83,
+  "away_team_score": 91,
+  "shots": [
+    {
+      "x": 44.41,
+      "y": 50,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 40.1,
+      "y": 55.64,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 44.66,
+      "y": 51.47,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 44.53,
+      "y": 52.7,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 41.77,
+      "y": 48.77,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 44.43,
+      "y": 49.02,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 41.15,
+      "y": 49.51,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 43.12,
+      "y": 48.77,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 44.4,
+      "y": 51.23,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 44.41,
+      "y": 50,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 44.41,
+      "y": 50,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 44.14,
+      "y": 51.23,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 43.96,
+      "y": 52.51,
+      "period": 4,
+      "made": true
+    }
+  ],
+  "shot_count": 13,
+  "box_score_id": 549099804,
+  "player_id": "20002673",
+  "game_id": 1522300014,
+  "day": "2023-07-08",
+  "collected_at": "2026-03-18T20:24:59Z"
+}

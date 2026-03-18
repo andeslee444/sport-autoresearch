@@ -1,0 +1,87 @@
+{
+  "game_id": 17824,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Mavs",
+  "away_team": "Lakers",
+  "home_team_id": 25,
+  "away_team_id": 27,
+  "period": 1,
+  "total_plays": 235,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 86,
+    "Turnover": 18,
+    "FieldGoalMissed": 88,
+    "FreeThrows": 20,
+    "Steal": 12,
+    "Block": 3
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 128,
+      "away_score": 110,
+      "margin": 18
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 9,
+      "margin": 21,
+      "home_score": 128,
+      "away_score": 107
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 113,
+      "away_score": 84,
+      "margin": 29
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 113,
+      "away_score": 84,
+      "margin": 29
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 82,
+      "away_score": 56,
+      "margin": 26
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 82,
+      "away_score": 56,
+      "margin": 26
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 43,
+      "away_score": 25,
+      "margin": 18
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 43,
+      "away_score": 25,
+      "margin": 18
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:52Z"
+}

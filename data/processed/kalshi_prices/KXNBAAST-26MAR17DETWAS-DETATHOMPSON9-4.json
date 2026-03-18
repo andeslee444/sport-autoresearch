@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAAST-26MAR17DETWAS-DETATHOMPSON9-4",
+  "title": "Ausar Thompson: 4+ assists",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAAST",
+    "date_teams": "26MAR17DETWAS",
+    "player_line_raw": "DETATHOMPSON9-4",
+    "line": 4.0,
+    "ticker": "KXNBAAST-26MAR17DETWAS-DETATHOMPSON9-4"
+  },
+  "collected_at": "2026-03-18T21:03:11Z"
+}

@@ -1,0 +1,538 @@
+{
+  "game_id": 17791,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Pistons",
+  "away_team": "Wizards",
+  "home_team_id": 14,
+  "away_team_id": 1,
+  "period": 1,
+  "total_plays": 268,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 94,
+    "FreeThrows": 19,
+    "FieldGoalMade": 75,
+    "Block": 15,
+    "Steal": 16,
+    "Turnover": 35,
+    "TechnicalFoul": 6
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 97,
+      "away_score": 100,
+      "margin": 3
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 4,
+      "margin": 3,
+      "home_score": 97,
+      "away_score": 100
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 3,
+      "home_score": 97,
+      "away_score": 100
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 14,
+      "margin": 1,
+      "home_score": 97,
+      "away_score": 98
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 30,
+      "margin": 1,
+      "home_score": 97,
+      "away_score": 98
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 46,
+      "margin": 1,
+      "home_score": 97,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 1,
+      "margin": 1,
+      "home_score": 95,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 10,
+      "margin": 1,
+      "home_score": 95,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 17,
+      "margin": 1,
+      "home_score": 95,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 38,
+      "margin": 1,
+      "home_score": 95,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 49,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 9,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 15,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 15,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 32,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 38,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 48,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 96
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 52,
+      "margin": 1,
+      "home_score": 93,
+      "away_score": 94
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 52,
+      "player_id": 20002532,
+      "margin": 0
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 52,
+      "margin": 0,
+      "home_score": 93,
+      "away_score": 93
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 10,
+      "margin": 0,
+      "home_score": 93,
+      "away_score": 93
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 28,
+      "margin": 0,
+      "home_score": 93,
+      "away_score": 93
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 49,
+      "margin": 3,
+      "home_score": 93,
+      "away_score": 90
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 9,
+      "margin": 1,
+      "home_score": 91,
+      "away_score": 90
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 22,
+      "margin": 1,
+      "home_score": 91,
+      "away_score": 90
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 46,
+      "margin": 1,
+      "home_score": 91,
+      "away_score": 90
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 1,
+      "margin": 1,
+      "home_score": 91,
+      "away_score": 90
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 15,
+      "margin": 2,
+      "home_score": 88,
+      "away_score": 90
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 33,
+      "margin": 0,
+      "home_score": 88,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 48,
+      "margin": 3,
+      "home_score": 85,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 3,
+      "home_score": 85,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 22,
+      "margin": 3,
+      "home_score": 85,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 34,
+      "margin": 3,
+      "home_score": 85,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 39,
+      "margin": 3,
+      "home_score": 85,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 59,
+      "margin": 1,
+      "home_score": 85,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 3,
+      "home_score": 83,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 3,
+      "home_score": 83,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 35,
+      "margin": 3,
+      "home_score": 83,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 36,
+      "margin": 6,
+      "home_score": 80,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 36,
+      "margin": 6,
+      "home_score": 80,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 36,
+      "margin": 6,
+      "home_score": 80,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 39,
+      "margin": 6,
+      "home_score": 80,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 54,
+      "margin": 6,
+      "home_score": 80,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 7,
+      "margin": 4,
+      "home_score": 80,
+      "away_score": 84
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 26,
+      "margin": 6,
+      "home_score": 78,
+      "away_score": 84
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 53,
+      "margin": 3,
+      "home_score": 78,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 59,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 59,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 4,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 4,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 7,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 28,
+      "margin": 5,
+      "home_score": 76,
+      "away_score": 81
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 70,
+      "away_score": 79,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 70,
+      "away_score": 79,
+      "margin": 9
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 32,
+      "player_id": null,
+      "margin": 10
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 22,
+      "player_id": 20001406,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 44,
+      "away_score": 60,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 44,
+      "away_score": 60,
+      "margin": 16
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 3,
+      "player_id": 20002667,
+      "margin": 15
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 38,
+      "player_id": 20002275,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 24,
+      "away_score": 25,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 24,
+      "away_score": 25,
+      "margin": 1
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 52,
+      "player_id": 20002534,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:26Z"
+}

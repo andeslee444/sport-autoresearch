@@ -1,0 +1,102 @@
+{
+  "game_id": 17881,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Pistons",
+  "away_team": "Mavs",
+  "home_team_id": 14,
+  "away_team_id": 25,
+  "period": 4,
+  "total_plays": 248,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 80,
+    "FieldGoalMade": 80,
+    "FreeThrows": 33,
+    "Steal": 15,
+    "Turnover": 22,
+    "TechnicalFoul": 2,
+    "Block": 8
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 113,
+      "away_score": 131,
+      "margin": 18
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 42,
+      "margin": 21,
+      "home_score": 110,
+      "away_score": 131
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 32,
+      "player_id": 20002667,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 86,
+      "away_score": 99,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 86,
+      "away_score": 99,
+      "margin": 13
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 48,
+      "player_id": 20000816,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 58,
+      "away_score": 65,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 58,
+      "away_score": 65,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 34,
+      "away_score": 32,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 34,
+      "away_score": 32,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:44Z"
+}

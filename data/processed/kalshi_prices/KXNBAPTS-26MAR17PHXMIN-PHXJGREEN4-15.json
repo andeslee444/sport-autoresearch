@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAPTS-26MAR17PHXMIN-PHXJGREEN4-15",
+  "title": "Jalen Green: 15+ points",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAPTS",
+    "date_teams": "26MAR17PHXMIN",
+    "player_line_raw": "PHXJGREEN4-15",
+    "line": 15.0,
+    "ticker": "KXNBAPTS-26MAR17PHXMIN-PHXJGREEN4-15"
+  },
+  "collected_at": "2026-03-18T21:02:17Z"
+}

@@ -1,0 +1,87 @@
+{
+  "game_id": 17865,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Thunder",
+  "away_team": "Suns",
+  "home_team_id": 18,
+  "away_team_id": 29,
+  "period": 4,
+  "total_plays": 252,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 30,
+    "FieldGoalMissed": 89,
+    "FieldGoalMade": 80,
+    "FreeThrows": 15,
+    "Steal": 21,
+    "Block": 9
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 117,
+      "away_score": 96,
+      "margin": 21
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 21,
+      "home_score": 117,
+      "away_score": 96
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 84,
+      "away_score": 75,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 84,
+      "away_score": 75,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 52,
+      "away_score": 53,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 52,
+      "away_score": 53,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 20,
+      "away_score": 27,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 20,
+      "away_score": 27,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:27Z"
+}

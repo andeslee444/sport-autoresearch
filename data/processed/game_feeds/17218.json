@@ -1,0 +1,95 @@
+{
+  "game_id": 17218,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Wizards",
+  "away_team": "Cavaliers",
+  "home_team_id": 1,
+  "away_team_id": 12,
+  "period": 1,
+  "total_plays": 240,
+  "play_types": {
+    "Period": 8,
+    "FreeThrows": 17,
+    "FieldGoalMissed": 87,
+    "Turnover": 24,
+    "Block": 11,
+    "Steal": 11,
+    "FieldGoalMade": 81,
+    "TechnicalFoul": 1
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 110,
+      "away_score": 93,
+      "margin": 17
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 27,
+      "margin": 21,
+      "home_score": 105,
+      "away_score": 84
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 91,
+      "away_score": 72,
+      "margin": 19
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 91,
+      "away_score": 72,
+      "margin": 19
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 35,
+      "player_id": 20000441,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 58,
+      "away_score": 51,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 58,
+      "away_score": 51,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 31,
+      "away_score": 30,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 31,
+      "away_score": 30,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:08Z"
+}

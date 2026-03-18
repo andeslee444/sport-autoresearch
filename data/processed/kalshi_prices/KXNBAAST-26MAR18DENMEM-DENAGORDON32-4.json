@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAAST-26MAR18DENMEM-DENAGORDON32-4",
+  "title": "Aaron Gordon: 4+ assists",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAAST",
+    "date_teams": "26MAR18DENMEM",
+    "player_line_raw": "DENAGORDON32-4",
+    "line": 4.0,
+    "ticker": "KXNBAAST-26MAR18DENMEM-DENAGORDON32-4"
+  },
+  "collected_at": "2026-03-18T21:05:01Z"
+}

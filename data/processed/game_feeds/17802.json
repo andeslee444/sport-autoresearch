@@ -1,0 +1,130 @@
+{
+  "game_id": 17802,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Heat",
+  "away_team": "Nets",
+  "home_team_id": 4,
+  "away_team_id": 8,
+  "period": 1,
+  "total_plays": 266,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 72,
+    "Turnover": 42,
+    "FieldGoalMissed": 79,
+    "Block": 12,
+    "Steal": 22,
+    "FreeThrows": 25,
+    "TechnicalFoul": 6
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 95,
+      "away_score": 110,
+      "margin": 15
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 57,
+      "margin": 21,
+      "home_score": 89,
+      "away_score": 110
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 68,
+      "away_score": 96,
+      "margin": 28
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 68,
+      "away_score": 96,
+      "margin": 28
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 38,
+      "player_id": 20000684,
+      "margin": 29
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 38,
+      "player_id": 20000464,
+      "margin": 29
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 49,
+      "player_id": 20001836,
+      "margin": 23
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 46,
+      "away_score": 67,
+      "margin": 21
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 46,
+      "away_score": 67,
+      "margin": 21
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 50,
+      "player_id": 20000933,
+      "margin": 17
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 4,
+      "player_id": 20000884,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 25,
+      "away_score": 27,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 25,
+      "away_score": 27,
+      "margin": 2
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 23,
+      "player_id": 20000810,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:35Z"
+}

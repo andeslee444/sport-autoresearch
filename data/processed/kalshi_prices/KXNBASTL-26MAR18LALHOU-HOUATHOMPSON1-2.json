@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBASTL-26MAR18LALHOU-HOUATHOMPSON1-2",
+  "title": "Amen Thompson: 2+ steals",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBASTL",
+    "date_teams": "26MAR18LALHOU",
+    "player_line_raw": "HOUATHOMPSON1-2",
+    "line": 2.0,
+    "ticker": "KXNBASTL-26MAR18LALHOU-HOUATHOMPSON1-2"
+  },
+  "collected_at": "2026-03-18T21:05:32Z"
+}

@@ -1,0 +1,87 @@
+{
+  "game_id": 17857,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Celtics",
+  "away_team": "Wizards",
+  "home_team_id": 9,
+  "away_team_id": 1,
+  "period": 4,
+  "total_plays": 228,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 22,
+    "FieldGoalMissed": 73,
+    "FieldGoalMade": 94,
+    "Block": 7,
+    "FreeThrows": 13,
+    "Steal": 11
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 144,
+      "away_score": 102,
+      "margin": 42
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 42,
+      "home_score": 144,
+      "away_score": 102
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 104,
+      "away_score": 79,
+      "margin": 25
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 104,
+      "away_score": 79,
+      "margin": 25
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 70,
+      "away_score": 59,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 70,
+      "away_score": 59,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 35,
+      "away_score": 22,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 35,
+      "away_score": 22,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:20Z"
+}

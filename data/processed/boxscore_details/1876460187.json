@@ -1,0 +1,124 @@
+{
+  "personal_fouls": 0,
+  "offensive_rebounds": 6,
+  "defensive_rebounds": 5,
+  "plus_minus": -10,
+  "true_shooting_pct": 72.9,
+  "position": "C",
+  "started": true,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": 49.7,
+  "home_team_score": 118,
+  "away_team_score": 116,
+  "shots": [
+    {
+      "x": 40.54,
+      "y": 43.74,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 43.43,
+      "y": 62.28,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 43.56,
+      "y": 36.83,
+      "period": 3,
+      "made": false
+    },
+    {
+      "x": 28.5,
+      "y": 23.04,
+      "period": 1,
+      "made": false
+    },
+    {
+      "x": 35.81,
+      "y": 49.54,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 41.48,
+      "y": 49.94,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 35.41,
+      "y": 50.16,
+      "period": 1,
+      "made": false
+    },
+    {
+      "x": 42.43,
+      "y": 46.81,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 41.67,
+      "y": 51.47,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 44.41,
+      "y": 50,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 22.19,
+      "y": 18.87,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 39.22,
+      "y": 44.34,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 36.73,
+      "y": 50.85,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 39.22,
+      "y": 50.14,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 42.99,
+      "y": 55.39,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 40.54,
+      "y": 51.88,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 42.25,
+      "y": 54.53,
+      "period": 2,
+      "made": true
+    }
+  ],
+  "shot_count": 17,
+  "box_score_id": 1876460187,
+  "player_id": "20001837",
+  "game_id": 23311,
+  "day": "2026-02-25",
+  "collected_at": "2026-03-18T20:27:09Z"
+}

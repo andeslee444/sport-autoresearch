@@ -1,0 +1,119 @@
+{
+  "game_id": 17912,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Nets",
+  "away_team": "Pacers",
+  "home_team_id": 8,
+  "away_team_id": 13,
+  "period": 4,
+  "total_plays": 269,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 80,
+    "Turnover": 31,
+    "FieldGoalMade": 99,
+    "FreeThrows": 21,
+    "Steal": 22,
+    "Block": 8
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 134,
+      "away_score": 126,
+      "margin": 8
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 6,
+      "home_score": 130,
+      "away_score": 124
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 26,
+      "margin": 6,
+      "home_score": 130,
+      "away_score": 124
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 4,
+      "margin": 6,
+      "home_score": 109,
+      "away_score": 103
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 22,
+      "margin": 6,
+      "home_score": 109,
+      "away_score": 103
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 39,
+      "margin": 4,
+      "home_score": 107,
+      "away_score": 103
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 103,
+      "away_score": 94,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 103,
+      "away_score": 94,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 76,
+      "away_score": 60,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 76,
+      "away_score": 60,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 41,
+      "away_score": 29,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 41,
+      "away_score": 29,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:17:16Z"
+}

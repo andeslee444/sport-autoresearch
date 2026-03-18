@@ -1,0 +1,87 @@
+{
+  "game_id": 17894,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Pistons",
+  "away_team": "Bucks",
+  "home_team_id": 14,
+  "away_team_id": 15,
+  "period": 4,
+  "total_plays": 255,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 22,
+    "FieldGoalMade": 85,
+    "FieldGoalMissed": 103,
+    "Steal": 13,
+    "FreeThrows": 18,
+    "Block": 6
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 101,
+      "away_score": 131,
+      "margin": 30
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 30,
+      "home_score": 101,
+      "away_score": 131
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 68,
+      "away_score": 90,
+      "margin": 22
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 68,
+      "away_score": 90,
+      "margin": 22
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 38,
+      "away_score": 56,
+      "margin": 18
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 38,
+      "away_score": 56,
+      "margin": 18
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 8,
+      "away_score": 30,
+      "margin": 22
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 8,
+      "away_score": 30,
+      "margin": 22
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:56Z"
+}

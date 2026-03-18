@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBABLK-26MAR17OKCORL-ORLPBANCHERO5-2",
+  "title": "Paolo Banchero: 2+ blocks",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 100,
+  "last_price": 50,
+  "volume": 44,
+  "open_interest": 44,
+  "parsed": {
+    "series": "KXNBABLK",
+    "date_teams": "26MAR17OKCORL",
+    "player_line_raw": "ORLPBANCHERO5-2",
+    "line": 2.0,
+    "ticker": "KXNBABLK-26MAR17OKCORL-ORLPBANCHERO5-2"
+  },
+  "collected_at": "2026-03-18T21:03:50Z"
+}

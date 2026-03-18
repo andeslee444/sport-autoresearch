@@ -1,0 +1,79 @@
+{
+  "game_id": 17276,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Bulls",
+  "away_team": "Wizards",
+  "home_team_id": 11,
+  "away_team_id": 1,
+  "period": 1,
+  "total_plays": 265,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 93,
+    "FieldGoalMissed": 84,
+    "Turnover": 31,
+    "Block": 9,
+    "Steal": 20,
+    "FreeThrows": 20
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 130,
+      "away_score": 122,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 107,
+      "away_score": 95,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 107,
+      "away_score": 95,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 73,
+      "away_score": 66,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 73,
+      "away_score": 66,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 37,
+      "away_score": 32,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 37,
+      "away_score": 32,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:33Z"
+}

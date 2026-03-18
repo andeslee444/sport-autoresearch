@@ -1,0 +1,87 @@
+{
+  "game_id": 17864,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Spurs",
+  "away_team": "Blazers",
+  "home_team_id": 24,
+  "away_team_id": 19,
+  "period": 4,
+  "total_plays": 245,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 95,
+    "FieldGoalMade": 71,
+    "Steal": 16,
+    "Turnover": 27,
+    "FreeThrows": 22,
+    "Block": 6
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 113,
+      "away_score": 92,
+      "margin": 21
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 21,
+      "home_score": 113,
+      "away_score": 92
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 82,
+      "away_score": 72,
+      "margin": 10
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 82,
+      "away_score": 72,
+      "margin": 10
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 48,
+      "away_score": 56,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 48,
+      "away_score": 56,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 26,
+      "away_score": 23,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 26,
+      "away_score": 23,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:26Z"
+}

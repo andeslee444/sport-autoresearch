@@ -1,0 +1,87 @@
+{
+  "game_id": 17909,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Rockets",
+  "away_team": "Hawks",
+  "home_team_id": 22,
+  "away_team_id": 3,
+  "period": 4,
+  "total_plays": 233,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 82,
+    "Turnover": 21,
+    "FieldGoalMade": 86,
+    "FreeThrows": 20,
+    "Steal": 8,
+    "Block": 8
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 114,
+      "away_score": 130,
+      "margin": 16
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 22,
+      "margin": 22,
+      "home_score": 102,
+      "away_score": 124
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 91,
+      "away_score": 102,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 91,
+      "away_score": 102,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 59,
+      "away_score": 73,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 59,
+      "away_score": 73,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 24,
+      "away_score": 35,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 24,
+      "away_score": 35,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:17:13Z"
+}

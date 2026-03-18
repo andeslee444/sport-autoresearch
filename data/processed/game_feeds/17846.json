@@ -1,0 +1,102 @@
+{
+  "game_id": 17846,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Bucks",
+  "away_team": "Clippers",
+  "home_team_id": 15,
+  "away_team_id": 28,
+  "period": 1,
+  "total_plays": 259,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 25,
+    "FieldGoalMade": 106,
+    "Steal": 15,
+    "FieldGoalMissed": 72,
+    "FreeThrows": 19,
+    "Block": 12,
+    "TechnicalFoul": 2
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 119,
+      "away_score": 153,
+      "margin": 34
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 34,
+      "home_score": 119,
+      "away_score": 153
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 88,
+      "away_score": 114,
+      "margin": 26
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 88,
+      "away_score": 114,
+      "margin": 26
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 16,
+      "player_id": null,
+      "margin": 20
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 62,
+      "away_score": 73,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 62,
+      "away_score": 73,
+      "margin": 11
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 12,
+      "player_id": 20001420,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 34,
+      "margin": 4
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 34,
+      "margin": 4
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:11Z"
+}

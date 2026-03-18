@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAPTS-26MAR18GSWBOS-BOSPPRITCHARD11-20",
+  "title": "Payton Pritchard: 20+ points",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAPTS",
+    "date_teams": "26MAR18GSWBOS",
+    "player_line_raw": "BOSPPRITCHARD11-20",
+    "line": 20.0,
+    "ticker": "KXNBAPTS-26MAR18GSWBOS-BOSPPRITCHARD11-20"
+  },
+  "collected_at": "2026-03-18T21:04:14Z"
+}

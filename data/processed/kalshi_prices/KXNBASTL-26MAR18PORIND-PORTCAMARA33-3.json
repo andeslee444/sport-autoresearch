@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBASTL-26MAR18PORIND-PORTCAMARA33-3",
+  "title": "Toumani Camara: 3+ steals",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBASTL",
+    "date_teams": "26MAR18PORIND",
+    "player_line_raw": "PORTCAMARA33-3",
+    "line": 3.0,
+    "ticker": "KXNBASTL-26MAR18PORIND-PORTCAMARA33-3"
+  },
+  "collected_at": "2026-03-18T21:05:30Z"
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBABLK-26MAR18GSWBOS-BOSNQUETA88-1",
+  "title": "Neemias Queta: 1+ blocks",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBABLK",
+    "date_teams": "26MAR18GSWBOS",
+    "player_line_raw": "BOSNQUETA88-1",
+    "line": 1.0,
+    "ticker": "KXNBABLK-26MAR18GSWBOS-BOSNQUETA88-1"
+  },
+  "collected_at": "2026-03-18T21:05:37Z"
+}

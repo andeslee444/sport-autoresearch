@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBABLK-26MAR17OKCORL-OKCCHOLMGREN7-1",
+  "title": "Chet Holmgren: 1+ blocks",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBABLK",
+    "date_teams": "26MAR17OKCORL",
+    "player_line_raw": "OKCCHOLMGREN7-1",
+    "line": 1.0,
+    "ticker": "KXNBABLK-26MAR17OKCORL-OKCCHOLMGREN7-1"
+  },
+  "collected_at": "2026-03-18T21:03:53Z"
+}

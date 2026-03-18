@@ -1,0 +1,117 @@
+{
+  "game_id": 17872,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Nets",
+  "away_team": "Rockets",
+  "home_team_id": 8,
+  "away_team_id": 22,
+  "period": 4,
+  "total_plays": 269,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 96,
+    "Turnover": 28,
+    "FieldGoalMade": 79,
+    "FreeThrows": 24,
+    "Steal": 14,
+    "Block": 17,
+    "TechnicalFoul": 3
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 118,
+      "away_score": 105,
+      "margin": 13
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 50,
+      "margin": 6,
+      "home_score": 90,
+      "away_score": 84
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 29,
+      "player_id": 20002040,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 90,
+      "away_score": 74,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 90,
+      "away_score": 74,
+      "margin": 16
+    },
+    {
+      "event": "blowout_moment",
+      "period": 3,
+      "time_remaining": 21,
+      "margin": 21,
+      "home_score": 90,
+      "away_score": 69
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 50,
+      "player_id": 20000574,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 64,
+      "away_score": 47,
+      "margin": 17
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 64,
+      "away_score": 47,
+      "margin": 17
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 39,
+      "player_id": 20002577,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 25,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 25,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:34Z"
+}

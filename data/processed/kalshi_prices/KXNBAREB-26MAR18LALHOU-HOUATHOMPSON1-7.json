@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR18LALHOU-HOUATHOMPSON1-7",
+  "title": "Amen Thompson: 7+ rebounds",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR18LALHOU",
+    "player_line_raw": "HOUATHOMPSON1-7",
+    "line": 7.0,
+    "ticker": "KXNBAREB-26MAR18LALHOU-HOUATHOMPSON1-7"
+  },
+  "collected_at": "2026-03-18T21:04:54Z"
+}

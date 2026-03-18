@@ -1,0 +1,21 @@
+{
+  "personal_fouls": 0,
+  "offensive_rebounds": 0,
+  "defensive_rebounds": 0,
+  "plus_minus": 0,
+  "true_shooting_pct": 0,
+  "position": "SF",
+  "started": false,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": 0,
+  "home_team_score": 141,
+  "away_team_score": 146,
+  "shots": [],
+  "shot_count": 0,
+  "box_score_id": 149974065,
+  "player_id": "20000571",
+  "game_id": 17908,
+  "day": "2022-04-10",
+  "collected_at": "2026-03-18T20:26:19Z"
+}

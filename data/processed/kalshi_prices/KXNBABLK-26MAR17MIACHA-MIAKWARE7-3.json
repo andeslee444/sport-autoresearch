@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBABLK-26MAR17MIACHA-MIAKWARE7-3",
+  "title": "Kel'el Ware: 3+ blocks",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 100,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBABLK",
+    "date_teams": "26MAR17MIACHA",
+    "player_line_raw": "MIAKWARE7-3",
+    "line": 3.0,
+    "ticker": "KXNBABLK-26MAR17MIACHA-MIAKWARE7-3"
+  },
+  "collected_at": "2026-03-18T21:03:52Z"
+}

@@ -1,0 +1,102 @@
+{
+  "game_id": 17900,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Mavs",
+  "away_team": "Blazers",
+  "home_team_id": 25,
+  "away_team_id": 19,
+  "period": 4,
+  "total_plays": 243,
+  "play_types": {
+    "Period": 8,
+    "FreeThrows": 20,
+    "Turnover": 32,
+    "FieldGoalMissed": 83,
+    "Steal": 18,
+    "FieldGoalMade": 73,
+    "Block": 7,
+    "TechnicalFoul": 2
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 128,
+      "away_score": 78,
+      "margin": 50
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 50,
+      "home_score": 128,
+      "away_score": 78
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 107,
+      "away_score": 69,
+      "margin": 38
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 107,
+      "away_score": 69,
+      "margin": 38
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 68,
+      "away_score": 44,
+      "margin": 24
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 68,
+      "away_score": 44,
+      "margin": 24
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 36,
+      "away_score": 13,
+      "margin": 23
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 0,
+      "player_id": 20001984,
+      "margin": 23
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 0,
+      "player_id": 20001984,
+      "margin": 23
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 36,
+      "away_score": 13,
+      "margin": 23
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:17:03Z"
+}

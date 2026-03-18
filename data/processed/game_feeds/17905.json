@@ -1,0 +1,102 @@
+{
+  "game_id": 17905,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Grizzlies",
+  "away_team": "Pelicans",
+  "home_team_id": 21,
+  "away_team_id": 23,
+  "period": 4,
+  "total_plays": 271,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 94,
+    "Turnover": 36,
+    "Steal": 17,
+    "FieldGoalMissed": 76,
+    "FreeThrows": 25,
+    "Block": 13,
+    "TechnicalFoul": 2
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 141,
+      "away_score": 114,
+      "margin": 27
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 27,
+      "home_score": 141,
+      "away_score": 114
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 36,
+      "player_id": 20002266,
+      "margin": 42
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 119,
+      "away_score": 80,
+      "margin": 39
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 119,
+      "away_score": 80,
+      "margin": 39
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 56,
+      "player_id": 20000620,
+      "margin": 25
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 64,
+      "away_score": 47,
+      "margin": 17
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 64,
+      "away_score": 47,
+      "margin": 17
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 18,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 18,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:17:09Z"
+}

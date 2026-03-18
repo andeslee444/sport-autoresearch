@@ -1,0 +1,95 @@
+{
+  "game_id": 17796,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Blazers",
+  "away_team": "Rockets",
+  "home_team_id": 19,
+  "away_team_id": 22,
+  "period": 1,
+  "total_plays": 251,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 33,
+    "FieldGoalMissed": 79,
+    "FreeThrows": 20,
+    "FieldGoalMade": 86,
+    "Steal": 18,
+    "TechnicalFoul": 1,
+    "Block": 6
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 106,
+      "away_score": 125,
+      "margin": 19
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 8,
+      "margin": 21,
+      "home_score": 104,
+      "away_score": 125
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 24,
+      "player_id": 20000606,
+      "margin": 20
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 82,
+      "away_score": 96,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 82,
+      "away_score": 96,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 53,
+      "away_score": 66,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 53,
+      "away_score": 66,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 22,
+      "away_score": 35,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 22,
+      "away_score": 35,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:30Z"
+}

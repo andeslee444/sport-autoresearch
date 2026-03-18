@@ -1,0 +1,95 @@
+{
+  "game_id": 17280,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Lakers",
+  "away_team": "Hawks",
+  "home_team_id": 27,
+  "away_team_id": 3,
+  "period": 1,
+  "total_plays": 269,
+  "play_types": {
+    "Period": 8,
+    "FreeThrows": 19,
+    "FieldGoalMade": 94,
+    "FieldGoalMissed": 99,
+    "Steal": 17,
+    "Turnover": 23,
+    "Block": 8,
+    "TechnicalFoul": 1
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 134,
+      "away_score": 118,
+      "margin": 16
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 57,
+      "margin": 21,
+      "home_score": 134,
+      "away_score": 113
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 101,
+      "away_score": 87,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 101,
+      "away_score": 87,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 64,
+      "away_score": 61,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 64,
+      "away_score": 61,
+      "margin": 3
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 18,
+      "player_id": 20001427,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 34,
+      "away_score": 28,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 34,
+      "away_score": 28,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:35Z"
+}

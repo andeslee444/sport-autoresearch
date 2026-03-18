@@ -1,0 +1,172 @@
+{
+  "game_id": 17432,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Grizzlies",
+  "away_team": "Jazz",
+  "home_team_id": 21,
+  "away_team_id": 17,
+  "period": 1,
+  "total_plays": 255,
+  "play_types": {
+    "FieldGoalMissed": 75,
+    "Period": 8,
+    "FieldGoalMade": 83,
+    "FreeThrows": 22,
+    "Turnover": 33,
+    "Block": 11,
+    "TechnicalFoul": 4,
+    "Steal": 19
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 119,
+      "away_score": 109,
+      "margin": 10
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 41,
+      "player_id": 20000591,
+      "margin": 6
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 41,
+      "margin": 6,
+      "home_score": 107,
+      "away_score": 101
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 43,
+      "margin": 6,
+      "home_score": 107,
+      "away_score": 101
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 48,
+      "margin": 6,
+      "home_score": 107,
+      "away_score": 101
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 48,
+      "margin": 6,
+      "home_score": 107,
+      "away_score": 101
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 5,
+      "margin": 6,
+      "home_score": 107,
+      "away_score": 101
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 21,
+      "margin": 6,
+      "home_score": 107,
+      "away_score": 101
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 39,
+      "margin": 4,
+      "home_score": 105,
+      "away_score": 101
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 55,
+      "margin": 6,
+      "home_score": 100,
+      "away_score": 94
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 88,
+      "away_score": 78,
+      "margin": 10
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 88,
+      "away_score": 78,
+      "margin": 10
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 59,
+      "away_score": 51,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 59,
+      "away_score": 51,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 31,
+      "away_score": 30,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 31,
+      "away_score": 30,
+      "margin": 1
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 20,
+      "player_id": 20000708,
+      "margin": 0
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 50,
+      "player_id": 20001991,
+      "margin": 4
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 26,
+      "player_id": 20000591,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:52Z"
+}

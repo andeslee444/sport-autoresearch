@@ -1,0 +1,95 @@
+{
+  "game_id": 17855,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Bulls",
+  "away_team": "Heat",
+  "home_team_id": 11,
+  "away_team_id": 4,
+  "period": 1,
+  "total_plays": 231,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 81,
+    "FieldGoalMissed": 83,
+    "Steal": 10,
+    "Turnover": 18,
+    "FreeThrows": 23,
+    "Block": 7,
+    "TechnicalFoul": 1
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 109,
+      "away_score": 127,
+      "margin": 18
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 34,
+      "player_id": 20002284,
+      "margin": 19
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 37,
+      "margin": 21,
+      "home_score": 90,
+      "away_score": 111
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 79,
+      "away_score": 98,
+      "margin": 19
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 79,
+      "away_score": 98,
+      "margin": 19
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 57,
+      "away_score": 66,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 57,
+      "away_score": 66,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 31,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 31,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:19Z"
+}

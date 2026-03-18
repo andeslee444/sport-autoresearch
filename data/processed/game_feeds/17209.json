@@ -1,0 +1,527 @@
+{
+  "game_id": 17209,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Celtics",
+  "away_team": "Clippers",
+  "home_team_id": 9,
+  "away_team_id": 28,
+  "period": 1,
+  "total_plays": 245,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 106,
+    "FieldGoalMade": 69,
+    "FreeThrows": 12,
+    "Turnover": 24,
+    "Block": 13,
+    "Steal": 13
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 82,
+      "away_score": 91,
+      "margin": 9
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 37,
+      "margin": 6,
+      "home_score": 82,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 41,
+      "margin": 6,
+      "home_score": 82,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 47,
+      "margin": 6,
+      "home_score": 82,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 50,
+      "margin": 6,
+      "home_score": 82,
+      "away_score": 88
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 8,
+      "margin": 4,
+      "home_score": 82,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 21,
+      "margin": 6,
+      "home_score": 80,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 44,
+      "margin": 6,
+      "home_score": 80,
+      "away_score": 86
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 12,
+      "margin": 5,
+      "home_score": 78,
+      "away_score": 83
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 24,
+      "margin": 5,
+      "home_score": 78,
+      "away_score": 83
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 38,
+      "margin": 4,
+      "home_score": 78,
+      "away_score": 82
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 49,
+      "margin": 4,
+      "home_score": 78,
+      "away_score": 82
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 16,
+      "margin": 4,
+      "home_score": 78,
+      "away_score": 82
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 24,
+      "margin": 6,
+      "home_score": 76,
+      "away_score": 82
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 47,
+      "margin": 6,
+      "home_score": 76,
+      "away_score": 82
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 7,
+      "margin": 4,
+      "home_score": 76,
+      "away_score": 80
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 30,
+      "margin": 4,
+      "home_score": 76,
+      "away_score": 80
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 44,
+      "margin": 2,
+      "home_score": 76,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 55,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 59,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 7,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 20,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 36,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 57,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 9,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 33,
+      "margin": 4,
+      "home_score": 74,
+      "away_score": 78
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 43,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 75
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 47,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 75
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 13,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 75
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 30,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 75
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 37,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 75
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 44,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 55,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 7,
+      "margin": 1,
+      "home_score": 74,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 16,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 17,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 17,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 30,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 51,
+      "margin": 1,
+      "home_score": 70,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 45,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 54,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 73
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 3,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 30,
+      "margin": 1,
+      "home_score": 72,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 37,
+      "margin": 1,
+      "home_score": 70,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 43,
+      "margin": 1,
+      "home_score": 70,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 51,
+      "margin": 1,
+      "home_score": 70,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 5,
+      "margin": 1,
+      "home_score": 70,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 25,
+      "margin": 3,
+      "home_score": 68,
+      "away_score": 71
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 37,
+      "margin": 1,
+      "home_score": 68,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 49,
+      "margin": 4,
+      "home_score": 65,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 59,
+      "margin": 4,
+      "home_score": 65,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 6,
+      "margin": 4,
+      "home_score": 65,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 18,
+      "margin": 4,
+      "home_score": 65,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 35,
+      "margin": 4,
+      "home_score": 65,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 45,
+      "margin": 6,
+      "home_score": 63,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 47,
+      "margin": 6,
+      "home_score": 63,
+      "away_score": 69
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 47,
+      "margin": 6,
+      "home_score": 63,
+      "away_score": 69
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 63,
+      "away_score": 69,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 63,
+      "away_score": 69,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 40,
+      "away_score": 47,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 40,
+      "away_score": 47,
+      "margin": 7
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 21,
+      "away_score": 26,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 21,
+      "away_score": 26,
+      "margin": 5
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:14:04Z"
+}

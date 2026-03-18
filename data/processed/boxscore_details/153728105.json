@@ -1,0 +1,130 @@
+{
+  "personal_fouls": 1,
+  "offensive_rebounds": 1,
+  "defensive_rebounds": 1,
+  "plus_minus": 16,
+  "true_shooting_pct": 56.3,
+  "position": "PG",
+  "started": true,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": "37.4",
+  "home_team_score": 110,
+  "away_team_score": 114,
+  "shots": [
+    {
+      "x": 33.23,
+      "y": 69.12,
+      "period": 2,
+      "made": false
+    },
+    {
+      "x": 45.48,
+      "y": 95.59,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 30.08,
+      "y": 57.11,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 42.03,
+      "y": 50,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 29.81,
+      "y": 67.89,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 44.53,
+      "y": 97.79,
+      "period": 1,
+      "made": true
+    },
+    {
+      "x": 23.24,
+      "y": 82.84,
+      "period": 1,
+      "made": false
+    },
+    {
+      "x": 41.77,
+      "y": 47.3,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 29.81,
+      "y": 34.07,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 19.96,
+      "y": 75.98,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 16.54,
+      "y": 37.75,
+      "period": 2,
+      "made": true
+    },
+    {
+      "x": 30.21,
+      "y": 8.09,
+      "period": 2,
+      "made": false
+    },
+    {
+      "x": 25.25,
+      "y": 33.58,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 42.59,
+      "y": 51.23,
+      "period": 3,
+      "made": true
+    },
+    {
+      "x": 46.67,
+      "y": 96.08,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 42.72,
+      "y": 53.68,
+      "period": 4,
+      "made": true
+    },
+    {
+      "x": 41.28,
+      "y": 3.43,
+      "period": 4,
+      "made": false
+    },
+    {
+      "x": 44.17,
+      "y": 96.08,
+      "period": 4,
+      "made": false
+    }
+  ],
+  "shot_count": 18,
+  "box_score_id": 153728105,
+  "player_id": "20001801",
+  "game_id": 18025,
+  "day": "2022-04-20",
+  "collected_at": "2026-03-18T20:25:35Z"
+}

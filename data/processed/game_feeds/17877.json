@@ -1,0 +1,141 @@
+{
+  "game_id": 17877,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Nuggets",
+  "away_team": "Spurs",
+  "home_team_id": 20,
+  "away_team_id": 24,
+  "period": 4,
+  "total_plays": 250,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 23,
+    "FieldGoalMissed": 97,
+    "FieldGoalMade": 86,
+    "FreeThrows": 18,
+    "Steal": 10,
+    "Block": 5,
+    "TechnicalFoul": 3
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 97,
+      "away_score": 116,
+      "margin": 19
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 36,
+      "margin": 4,
+      "home_score": 83,
+      "away_score": 87
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 36,
+      "margin": 6,
+      "home_score": 81,
+      "away_score": 87
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 57,
+      "margin": 6,
+      "home_score": 81,
+      "away_score": 87
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 11,
+      "margin": 6,
+      "home_score": 81,
+      "away_score": 87
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 41,
+      "margin": 6,
+      "home_score": 79,
+      "away_score": 85
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 79,
+      "away_score": 85,
+      "margin": 6
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 79,
+      "away_score": 85,
+      "margin": 6
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 21,
+      "player_id": 20001687,
+      "margin": 17
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 44,
+      "away_score": 64,
+      "margin": 20
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 44,
+      "away_score": 64,
+      "margin": 20
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 56,
+      "player_id": 20001441,
+      "margin": 18
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 13,
+      "player_id": null,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 32,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 32,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:16:39Z"
+}

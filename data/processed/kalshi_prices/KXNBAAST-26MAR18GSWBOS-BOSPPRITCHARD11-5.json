@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAAST-26MAR18GSWBOS-BOSPPRITCHARD11-5",
+  "title": "Payton Pritchard: 5+ assists",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAAST",
+    "date_teams": "26MAR18GSWBOS",
+    "player_line_raw": "BOSPPRITCHARD11-5",
+    "line": 5.0,
+    "ticker": "KXNBAAST-26MAR18GSWBOS-BOSPPRITCHARD11-5"
+  },
+  "collected_at": "2026-03-18T21:05:03Z"
+}

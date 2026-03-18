@@ -28,3 +28,4 @@
     "total_experiments": 83
   }
 ]
+{"timestamp": "2026-03-18T16:14:59", "action": "ALERT", "reason": "Metric gaming detected \u2014 sample size changed between experiments", "best_brier": 0.094, "total_experiments": 86}

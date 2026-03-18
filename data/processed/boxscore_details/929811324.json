@@ -1,0 +1,21 @@
+{
+  "personal_fouls": 1,
+  "offensive_rebounds": 1,
+  "defensive_rebounds": 1,
+  "plus_minus": -1,
+  "true_shooting_pct": 0,
+  "position": "F",
+  "started": false,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": 4.4,
+  "home_team_score": 121,
+  "away_team_score": 91,
+  "shots": [],
+  "shot_count": 0,
+  "box_score_id": 929811324,
+  "player_id": "20002673",
+  "game_id": 20924,
+  "day": "2024-05-14",
+  "collected_at": "2026-03-18T20:24:56Z"
+}

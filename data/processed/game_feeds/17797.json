@@ -1,0 +1,109 @@
+{
+  "game_id": 17797,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Clippers",
+  "away_team": "76ers",
+  "home_team_id": 28,
+  "away_team_id": 7,
+  "period": 1,
+  "total_plays": 265,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 88,
+    "FieldGoalMade": 77,
+    "Steal": 20,
+    "Turnover": 29,
+    "FreeThrows": 24,
+    "Block": 16,
+    "TechnicalFoul": 3
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 97,
+      "away_score": 122,
+      "margin": 25
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 25,
+      "home_score": 97,
+      "away_score": 122
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 71,
+      "away_score": 93,
+      "margin": 22
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 71,
+      "away_score": 93,
+      "margin": 22
+    },
+    {
+      "event": "technical_foul",
+      "period": 3,
+      "time_remaining": 51,
+      "player_id": 20000726,
+      "margin": 19
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 43,
+      "away_score": 64,
+      "margin": 21
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 43,
+      "away_score": 64,
+      "margin": 21
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 18,
+      "player_id": 20000847,
+      "margin": 13
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 0,
+      "player_id": 20000903,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 19,
+      "away_score": 35,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 19,
+      "away_score": 35,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:31Z"
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR17OKCORL-ORLJSUGGS4-4",
+  "title": "Jalen Suggs: 4+ rebounds",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR17OKCORL",
+    "player_line_raw": "ORLJSUGGS4-4",
+    "line": 4.0,
+    "ticker": "KXNBAREB-26MAR17OKCORL-ORLJSUGGS4-4"
+  },
+  "collected_at": "2026-03-18T21:02:56Z"
+}

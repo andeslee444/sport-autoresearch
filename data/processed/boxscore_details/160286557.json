@@ -1,0 +1,28 @@
+{
+  "personal_fouls": 0,
+  "offensive_rebounds": 0,
+  "defensive_rebounds": 1,
+  "plus_minus": -11,
+  "true_shooting_pct": 0,
+  "position": "SG",
+  "started": false,
+  "injury_status": null,
+  "injury_body_part": null,
+  "fantasy_points_fanduel": "1.2",
+  "home_team_score": 110,
+  "away_team_score": 80,
+  "shots": [
+    {
+      "x": 18.81,
+      "y": 71.81,
+      "period": 4,
+      "made": false
+    }
+  ],
+  "shot_count": 1,
+  "box_score_id": 160286557,
+  "player_id": "20001864",
+  "game_id": 18089,
+  "day": "2022-05-10",
+  "collected_at": "2026-03-18T20:28:55Z"
+}

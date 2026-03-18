@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAPTS-26MAR17SASSAC-SASVWEMBANYAMA1-20",
+  "title": "Victor Wembanyama: 20+ points",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAPTS",
+    "date_teams": "26MAR17SASSAC",
+    "player_line_raw": "SASVWEMBANYAMA1-20",
+    "line": 20.0,
+    "ticker": "KXNBAPTS-26MAR17SASSAC-SASVWEMBANYAMA1-20"
+  },
+  "collected_at": "2026-03-18T21:02:24Z"
+}

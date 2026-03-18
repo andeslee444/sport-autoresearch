@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBA2D-26MAR18LALHOU-LALLDONCIC77",
+  "title": "Luka Don\u010di\u0107: Double Double",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBA2D",
+    "date_teams": "26MAR18LALHOU",
+    "player_line_raw": "LALLDONCIC77",
+    "line": null,
+    "ticker": "KXNBA2D-26MAR18LALHOU-LALLDONCIC77"
+  },
+  "collected_at": "2026-03-18T21:05:45Z"
+}

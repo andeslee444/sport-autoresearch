@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR18DENMEM-DENNJOKIC15-16",
+  "title": "Nikola Joki\u0107: 16+ rebounds",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR18DENMEM",
+    "player_line_raw": "DENNJOKIC15-16",
+    "line": 16.0,
+    "ticker": "KXNBAREB-26MAR18DENMEM-DENNJOKIC15-16"
+  },
+  "collected_at": "2026-03-18T21:04:38Z"
+}

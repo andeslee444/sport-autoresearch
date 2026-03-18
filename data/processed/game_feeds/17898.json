@@ -1,0 +1,102 @@
+{
+  "game_id": 17898,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Bulls",
+  "away_team": "Hornets",
+  "home_team_id": 11,
+  "away_team_id": 2,
+  "period": 4,
+  "total_plays": 230,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 96,
+    "Steal": 14,
+    "Turnover": 23,
+    "FieldGoalMissed": 67,
+    "FreeThrows": 14,
+    "Block": 6,
+    "TechnicalFoul": 2
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 117,
+      "away_score": 133,
+      "margin": 16
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 10,
+      "margin": 21,
+      "home_score": 107,
+      "away_score": 128
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 83,
+      "away_score": 111,
+      "margin": 28
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 83,
+      "away_score": 111,
+      "margin": 28
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 51,
+      "away_score": 79,
+      "margin": 28
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 51,
+      "away_score": 79,
+      "margin": 28
+    },
+    {
+      "event": "technical_foul",
+      "period": 2,
+      "time_remaining": 4,
+      "player_id": 20000456,
+      "margin": 18
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 30,
+      "away_score": 39,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 30,
+      "away_score": 39,
+      "margin": 9
+    },
+    {
+      "event": "technical_foul",
+      "period": 1,
+      "time_remaining": 11,
+      "player_id": 20001393,
+      "margin": 9
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:17:00Z"
+}

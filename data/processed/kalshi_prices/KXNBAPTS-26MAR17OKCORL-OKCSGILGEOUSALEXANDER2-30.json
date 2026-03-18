@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAPTS-26MAR17OKCORL-OKCSGILGEOUSALEXANDER2-30",
+  "title": "Shai Gilgeous-Alexander: 30+ points",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAPTS",
+    "date_teams": "26MAR17OKCORL",
+    "player_line_raw": "OKCSGILGEOUSALEXANDER2-30",
+    "line": 30.0,
+    "ticker": "KXNBAPTS-26MAR17OKCORL-OKCSGILGEOUSALEXANDER2-30"
+  },
+  "collected_at": "2026-03-18T21:02:33Z"
+}

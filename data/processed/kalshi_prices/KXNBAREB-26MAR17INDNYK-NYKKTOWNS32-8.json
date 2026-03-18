@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR17INDNYK-NYKKTOWNS32-8",
+  "title": "Karl-Anthony Towns: 8+ rebounds",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR17INDNYK",
+    "player_line_raw": "NYKKTOWNS32-8",
+    "line": 8.0,
+    "ticker": "KXNBAREB-26MAR17INDNYK-NYKKTOWNS32-8"
+  },
+  "collected_at": "2026-03-18T21:02:44Z"
+}

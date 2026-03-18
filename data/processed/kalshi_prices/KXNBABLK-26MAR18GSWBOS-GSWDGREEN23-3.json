@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBABLK-26MAR18GSWBOS-GSWDGREEN23-3",
+  "title": "Draymond Green: 3+ blocks",
+  "series_ticker": "",
+  "status": "active",
+  "result": "",
+  "yes_bid": 0,
+  "yes_ask": 50,
+  "last_price": 50,
+  "volume": 1,
+  "open_interest": 1,
+  "parsed": {
+    "series": "KXNBABLK",
+    "date_teams": "26MAR18GSWBOS",
+    "player_line_raw": "GSWDGREEN23-3",
+    "line": 3.0,
+    "ticker": "KXNBABLK-26MAR18GSWBOS-GSWDGREEN23-3"
+  },
+  "collected_at": "2026-03-18T21:05:36Z"
+}

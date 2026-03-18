@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBA2D-25DEC16SASNYK-NYKOANUNOBY8",
+  "title": "San Antonio at New York: Double Doubles: OG Anunoby",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": null,
+  "yes_ask": null,
+  "last_price": null,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBA2D",
+    "date_teams": "25DEC16SASNYK",
+    "player_line_raw": "NYKOANUNOBY8",
+    "line": null,
+    "ticker": "KXNBA2D-25DEC16SASNYK-NYKOANUNOBY8"
+  },
+  "collected_at": "2026-03-18T21:05:46Z"
+}

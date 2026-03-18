@@ -1,0 +1,79 @@
+{
+  "game_id": 17777,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Hornets",
+  "away_team": "Knicks",
+  "home_team_id": 2,
+  "away_team_id": 6,
+  "period": 1,
+  "total_plays": 231,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 85,
+    "FieldGoalMissed": 85,
+    "FreeThrows": 14,
+    "Turnover": 20,
+    "Block": 9,
+    "Steal": 10
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 106,
+      "away_score": 121,
+      "margin": 15
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 87,
+      "away_score": 99,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 87,
+      "away_score": 99,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 56,
+      "away_score": 69,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 56,
+      "away_score": 69,
+      "margin": 13
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 24,
+      "away_score": 40,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 24,
+      "away_score": 40,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:18Z"
+}

@@ -1,0 +1,95 @@
+{
+  "game_id": 17816,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Heat",
+  "away_team": "Kings",
+  "home_team_id": 4,
+  "away_team_id": 30,
+  "period": 1,
+  "total_plays": 239,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMissed": 84,
+    "FieldGoalMade": 87,
+    "Turnover": 31,
+    "Block": 4,
+    "Steal": 13,
+    "FreeThrows": 11,
+    "TechnicalFoul": 1
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 123,
+      "away_score": 100,
+      "margin": 23
+    },
+    {
+      "event": "blowout_moment",
+      "period": 4,
+      "time_remaining": 0,
+      "margin": 23,
+      "home_score": 123,
+      "away_score": 100
+    },
+    {
+      "event": "technical_foul",
+      "period": 4,
+      "time_remaining": 34,
+      "player_id": 20000684,
+      "margin": 22
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 93,
+      "away_score": 68,
+      "margin": 25
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 93,
+      "away_score": 68,
+      "margin": 25
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 57,
+      "away_score": 41,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 57,
+      "away_score": 41,
+      "margin": 16
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 31,
+      "away_score": 19,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 31,
+      "away_score": 19,
+      "margin": 12
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:46Z"
+}

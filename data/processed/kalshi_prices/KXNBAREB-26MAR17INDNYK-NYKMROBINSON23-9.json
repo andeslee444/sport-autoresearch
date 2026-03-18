@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-26MAR17INDNYK-NYKMROBINSON23-9",
+  "title": "Mitchell Robinson: 9+ rebounds",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "26MAR17INDNYK",
+    "player_line_raw": "NYKMROBINSON23-9",
+    "line": 9.0,
+    "ticker": "KXNBAREB-26MAR17INDNYK-NYKMROBINSON23-9"
+  },
+  "collected_at": "2026-03-18T21:02:39Z"
+}

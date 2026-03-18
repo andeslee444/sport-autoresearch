@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBA3PT-25DEC16SASNYK-SASDFOX4-1",
+  "title": "De'Aaron Fox records 1+ threes",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": null,
+  "yes_ask": null,
+  "last_price": null,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBA3PT",
+    "date_teams": "25DEC16SASNYK",
+    "player_line_raw": "SASDFOX4-1",
+    "line": 1.0,
+    "ticker": "KXNBA3PT-25DEC16SASNYK-SASDFOX4-1"
+  },
+  "collected_at": "2026-03-18T21:05:47Z"
+}

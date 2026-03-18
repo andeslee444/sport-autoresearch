@@ -1,0 +1,175 @@
+{
+  "game_id": 17831,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Knicks",
+  "away_team": "Hornets",
+  "home_team_id": 6,
+  "away_team_id": 2,
+  "period": 1,
+  "total_plays": 248,
+  "play_types": {
+    "Period": 8,
+    "Turnover": 29,
+    "FieldGoalMissed": 82,
+    "FreeThrows": 17,
+    "FieldGoalMade": 90,
+    "Block": 8,
+    "Steal": 14
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 114,
+      "away_score": 125,
+      "margin": 11
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 17,
+      "margin": 6,
+      "home_score": 106,
+      "away_score": 112
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 39,
+      "margin": 4,
+      "home_score": 105,
+      "away_score": 109
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 6,
+      "margin": 5,
+      "home_score": 102,
+      "away_score": 107
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 22,
+      "margin": 5,
+      "home_score": 102,
+      "away_score": 107
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 46,
+      "margin": 5,
+      "home_score": 102,
+      "away_score": 107
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 59,
+      "margin": 5,
+      "home_score": 102,
+      "away_score": 107
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 15,
+      "margin": 5,
+      "home_score": 102,
+      "away_score": 107
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 30,
+      "margin": 5,
+      "home_score": 102,
+      "away_score": 107
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 37,
+      "margin": 2,
+      "home_score": 102,
+      "away_score": 104
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 53,
+      "margin": 2,
+      "home_score": 102,
+      "away_score": 104
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 58,
+      "margin": 5,
+      "home_score": 99,
+      "away_score": 104
+    },
+    {
+      "event": "clutch_moment",
+      "period": 4,
+      "time_remaining": 21,
+      "margin": 5,
+      "home_score": 99,
+      "away_score": 104
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 83,
+      "away_score": 91,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 83,
+      "away_score": 91,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 55,
+      "away_score": 58,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 55,
+      "away_score": 58,
+      "margin": 3
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 31,
+      "away_score": 29,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 31,
+      "away_score": 29,
+      "margin": 2
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:57Z"
+}

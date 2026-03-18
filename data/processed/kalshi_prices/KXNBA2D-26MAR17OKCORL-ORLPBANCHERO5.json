@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBA2D-26MAR17OKCORL-ORLPBANCHERO5",
+  "title": "Paolo Banchero: Double Double",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 0,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBA2D",
+    "date_teams": "26MAR17OKCORL",
+    "player_line_raw": "ORLPBANCHERO5",
+    "line": null,
+    "ticker": "KXNBA2D-26MAR17OKCORL-ORLPBANCHERO5"
+  },
+  "collected_at": "2026-03-18T21:04:01Z"
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAREB-25DEC16SASNYK-NYKKTOWNS32-12",
+  "title": "Karl-Anthony Towns records 12+ rebounds",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "no",
+  "yes_bid": null,
+  "yes_ask": null,
+  "last_price": null,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAREB",
+    "date_teams": "25DEC16SASNYK",
+    "player_line_raw": "NYKKTOWNS32-12",
+    "line": 12.0,
+    "ticker": "KXNBAREB-25DEC16SASNYK-NYKKTOWNS32-12"
+  },
+  "collected_at": "2026-03-18T21:05:54Z"
+}

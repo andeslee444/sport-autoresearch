@@ -1,0 +1,79 @@
+{
+  "game_id": 17811,
+  "sport": "nba",
+  "status": "final",
+  "home_team": "Mavs",
+  "away_team": "Jazz",
+  "home_team_id": 25,
+  "away_team_id": 17,
+  "period": 1,
+  "total_plays": 215,
+  "play_types": {
+    "Period": 8,
+    "FieldGoalMade": 81,
+    "FieldGoalMissed": 84,
+    "Steal": 9,
+    "Turnover": 17,
+    "Block": 3,
+    "FreeThrows": 13
+  },
+  "game_state_snapshots": [
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 114,
+      "away_score": 100,
+      "margin": 14
+    },
+    {
+      "event": "period_end",
+      "period": 4,
+      "home_score": 90,
+      "away_score": 79,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 90,
+      "away_score": 79,
+      "margin": 11
+    },
+    {
+      "event": "period_end",
+      "period": 3,
+      "home_score": 58,
+      "away_score": 59,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 58,
+      "away_score": 59,
+      "margin": 1
+    },
+    {
+      "event": "period_end",
+      "period": 2,
+      "home_score": 21,
+      "away_score": 29,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 21,
+      "away_score": 29,
+      "margin": 8
+    },
+    {
+      "event": "period_end",
+      "period": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "margin": 0
+    }
+  ],
+  "collected_at": "2026-03-18T20:15:41Z"
+}

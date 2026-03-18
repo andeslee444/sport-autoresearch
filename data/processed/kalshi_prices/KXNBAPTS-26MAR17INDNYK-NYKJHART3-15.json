@@ -1,0 +1,20 @@
+{
+  "ticker": "KXNBAPTS-26MAR17INDNYK-NYKJHART3-15",
+  "title": "Josh Hart: 15+ points",
+  "series_ticker": "",
+  "status": "finalized",
+  "result": "yes",
+  "yes_bid": 0,
+  "yes_ask": 100,
+  "last_price": 0,
+  "volume": 0,
+  "open_interest": 0,
+  "parsed": {
+    "series": "KXNBAPTS",
+    "date_teams": "26MAR17INDNYK",
+    "player_line_raw": "NYKJHART3-15",
+    "line": 15.0,
+    "ticker": "KXNBAPTS-26MAR17INDNYK-NYKJHART3-15"
+  },
+  "collected_at": "2026-03-18T21:02:22Z"
+}
