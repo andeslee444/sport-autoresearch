@@ -39,7 +39,7 @@ USE_STAT_SPACE = False
 TEST_LINE_OFFSETS = [0]
 
 # USE_EXTENDED_STATS = True adds steals, blocks, turnovers, rebounds+assists
-USE_EXTENDED_STATS = False
+USE_EXTENDED_STATS = True
 
 # ── Book C: Live Event Parameters ────────────────────────────────
 
