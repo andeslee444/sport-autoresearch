@@ -12,7 +12,7 @@ in backtester.py and cannot be changed by the agent.
 
 MATCHUP_MULTIPLIER = 0.0
 MATCHUP_CAP = 0.10
-VENUE_MULTIPLIER = 0.20
+VENUE_MULTIPLIER = 0.30
 VENUE_CAP = 0.03
 B2B_PENALTY = 0.0
 RECENCY_WEIGHT_LAST5 = 1.0
