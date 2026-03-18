@@ -2,28 +2,32 @@
 
 Contains parameter configurations that the backtest harness evaluates.
 The agent tries different values; the harness reports metrics.
-All values below are the current Oracle production defaults (hardcoded guesses).
+All values below are the current Oracle production defaults.
+
+NOTE: TEST_LINE_OFFSETS and USE_EXTENDED_STATS are locked in
+run_experiment.py and cannot be changed here. This prevents eval-scope
+manipulation (changing what's measured instead of improving the model).
 """
 
 # ── Book B: Probability Adjustments ──────────────────────────────
 
 # Matchup: opponent-specific performance shift
 # Formula: clamp((opp_avg / season_avg - 1.0) * MULTIPLIER, -CAP, CAP)
-MATCHUP_MULTIPLIER = 0.05
+MATCHUP_MULTIPLIER = 0.15
 MATCHUP_CAP = 0.10
 
 # Venue: home/away performance shift
 # Formula: clamp((venue_avg / season_avg - 1.0) * MULTIPLIER, -CAP, CAP)
-VENUE_MULTIPLIER = 0.30
+VENUE_MULTIPLIER = 0.10
 VENUE_CAP = 0.05
 
 # Back-to-back: second night penalty (fixed)
-B2B_PENALTY = 0.0
+B2B_PENALTY = -0.05
 
 # Recency weights for empirical hit rate
 # Games sorted most-recent-first; index determines weight bucket
-RECENCY_WEIGHT_LAST5 = 1.0     # Games 1-5 (most recent)
-RECENCY_WEIGHT_LAST10 = 1.0    # Games 6-10
+RECENCY_WEIGHT_LAST5 = 2.0     # Games 1-5 (most recent)
+RECENCY_WEIGHT_LAST10 = 1.5    # Games 6-10
 RECENCY_WEIGHT_SEASON = 1.0    # Games 11+
 
 # Fallback sigma when no game data available (logistic approximation)
@@ -32,14 +36,6 @@ FALLBACK_SIGMA = 0.15
 # Approach: True = shift raw stat values before counting hits (preserves
 # distribution shape); False = count hits then shift probability (simpler)
 USE_STAT_SPACE = False
-
-# Testing scope: line offsets and extended stat types
-# TEST_LINE_OFFSETS = [0] tests only at training-set mean
-# TEST_LINE_OFFSETS = [-2, 0, 2] tests at mean-2, mean, mean+2 (3x samples)
-TEST_LINE_OFFSETS = [-20, -15, -12, -10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 15, 20]
-
-# USE_EXTENDED_STATS = True adds steals, blocks, turnovers, rebounds+assists
-USE_EXTENDED_STATS = True
 
 # ── Book C: Live Event Parameters ────────────────────────────────
 
