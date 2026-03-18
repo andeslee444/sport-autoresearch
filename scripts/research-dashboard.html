@@ -148,6 +148,7 @@
           <thead>
             <tr class="text-left text-xs text-zinc-500 border-b border-zinc-700">
               <th class="px-2 py-2" data-col="index">#</th>
+              <th class="px-2 py-2" data-col="timestamp">Time</th>
               <th class="px-2 py-2" data-col="commit">Commit</th>
               <th class="px-2 py-2" data-col="brier_score">Brier</th>
               <th class="px-2 py-2" data-col="calibration_error">Cal Err</th>
@@ -290,8 +291,24 @@
       tr.setAttribute('data-index', r.index);
       tr.addEventListener('click', function() { toggleExpand(r.index); });
 
+      // Format timestamp: "3:45 PM" or "Mar 18 3:45 PM"
+      var tsDisplay = '';
+      if (r.timestamp) {
+        var d = new Date(r.timestamp);
+        if (!isNaN(d.getTime())) {
+          var now = new Date();
+          if (d.toDateString() === now.toDateString()) {
+            tsDisplay = d.toLocaleTimeString([], {hour: 'numeric', minute: '2-digit'});
+          } else {
+            tsDisplay = d.toLocaleDateString([], {month: 'short', day: 'numeric'}) + ' ' +
+                        d.toLocaleTimeString([], {hour: 'numeric', minute: '2-digit'});
+          }
+        }
+      }
+
       var cells = [
         { text: r.index, cls: 'mono text-zinc-500' },
+        { text: tsDisplay, cls: 'mono text-zinc-500 text-xs whitespace-nowrap' },
         { text: r.commit || '', cls: 'mono text-zinc-400' },
         { text: r.brier_score > 0 ? r.brier_score.toFixed(4) : '--', cls: 'mono font-medium ' + brierCls },
         { text: r.calibration_error >= 0 ? r.calibration_error.toFixed(4) : '--', cls: 'mono' },
@@ -506,7 +523,7 @@
       if (!results.length) {
         var tr = document.createElement('tr');
         var td = document.createElement('td');
-        td.colSpan = 11;
+        td.colSpan = 12;
         td.className = 'px-2 py-8 text-center text-zinc-500';
         td.textContent = 'No experiments yet';
         tr.appendChild(td);

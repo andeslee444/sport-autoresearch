@@ -96,12 +96,40 @@ async def serve_dashboard():
 
 @app.get("/api/results")
 async def get_results():
-    """Parse results.tsv and return as JSON list."""
+    """Parse results.tsv and return as JSON list with commit timestamps."""
     rows = parse_results_tsv(RESULTS_TSV)
-    # Add row index
+
+    # Batch-fetch commit timestamps via git log
+    commits = [r.get("commit", "") for r in rows if r.get("commit")]
+    commit_times = _get_commit_timestamps(commits)
+
     for i, row in enumerate(rows):
         row["index"] = i + 1
+        row["timestamp"] = commit_times.get(row.get("commit", ""), "")
     return JSONResponse(content=rows)
+
+
+def _get_commit_timestamps(commits: list[str]) -> dict[str, str]:
+    """Get ISO timestamps for a list of git commit hashes."""
+    if not commits:
+        return {}
+    try:
+        result = subprocess.run(
+            ["git", "log", "--format=%h %aI", "--all", "-200"],
+            capture_output=True, text=True, timeout=5,
+            cwd=str(PROJECT_ROOT),
+        )
+        if result.returncode != 0:
+            return {}
+        mapping = {}
+        for line in result.stdout.strip().split("\n"):
+            parts = line.split(" ", 1)
+            if len(parts) == 2:
+                short_hash, iso_time = parts
+                mapping[short_hash] = iso_time
+        return mapping
+    except (subprocess.TimeoutExpired, Exception):
+        return {}
 
 
 @app.get("/api/baseline")
