@@ -13,7 +13,7 @@ manipulation (changing what's measured instead of improving the model).
 
 # Matchup: opponent-specific performance shift
 # Formula: clamp((opp_avg / season_avg - 1.0) * MULTIPLIER, -CAP, CAP)
-MATCHUP_MULTIPLIER = 0.15
+MATCHUP_MULTIPLIER = 0.05
 MATCHUP_CAP = 0.10
 
 # Venue: home/away performance shift
