@@ -36,7 +36,7 @@ USE_STAT_SPACE = False
 # Testing scope: line offsets and extended stat types
 # TEST_LINE_OFFSETS = [0] tests only at training-set mean
 # TEST_LINE_OFFSETS = [-2, 0, 2] tests at mean-2, mean, mean+2 (3x samples)
-TEST_LINE_OFFSETS = [0]
+TEST_LINE_OFFSETS = [-2, 0, 2]
 
 # USE_EXTENDED_STATS = True adds steals, blocks, turnovers, rebounds+assists
 USE_EXTENDED_STATS = True
