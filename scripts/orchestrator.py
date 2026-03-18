@@ -576,8 +576,104 @@ def director_loop(check_interval: int, no_agent: bool) -> None:
                 _print_status("Agent", f"restart {restart_count}/{max_restarts} with fresh params + hints", _CYAN)
                 start_agent()
 
-        # Wait for next check
-        _shutdown.wait(check_interval)
+        # Wait for next check — show countdown and tail agent logs
+        _wait_with_visibility(check_interval)
+
+
+def _wait_with_visibility(seconds: int) -> None:
+    """Wait with a live countdown and agent log tailing."""
+    log_path = PROJECT_ROOT / "run.log"
+    last_log_size = log_path.stat().st_size if log_path.exists() else 0
+    last_results_count = _count_results()
+
+    for remaining in range(seconds, 0, -1):
+        if _shutdown.is_set():
+            return
+
+        # Every 5 seconds, check for new agent activity
+        if remaining % 5 == 0:
+            # Check for new experiments in results.tsv
+            current_count = _count_results()
+            if current_count > last_results_count:
+                new_exps = current_count - last_results_count
+                last_results_count = current_count
+                # Show the latest experiment
+                _show_latest_experiment()
+
+            # Check for new log output
+            if log_path.exists():
+                current_size = log_path.stat().st_size
+                if current_size > last_log_size:
+                    _show_new_log_lines(log_path, last_log_size, current_size)
+                    last_log_size = current_size
+
+            # Check if agent died
+            if _agent_proc is not None and not is_agent_alive():
+                return  # exit wait early so director loop handles it
+
+        # Print countdown every 30 seconds
+        if remaining % 30 == 0 and remaining > 0:
+            agent_status = f"{_GREEN}running{_RESET}" if is_agent_alive() else f"{_RED}stopped{_RESET}"
+            mm, ss = divmod(remaining, 60)
+            print(
+                f"  {_DIM}next check in {mm}m{ss:02d}s  |  "
+                f"agent: {agent_status}{_DIM}  |  "
+                f"experiments: {last_results_count}{_RESET}",
+                end="\r",
+            )
+            sys.stdout.flush()
+
+        _shutdown.wait(1)
+
+    # Clear the countdown line
+    print(" " * 80, end="\r")
+
+
+def _count_results() -> int:
+    """Count non-header lines in results.tsv."""
+    if not RESULTS_TSV.exists():
+        return 0
+    try:
+        return max(0, len(RESULTS_TSV.read_text().strip().split("\n")) - 1)
+    except OSError:
+        return 0
+
+
+def _show_latest_experiment() -> None:
+    """Print the latest experiment result from results.tsv."""
+    try:
+        lines = RESULTS_TSV.read_text().strip().split("\n")
+        if len(lines) < 2:
+            return
+        last = lines[-1].split("\t")
+        # commit, brier, cal_err, profit, hit, samples, trades, ci, status, desc
+        if len(last) >= 10:
+            commit = last[0][:7]
+            brier = last[1]
+            profit = last[3]
+            status = last[8]
+            desc = last[9][:50]
+            color = _GREEN if status == "run" else _RED
+            print(" " * 80, end="\r")  # clear countdown
+            _print_status("Experiment", f"{color}{commit}{_RESET}  brier={brier}  profit={profit}%  {desc}", _CYAN)
+    except (OSError, IndexError):
+        pass
+
+
+def _show_new_log_lines(log_path: Path, old_size: int, new_size: int) -> None:
+    """Show relevant new lines from run.log (filter noise)."""
+    try:
+        with open(log_path, "r") as f:
+            f.seek(old_size)
+            new_text = f.read(new_size - old_size)
+        for line in new_text.strip().split("\n"):
+            line = line.strip()
+            # Only show metric lines and key events
+            if any(line.startswith(k) for k in ("brier_score:", "expected_profit", "CRASH")):
+                print(" " * 80, end="\r")  # clear countdown
+                _print_status("Agent", f"  {line}", _DIM)
+    except OSError:
+        pass
 
 
 # ── Signal handling ──────────────────────────────────────────────────
