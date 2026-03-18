@@ -67,8 +67,6 @@ DEFAULTS = {
     "BOOK_A_SIZE_PCT": 0.02,
     "BOOK_B_SIZE_PCT": 0.015,
     "BOOK_C_SIZE_PCT": 0.01,
-    "TEST_LINE_OFFSETS": [0],
-    "USE_EXTENDED_STATS": False,
 }
 
 RESULTS_HEADER = (
@@ -160,6 +158,13 @@ def main():
         params = load_experiment_params()
         description = args.desc
 
+    # Defense-in-depth: inject locked eval-scope params into the dict.
+    # These are ALSO hardcoded in backtester.py, but git operations by the
+    # research agent can revert backtester.py. This injection ensures the
+    # harness always produces consistent results regardless of backtester state.
+    params["TEST_LINE_OFFSETS"] = [-2, 0, 2]
+    params["USE_EXTENDED_STATS"] = True
+
     changed = find_changed_params(params)
     if not description and changed:
         description = ",".join(changed)
@@ -169,6 +174,17 @@ def main():
     start = time.time()
     try:
         results = backtest_book_b(params)
+
+        # Safety check: sample_size must be consistent (eval scope is locked).
+        # If it deviates, the backtester lock was reverted by a git operation.
+        expected_min_samples = 2000  # with 42 players + 9 stats + 3 offsets, expect ~8000+
+        if results["sample_size"] < expected_min_samples:
+            print(
+                f"WARNING: sample_size {results['sample_size']} < {expected_min_samples}. "
+                f"Eval scope may be unlocked. Check analysis/backtester.py.",
+                file=sys.stderr,
+            )
+
         status = "run"
     except Exception as e:
         results = {"brier_score": -1, "calibration_error": -1, "expected_profit_pct": 0,
